@@ -17,7 +17,7 @@
 }
 
 img {
-    max-width: 100%;
+    max-width: 95%;
 }
 
 h1 {
@@ -41,5 +41,6 @@ input[type=checkbox]:checked ~ label > img {
   left: 50%;
   top: 50%;
   cursor: zoom-out;
-  width: 80%;
+  max-height: 95%;
+  object-fit: contain;
 }
