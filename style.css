@@ -26,21 +26,20 @@ h1 {
     padding: 50px;
 }
 
-input[type=checkbox] {
-  display: none;
-}
+/*input[type=checkbox] {*/
+  /*display: none;*/
+/*}*/
 
-.container img {
-  transition: none 0.25s ease;
-  cursor: zoom-in;
-}
+/*.container img {*/
+  /*transition: none 0.25s ease;*/
+  /*cursor: zoom-in;*/
+/*}*/
 
-input[type=checkbox]:checked ~ label > img {
-  transform: translate(-50%, -50%);
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  cursor: zoom-out;
-  max-height: 95%;
-  object-fit: contain;
-}
+/*input[type=checkbox]:checked ~ label > img {*/
+  /*transform: translate(-50%, -50%);*/
+  /*position: absolute;*/
+  /*left: 50%;*/
+  /*top: 50%;*/
+  /*cursor: zoom-out;*/
+  /*max-height: 95%;*/
+/*}*/

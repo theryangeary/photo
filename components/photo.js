@@ -11,13 +11,17 @@ class Photo extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-<div class="container">
-  <input type="checkbox" id="${this.id()}">
-  <label for="${this.id()}">
-    <img src="${this.getAttribute("src")}">
-  </label>
-</div>
+<img src="${this.getAttribute("src")}">
 `
+
+        //this.innerHTML = `
+//<div class="container">
+  //<input type="checkbox" id="${this.id()}">
+  //<label for="${this.id()}">
+    //<img src="${this.getAttribute("src")}">
+  //</label>
+//</div>
+//`
     }
 }
 
