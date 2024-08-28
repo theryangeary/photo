@@ -1,1 +1,1 @@
-# photo gallery website - [theryangeary.github.io/photo](theryangeary.github.io/photo)
+# photo gallery website - [theryangeary.github.io/photo](https://theryangeary.github.io/photo)
