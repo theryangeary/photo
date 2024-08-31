@@ -1,4 +1,4 @@
-collection=[ {"name": "verrazzano.jpg" , "tags": [ "nyc" , "panoramic" , "website" ]}, {"name": "20240829_0182.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240809_0062.jpg" , "tags": [ "archive" , "website" ]}, {"name": "20240829_0169.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240829_0235.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240829_0143.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240813_0001.jpg" , "tags": [ "archive" , "boston" , "website" ]}, {"name": "20240829_0208.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240829_0184.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240813_0004.jpg" , "tags": [ "archive" , "boston" , "website" ]}, {"name": "20240728_0293.jpg" , "tags": [ "pnw" ]}, {"name": "20240813_0012.jpg" , "tags": [ "archive" , "boston" , "website" ]}, {"name": "20240809_0098.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240829_0150.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240829_0240.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240809_0045_pano.jpg" , "tags": [ "panoramic" , "website" ]}, {"name": "20240728_0540.jpg" , "tags": [ "critters" , "pnw" ]}, {"name": "20240804_0089.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240719_0037.jpg" , "tags": [ "nyc" ]}, {"name": "20240829_0101.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240829_0115.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240829_0129.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240630_0384_pano.jpg" , "tags": [ "panoramic" , "website" ]}, {"name": "20240813_0064_pano.jpg" , "tags": [ "nyc" , "panoramic" , "website" ]}, {"name": "20240813_0090.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240728_0830.jpg" , "tags": [ "pnw" ]}, {"name": "20240813_0045.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240829_0149.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240728_0114.jpg" , "tags": [ "anna" , "pnw" ]}, {"name": "20240829_0148.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240707_0177.jpg" , "tags": [ "longbranch" , "nj" ]}, {"name": "20240813_0021.jpg" , "tags": [ "archive" , "boston" , "website" ]}, {"name": "20240809_0096.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240728_0089.jpg" , "tags": [ "pnw" ]}, {"name": "20240829_0167.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240829_0198.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240809_0127.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240804_0154.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, {"name": "20240809_0126.jpg" , "tags": [ "archive" , "nyc" , "website" ]}, ]
+collection=[{"name":"20240630_0384_pano.jpg","tags":["panoramic","website"],"height":1519},{"name":"20240707_0177.jpg","tags":["longbranch","nj"],"height":3472},{"name":"20240719_0037.jpg","tags":["nyc"],"height":4640},{"name":"20240728_0014.jpg","tags":["anna","pnw"],"height":2320},{"name":"20240728_0036.jpg","tags":["anna","pnw"],"height":1656},{"name":"20240728_0074.jpg","tags":["pnw"],"height":2320},{"name":"20240728_0081.jpg","tags":["critters","pnw"],"height":1736},{"name":"20240728_0089.jpg","tags":["pnw"],"height":1513},{"name":"20240728_0111.jpg","tags":["anna","pnw"],"height":1842},{"name":"20240728_0114.jpg","tags":["anna","pnw"],"height":1918},{"name":"20240728_0255.jpg","tags":["anna","pnw"],"height":1736},{"name":"20240728_0293.jpg","tags":["pnw"],"height":2320},{"name":"20240728_0334.jpg","tags":["pnw"],"height":2320},{"name":"20240728_0398.jpg","tags":["pnw"],"height":1736},{"name":"20240728_0470.jpg","tags":["critters","pnw"],"height":1736},{"name":"20240728_0508.jpg","tags":["pnw"],"height":2320},{"name":"20240728_0540.jpg","tags":["critters","pnw"],"height":1736},{"name":"20240728_0617.jpg","tags":["pnw"],"height":2320},{"name":"20240728_0621.jpg","tags":["pnw"],"height":2320},{"name":"20240728_0622.jpg","tags":["pnw"],"height":2320},{"name":"20240728_0669.jpg","tags":["pnw"],"height":2320},{"name":"20240728_0691.jpg","tags":["critters","pnw"],"height":2320},{"name":"20240728_0704.jpg","tags":["pnw"],"height":2320},{"name":"20240728_0727.jpg","tags":["pnw"],"height":2148},{"name":"20240728_0734.jpg","tags":["anna","pnw"],"height":2320},{"name":"20240728_0741.jpg","tags":["pnw"],"height":2320},{"name":"20240728_0755.jpg","tags":["pnw"],"height":1736},{"name":"20240728_0830.jpg","tags":["pnw"],"height":1681},{"name":"20240728_0899.jpg","tags":["pnw"],"height":1697},{"name":"20240728_0980.jpg","tags":["pnw"],"height":2001},{"name":"20240804_0089.jpg","tags":["archive","nyc","website"],"height":2319},{"name":"20240804_0154.jpg","tags":["archive","nyc","website"],"height":1735},{"name":"20240809_0045_pano.jpg","tags":["panoramic","website"],"height":1904},{"name":"20240809_0062.jpg","tags":["archive","website"],"height":1712},{"name":"20240809_0096.jpg","tags":["archive","nyc","website"],"height":1723},{"name":"20240809_0098.jpg","tags":["archive","nyc","website"],"height":1736},{"name":"20240809_0126.jpg","tags":["archive","nyc","website"],"height":1705},{"name":"20240809_0127.jpg","tags":["archive","nyc","website"],"height":1698},{"name":"20240813_0001.jpg","tags":["archive","boston","website"],"height":1735},{"name":"20240813_0004.jpg","tags":["archive","boston","website"],"height":1704},{"name":"20240813_0012.jpg","tags":["archive","boston","website"],"height":1735},{"name":"20240813_0021.jpg","tags":["archive","boston","website"],"height":1736},{"name":"20240813_0045.jpg","tags":["archive","nyc","website"],"height":1716},{"name":"20240813_0064_pano.jpg","tags":["nyc","panoramic","website"],"height":2134},{"name":"20240813_0090.jpg","tags":["archive","nyc","website"],"height":1719},{"name":"20240829_0101.jpg","tags":["archive","nyc","website"],"height":2224},{"name":"20240829_0115.jpg","tags":["archive","nyc","website"],"height":1736},{"name":"20240829_0129.jpg","tags":["archive","nyc","website"],"height":1630},{"name":"20240829_0143.jpg","tags":["archive","nyc","website"],"height":2227},{"name":"20240829_0148.jpg","tags":["archive","nyc","website"],"height":1736},{"name":"20240829_0149.jpg","tags":["archive","nyc","website"],"height":2320},{"name":"20240829_0150.jpg","tags":["archive","nyc","website"],"height":1736},{"name":"20240829_0167.jpg","tags":["archive","nyc","website"],"height":1736},{"name":"20240829_0169.jpg","tags":["archive","nyc","website"],"height":1736},{"name":"20240829_0182.jpg","tags":["archive","nyc","website"],"height":2261},{"name":"20240829_0184.jpg","tags":["archive","nyc","website"],"height":1712},{"name":"20240829_0198.jpg","tags":["archive","nyc","website"],"height":1712},{"name":"20240829_0208.jpg","tags":["archive","nyc","website"],"height":1719},{"name":"20240829_0235.jpg","tags":["archive","nyc","website"],"height":1736},{"name":"20240829_0240.jpg","tags":["archive","nyc","website"],"height":1736},{"name":"verrazzano.jpg","tags":["nyc","panoramic","website"],"height":1793},]
 
 const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
@@ -10,11 +10,19 @@ const photosDiv = document.getElementById("photos");
 const col1 = document.getElementById("col1");
 const col2 = document.getElementById("col2");
 const cols = [col1, col2]
+let colHeights = [0, 0]
+let nextCol = 0
 
-function displayImage(path, column) {
+
+function displayImage(img) {
     photo = document.createElement("photo-component")
-    photo.setAttribute("src", "./img/"+collection[i].name)
-    cols[column].appendChild(photo)
+    photo.setAttribute("src", "./img/"+img.name)
+    cols[nextCol].appendChild(photo)
+    console.log(colHeights, img.height, nextCol)
+    colHeights[nextCol] += img.height
+    if (cols.length == 2 && colHeights[nextCol] > colHeights[(nextCol + 1) % 2]) {
+        nextCol = (nextCol + 1) % 2
+    }
 }
 
 function hasTag(img, tag) {
@@ -60,6 +68,15 @@ function panoFilter(img) {
 }
 
 function main() {
+    if (queryTag == "panoramic") {
+        // make col1 full width
+        col1.setAttribute("class", "full-width")
+        // remove col2
+        col2Idx = cols.indexOf(col2)
+        cols.splice(col2Idx, 1)
+        col2.remove()
+    }
+
 eachimg:
     for (i = 0; i < collection.length; i++) {
         for (filterIdx = 0; filterIdx < filters.length; filterIdx++) {
@@ -67,7 +84,7 @@ eachimg:
                 continue eachimg
             }
         }
-        displayImage(collection[i].name, i % 2)
+        displayImage(collection[i])
     }
 }
 
