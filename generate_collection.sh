@@ -15,9 +15,12 @@ function path_to_js_object() {
             output="$output , \"$tag\""
         fi
     done
-    output="$output ]}"
+    output="$output ]"
+    height="$(exiftool -All $path | grep -E "^Exif Image Height" | grep -Eo ":.*$" | tr -d ':' | tr -d ' ' | tr , '\n')"
+    output="$output , \"height\": $height"
+    output="$output }"
     echo "$output"
 }
 export -f path_to_js_object
 
-sed -i.bak "s/^collection=.*/$(find . -name '*.jpg' | xargs -n 1 -I {} bash -c 'path_to_js_object "$@"' _ {} | gawk 'BEGINFILE{print "collection=["}{print $0 ","}ENDFILE{print "]"}' | tr '\n' ' ')/" script.js
+sed -i.bak "s/^collection=.*/$(find . -name '*.jpg' | xargs -n 1 -I {} bash -c 'path_to_js_object "$@"' _ {} | sort | gawk 'BEGINFILE{print "collection=["}{print $0 ","}ENDFILE{print "]"}' | tr '\n' ' ' | tr -d ' ')/" script.js
