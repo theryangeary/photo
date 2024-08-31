@@ -1,5 +1,8 @@
 #!/bin/bash
 
+calc(){ awk "BEGIN { print "$*" }"; }
+export -f calc
+
 function path_to_js_object() {
     path=$1
     basename="$(basename $path)"
@@ -16,8 +19,10 @@ function path_to_js_object() {
         fi
     done
     output="$output ]"
-    height="$(exiftool -All $path | grep -E "^Exif Image Height" | grep -Eo ":.*$" | tr -d ':' | tr -d ' ' | tr , '\n')"
-    output="$output , \"height\": $height"
+    height=$(exiftool -All $path | grep -E "Exif Image Height" | choose -1)
+    width=$(exiftool -All $path | grep -E "Exif Image Width" | choose -1)
+    heightRatio=$(calc $height/$width)
+    output="$output , \"heightRatio\": $heightRatio"
     output="$output }"
     echo "$output"
 }
