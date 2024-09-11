@@ -33,6 +33,22 @@ h1 {
     padding: 50px;
 }
 
+#fullover {
+  /* (A1) COVER ENTIRE WINDOW */
+  position: fixed;
+  top: 0; left: 0; z-index: 999;
+  width: 100vw; height: 100vh;
+
+  /* (A2) BACKGROUND */
+  background: rgb(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+
+  /* (A3) CENTER CONTENT */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*input[type=checkbox] {*/
   /*display: none;*/
 /*}*/

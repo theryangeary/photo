@@ -11,19 +11,10 @@ class Photo extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-<img src="${this.getAttribute("src")}">
+<img onclick="displayFullover(this)" src="${this.getAttribute("src")}">
 `
-
-        //this.innerHTML = `
-//<div class="container">
-  //<input type="checkbox" id="${this.id()}">
-  //<label for="${this.id()}">
-    //<img src="${this.getAttribute("src")}">
-  //</label>
-//</div>
-//`
+//<img onclick="displayFullover(${this.getAttribute("src")})" src="${this.getAttribute("src")}">
     }
 }
 
 customElements.define('photo-component', Photo);
-
