@@ -13,6 +13,12 @@ const cols = [col1, col2]
 let colHeights = [0, 0]
 let nextCol = 0
 
+function displayFullover(imageComponent) {
+    overlay = document.createElement("fullover-component")
+    overlay.setAttribute("src", imageComponent.getAttribute("src"))
+    document.getElementById('fullover-container').appendChild(overlay)
+    console.log("done")
+}
 
 function displayImage(img) {
     photo = document.createElement("photo-component")
