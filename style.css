@@ -40,29 +40,38 @@ h1 {
   width: 100vw; height: 100vh;
 
   /* (A2) BACKGROUND */
-  background: rgb(255, 255, 255, 0.3);
-  backdrop-filter: blur(5px);
+  background: rgb(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
 
   /* (A3) CENTER CONTENT */
   display: flex;
   justify-content: center;
   align-items: center;
+
+  /* (A4) HIDE OVERLAY BY DEFAULT */
+  opacity: 0; visibility: hidden;
+  transition: opacity 0.5s;
+
+  /* show that clicking white space will zoomout */
+  cursor: zoom-out;
 }
 
-/*input[type=checkbox] {*/
-  /*display: none;*/
-/*}*/
+/* (B) SHOW OVERLAY */
+#fullover.show {
+  opacity: 1; visibility: visible;
+}
 
-/*.container img {*/
-  /*transition: none 0.25s ease;*/
-  /*cursor: zoom-in;*/
-/*}*/
+#fullover > img {
+    max-width: 95%;
+    max-height: 95%;
+    cursor: default;
+}
 
-/*input[type=checkbox]:checked ~ label > img {*/
-  /*transform: translate(-50%, -50%);*/
-  /*position: absolute;*/
-  /*left: 50%;*/
-  /*top: 50%;*/
-  /*cursor: zoom-out;*/
-  /*max-height: 95%;*/
-/*}*/
+.x-out {
+    position: absolute;
+    display:flex;
+    padding: 2px;
+    right: 2%;
+    top: 2%;
+    text-align: right;
+}

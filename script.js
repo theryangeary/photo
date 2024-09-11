@@ -13,11 +13,11 @@ const cols = [col1, col2]
 let colHeights = [0, 0]
 let nextCol = 0
 
+// fullover-component is expected to be included in DOM already
 function displayFullover(imageComponent) {
-    overlay = document.createElement("fullover-component")
-    overlay.setAttribute("src", imageComponent.getAttribute("src"))
-    document.getElementById('fullover-container').appendChild(overlay)
-    console.log("done")
+    fulloverComponent = document.getElementById("fullover-component")
+    fulloverComponent.setAttribute("src", imageComponent.getAttribute("src"))
+    fulloverComponent.show()
 }
 
 function displayImage(img) {
