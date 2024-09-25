@@ -105,7 +105,7 @@ function advanceDisplayCollection() {
 
 
 window.onscroll = function() {
-    if (window.scrollY+window.innerHeight < pageHeight() / 2) {
+    if (window.scrollY+window.innerHeight < pageHeight() - (2*window.innerHeight)) {
         // don't load yet, plenty of other images are already loaded
         return
     }
