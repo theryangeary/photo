@@ -29,6 +29,13 @@ function displayImage(img) {
     }
 }
 
+function pageHeight() {
+    var body = document.body;
+    var html = document.documentElement;
+    return Math.max( body.scrollHeight, body.offsetHeight,
+        html.clientHeight, html.scrollHeight, html.offsetHeight );
+}
+
 function hasTag(img, tag) {
     for (tagIdx = 0; tagIdx < img.tags.length; tagIdx++) {
         if (img.tags[tagIdx] == tag) {
@@ -87,6 +94,24 @@ function panoFilter(img) {
     return shouldShowPanos !== isPano
 }
 
+displayCollection = []
+function advanceDisplayCollection() {
+    if (displayCollection.length == 0) {
+        return
+    }
+    newImg = displayCollection.shift()
+    displayImage(newImg)
+}
+
+
+window.onscroll = function() {
+    if (window.scrollY+window.innerHeight < pageHeight() / 2) {
+        // don't load yet, plenty of other images are already loaded
+        return
+    }
+    advanceDisplayCollection()
+};
+
 function main() {
     if (shouldShowPanos) {
         // make col1 full width
@@ -97,6 +122,7 @@ function main() {
         col2.remove()
     }
 
+
 eachimg:
     for (i = 0; i < collection.length; i++) {
         for (filterIdx = 0; filterIdx < filters.length; filterIdx++) {
@@ -104,7 +130,16 @@ eachimg:
                 continue eachimg
             }
         }
-        displayImage(collection[i])
+        displayCollection.push(collection[i])
+    }
+
+    if (displayCollection.length == 0) {
+        return
+    }
+    imgCount = 0
+    while (imgCount < 10 && pageHeight() < window.screen.height * 2) {
+        advanceDisplayCollection()
+        imgCount++
     }
 }
 
