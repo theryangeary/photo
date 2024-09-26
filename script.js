@@ -12,6 +12,15 @@ const cols = [col1, col2]
 let colHeights = [0, 0]
 let nextCol = 0
 
+let currentlyLoading = 0
+let maxConcurrentImgLoads = 2
+function imgLoadStart() {
+    currentlyLoading++
+}
+function imgLoadComplete() {
+    currentlyLoading--
+}
+
 // fullover-component is expected to be included in DOM already
 function displayFullover(imageComponent) {
     fulloverComponent = document.getElementById("fullover-component")
@@ -20,6 +29,7 @@ function displayFullover(imageComponent) {
 }
 
 function displayImage(img) {
+    imgLoadStart()
     photo = document.createElement("photo-component")
     photo.setAttribute("src", "./img/"+img.name)
     cols[nextCol].appendChild(photo)
@@ -100,6 +110,7 @@ function advanceDisplayCollection() {
         return
     }
     newImg = displayCollection.shift()
+    while (currentlyLoading > maxConcurrentImgLoads) {}
     displayImage(newImg)
 }
 
@@ -137,7 +148,7 @@ eachimg:
         return
     }
     imgCount = 0
-    while (imgCount < 10 && pageHeight() < window.screen.height * 2) {
+    while (imgCount < 10 && pageHeight() < window.screen.height) {
         advanceDisplayCollection()
         imgCount++
     }
