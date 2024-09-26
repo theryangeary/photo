@@ -11,7 +11,7 @@ class Photo extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-<img onclick="displayFullover(this)" src="${this.getAttribute("src")}">
+<img onclick="displayFullover(this)" src="${this.getAttribute("src")}" loading="lazy">
 `
 //<img onclick="displayFullover(${this.getAttribute("src")})" src="${this.getAttribute("src")}">
     }
