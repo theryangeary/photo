@@ -137,7 +137,7 @@ eachimg:
         return
     }
     imgCount = 0
-    while (imgCount < 10 && pageHeight() < window.screen.height * 2) {
+    while (imgCount < 10) {
         advanceDisplayCollection()
         imgCount++
     }
