@@ -1,5 +1,5 @@
 class Fullover extends HTMLElement {
-    static observedAttributes = ["src"];
+    static observedAttributes = ["src", "title"];
 
   constructor() {
     super();
@@ -7,6 +7,13 @@ class Fullover extends HTMLElement {
 
     id() {
         return "zoomCheck-"+this.getAttribute("src")+"-fullover"
+    }
+
+    getDescription() {
+        if (this.getAttribute("title") == "undefined" || this.getAttribute("title") == "null") {
+            return ""
+        }
+        return `<p>${this.getAttribute("title")}</p>`
     }
 
     connectedCallback() {
@@ -33,10 +40,12 @@ class Fullover extends HTMLElement {
 
     render() {
         const src = this.getAttribute('src')
+        const description = this.getDescription()
         this.innerHTML = `
 <div id="fullover" onclick="document.getElementById('fullover-component').hide()">
     <div onclick="document.getElementById('fullover-component').hide()" class="x-out"><a>&#x2715;</a></div>
     <img src="${src}"/>
+    ${description}
 </div>
 `
     }
