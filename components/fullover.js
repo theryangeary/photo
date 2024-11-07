@@ -1,5 +1,5 @@
 class Fullover extends HTMLElement {
-    static observedAttributes = ["src", "title"];
+    static observedAttributes = ["src", "description"];
 
   constructor() {
     super();
@@ -10,10 +10,10 @@ class Fullover extends HTMLElement {
     }
 
     getDescription() {
-        if (this.getAttribute("title") == "undefined" || this.getAttribute("title") == "null") {
+        if (this.getAttribute("description") == "undefined" || this.getAttribute("description") == "null" || this.getAttribute("description") == null ) {
             return ""
         }
-        return `<p>${this.getAttribute("title")}</p>`
+        return `<p>${this.getAttribute("description")}</p>`
     }
 
     connectedCallback() {

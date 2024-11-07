@@ -18,7 +18,7 @@ let nextCol = 0
 function displayFullover(imageComponent) {
     fulloverComponent = document.getElementById("fullover-component")
     fulloverComponent.setAttribute("src", imageComponent.getAttribute("src"))
-    fulloverComponent.setAttribute("title", imageComponent.getAttribute("title"))
+    fulloverComponent.setAttribute("description", imageComponent.getAttribute("title"))
     fulloverComponent.show()
 }
 
