@@ -23,9 +23,13 @@ function path_to_js_object() {
     width=$(exiftool -All $path | grep -E "Exif Image Width" | choose -1)
     heightRatio=$(calc $height/$width)
     output="$output , \"heightRatio\": $heightRatio"
+    title="$(exiftool -All $path | grep -E "Title" | choose -f ': ' 1)"
+    if [[ -n $title ]]; then
+        output="$output , \"title\": \"$title\""
+    fi
     output="$output }"
     echo "$output"
 }
 export -f path_to_js_object
 
-sed -i.bak "s/^collection=.*/$(find . -name '*.jpg' | xargs -n 1 -I {} bash -c 'path_to_js_object "$@"' _ {} | sort | gawk 'BEGINFILE{print "collection=["}{print $0 ","}ENDFILE{print "]"}' | tr '\n' ' ' | tr -d ' ')/" script.js
+sed -i.bak "s/^collection=.*/$(find . -name '*.jpg' | xargs -n 1 -I {} bash -c 'path_to_js_object "$@"' _ {} | sort | gawk 'BEGINFILE{print "collection=["}{print $0 ","}ENDFILE{print "]"}' | tr '\n' ' ' )/" script.js

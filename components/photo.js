@@ -1,5 +1,5 @@
 class Photo extends HTMLElement {
-    static observedAttributes = ["src"];
+    static observedAttributes = ["src", "title"];
 
   constructor() {
     super();
@@ -9,11 +9,17 @@ class Photo extends HTMLElement {
         return "zoomCheck-"+this.getAttribute("src")
     }
 
+    getTitle() {
+        if (this.getAttribute("title") === undefined || this.getAttribute("title") === null) {
+            return ""
+        }
+        return `title="${this.getAttribute("title")}"`
+    }
+
     connectedCallback() {
         this.innerHTML = `
-<img onclick="displayFullover(this)" src="${this.getAttribute("src")}" loading="lazy">
+<img onclick="displayFullover(this)" src="${this.getAttribute("src")}" ${this.getTitle()} loading="lazy">
 `
-//<img onclick="displayFullover(${this.getAttribute("src")})" src="${this.getAttribute("src")}">
     }
 }
 

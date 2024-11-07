@@ -45,6 +45,7 @@ h1 {
 
   /* (A3) CENTER CONTENT */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -63,8 +64,13 @@ h1 {
 
 #fullover > img {
     max-width: 95%;
-    max-height: 95%;
+    max-height: 90%;
     cursor: default;
+}
+
+#fullover > p {
+    font-family: 'Courier New', monospace;
+    font-weight: 100;
 }
 
 .x-out {
