@@ -101,8 +101,10 @@ function panoFilter(img) {
 }
 
 function portfolioFilter(img) {
-    isPortfolio = hasTag(img, "portfolio")
-    return shouldShowPortfolio !== isPortfolio
+    if (!shouldShowPortfolio) {
+        return false
+    }
+    return !hasTag(img, "portfolio")
 }
 
 displayCollection = []
