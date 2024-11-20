@@ -22,6 +22,24 @@ class Fullover extends HTMLElement {
                 // Escape key pressed
                 this.hide()
             }
+            if (event.keyCode === 39) {
+                const keyNext = new CustomEvent("photoNext", {
+                  detail: {
+                    name: "next",
+                    current: this.getAttribute("src"),
+                  },
+                });
+                document.dispatchEvent(keyNext);
+            }
+            if (event.keyCode === 37) {
+                const keyPrev = new CustomEvent("photoPrev", {
+                  detail: {
+                    name: "prev",
+                      current: this.getAttribute("src"),
+                  },
+                });
+                document.dispatchEvent(keyPrev);
+            }
         });
         this.render()
     }
