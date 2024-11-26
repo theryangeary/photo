@@ -15,6 +15,47 @@ const cols = [col1, col2]
 let colHeights = [0, 0]
 let nextCol = 0
 
+function emptyCols() {
+    while (col1.firstChild) {
+        col1.removeChild(col1.lastChild);
+    }
+    while (col2.firstChild) {
+        col2.removeChild(col2.lastChild);
+    }
+    colHeights = [0, 0]
+    nextCol = 0
+}
+
+function hideCol2() {
+    col1.classList.add("full-width")
+    col2.style.display = "none"
+}
+
+function showCol2() {
+    col1.classList.remove("full-width")
+    col2.style.display = "initial"
+}
+
+function resizeColumns(smallScreen) {
+    currentScroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+    scrollInversionConstant = 4.0
+    if (smallScreen.matches) { // If media query matches
+        hideCol2()
+        emptyCols()
+        for (i = 0; i < displayIndex; i++) {
+            displayImage(displayCollection[i])
+        }
+        scroll(0, currentScroll*scrollInversionConstant)
+    } else {
+        showCol2()
+        emptyCols()
+        for (i = 0; i < displayIndex; i++) {
+            displayImage(displayCollection[i])
+        }
+        scroll(0, currentScroll/scrollInversionConstant)
+    }
+}
+
 // fullover-component is expected to be included in DOM already
 function displayFullover(imageComponent) {
     fulloverComponent = document.getElementById("fullover-component")
@@ -38,7 +79,7 @@ function displayImage(img) {
     }
     cols[nextCol].appendChild(photo)
     colHeights[nextCol] += img.heightRatio
-    if (cols.length == 2 && colHeights[nextCol] > colHeights[(nextCol + 1) % 2]) {
+    if (col2.style.display != "none" && cols.length == 2 && colHeights[nextCol] > colHeights[(nextCol + 1) % 2]) {
         nextCol = (nextCol + 1) % 2
     }
 }
@@ -162,12 +203,21 @@ document.addEventListener("photoPrev", (e) => {
 
 function main() {
     if (shouldShowPanos) {
-        // make col1 full width
-        col1.setAttribute("class", "full-width")
-        // remove col2
-        col2Idx = cols.indexOf(col2)
-        cols.splice(col2Idx, 1)
-        col2.remove()
+        // make col1 full width always
+        hideCol2()
+    } else {
+        // make num cols based on screen size
+
+        // Create a MediaQueryList object
+        var smallScreen = window.matchMedia("(max-width: 980px)")
+
+        // Call listener function at run time
+        resizeColumns(smallScreen);
+
+        // Attach listener function on state changes
+        smallScreen.addEventListener("change", function() {
+          resizeColumns(smallScreen);
+        });
     }
 
 
