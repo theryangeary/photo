@@ -1,9 +1,9 @@
 class Photo extends HTMLElement {
     static observedAttributes = ["src", "title"];
 
-  constructor() {
-    super();
-  }
+    constructor() {
+        super();
+    }
 
     id() {
         return "zoomCheck-"+this.getAttribute("src")

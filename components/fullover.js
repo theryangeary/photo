@@ -1,9 +1,9 @@
 class Fullover extends HTMLElement {
     static observedAttributes = ["src", "description"];
 
-  constructor() {
-    super();
-  }
+    constructor() {
+        super();
+    }
 
     id() {
         return "zoomCheck-"+this.getAttribute("src")+"-fullover"
@@ -24,19 +24,19 @@ class Fullover extends HTMLElement {
             }
             if (event.keyCode === 39) {
                 const keyNext = new CustomEvent("photoNext", {
-                  detail: {
-                    name: "next",
-                    current: this.getAttribute("src"),
-                  },
+                    detail: {
+                        name: "next",
+                        current: this.getAttribute("src"),
+                    },
                 });
                 document.dispatchEvent(keyNext);
             }
             if (event.keyCode === 37) {
                 const keyPrev = new CustomEvent("photoPrev", {
-                  detail: {
-                    name: "prev",
-                      current: this.getAttribute("src"),
-                  },
+                    detail: {
+                        name: "prev",
+                        current: this.getAttribute("src"),
+                    },
                 });
                 document.dispatchEvent(keyPrev);
             }
