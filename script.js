@@ -112,7 +112,7 @@ function hasAnyTag(img, tagList) {
 }
 
 function hasAllTags(img, tagList) {
-each_query_tag:
+    each_query_tag:
     for (queryTagIdx = 0; queryTagIdx < tagList.length; queryTagIdx++) {
         if (img.tags.includes(tagList[queryTagIdx])) {
             continue each_query_tag
@@ -216,12 +216,12 @@ function main() {
 
         // Attach listener function on state changes
         smallScreen.addEventListener("change", function() {
-          resizeColumns(smallScreen);
+            resizeColumns(smallScreen);
         });
     }
 
 
-eachimg:
+    eachimg:
     for (i = 0; i < collection.length; i++) {
         for (filterIdx = 0; filterIdx < filters.length; filterIdx++) {
             if (filters[filterIdx](collection[i])) {
@@ -242,7 +242,7 @@ eachimg:
 
     // display highest rated first for collections that are not obligated to be chronological
     if (prefix == null && archiveMonth == null) {
-    displayCollection.sort(sortByRating)
+        displayCollection.sort(sortByRating)
     }
 
     imgCount = 0

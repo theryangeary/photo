@@ -1,11 +1,11 @@
- .row {
-  display: flex;
+.row {
+    display: flex;
 }
 
 .column {
-  flex: 50%;
-  max-width: 50%;
-  padding: 0 10px;
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 10px;
 }
 
 .column.full-width {
@@ -16,10 +16,10 @@
 
 /* Responsive layout - one column */
 @media screen and (max-width: 980px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
 
 img {
@@ -36,32 +36,32 @@ h1 {
 }
 
 #fullover {
-  /* (A1) COVER ENTIRE WINDOW */
-  position: fixed;
-  top: 0; left: 0; z-index: 999;
-  width: 100vw; height: 100vh;
+    /* (A1) COVER ENTIRE WINDOW */
+    position: fixed;
+    top: 0; left: 0; z-index: 999;
+    width: 100vw; height: 100vh;
 
-  /* (A2) BACKGROUND */
-  background: rgb(255, 255, 255, 0.7);
-  backdrop-filter: blur(10px);
+    /* (A2) BACKGROUND */
+    background: rgb(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
 
-  /* (A3) CENTER CONTENT */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    /* (A3) CENTER CONTENT */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-  /* (A4) HIDE OVERLAY BY DEFAULT */
-  opacity: 0; visibility: hidden;
-  transition: opacity 0.5s;
+    /* (A4) HIDE OVERLAY BY DEFAULT */
+    opacity: 0; visibility: hidden;
+    transition: opacity 0.5s;
 
-  /* show that clicking white space will zoomout */
-  cursor: zoom-out;
+    /* show that clicking white space will zoomout */
+    cursor: zoom-out;
 }
 
 /* (B) SHOW OVERLAY */
 #fullover.show {
-  opacity: 1; visibility: visible;
+    opacity: 1; visibility: visible;
 }
 
 #fullover > img {
@@ -85,59 +85,59 @@ h1 {
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: #e7e7e7;
-  background-color: #f3f3f3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: #e7e7e7;
+    background-color: #f3f3f3;
 }
 
 li {
-  float: left;
-  font-family: "Helvetica";
-  font-weight: 100;
+    float: left;
+    font-family: "Helvetica";
+    font-weight: 100;
 }
 
 li a, .dropbtn {
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #333333;
-  color: white;
+    background-color: #333333;
+    color: white;
 }
 
 li.dropdown {
-  display: inline-block;
+    display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
-  color: black;
+    background-color: #f1f1f1;
+    color: black;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
