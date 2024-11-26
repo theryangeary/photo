@@ -16,29 +16,60 @@ class Fullover extends HTMLElement {
         return `<p>${this.getAttribute("description")}</p>`
     }
 
+    photoNext() {
+        const photoNext = new CustomEvent("photoNext", {
+            detail: {
+                name: "next",
+                current:  this.getAttribute("src"),
+            },
+        });
+        document.dispatchEvent(photoNext);
+    }
+
+    photoPrev() {
+        const photoPrev = new CustomEvent("photoPrev", {
+            detail: {
+                name: "prev",
+                current:  this.getAttribute("src"),
+            },
+        });
+        document.dispatchEvent(photoPrev);
+    }
+
+    checkDirection(touchstartX, touchstartY, touchendX, touchendY) {
+        if (Math.abs(touchendX - touchstartX) > Math.abs(touchendY - touchstartY)) {
+            if (touchendX < touchstartX) this.photoNext()
+            if (touchendX > touchstartX) this.photoPrev()
+        }
+    }
+
     connectedCallback() {
+        let touchstartX = 0
+        let touchstartY = 0
+        let touchendX = 0
+        let touchendY = 0
+
+        document.addEventListener('touchstart', e => {
+            touchstartX = e.changedTouches[0].screenX
+            touchstartY = e.changedTouches[0].screenY
+        })
+
+        document.addEventListener('touchend', e => {
+            touchendX = e.changedTouches[0].screenX
+            touchendY = e.changedTouches[0].screenY
+            this.checkDirection(touchstartX, touchstartY, touchendX, touchendY)
+        })
+
         document.addEventListener('keydown', (event) => {
             if (event.keyCode === 27) {
                 // Escape key pressed
                 this.hide()
             }
             if (event.keyCode === 39) {
-                const keyNext = new CustomEvent("photoNext", {
-                    detail: {
-                        name: "next",
-                        current: this.getAttribute("src"),
-                    },
-                });
-                document.dispatchEvent(keyNext);
+                this.photoNext()
             }
             if (event.keyCode === 37) {
-                const keyPrev = new CustomEvent("photoPrev", {
-                    detail: {
-                        name: "prev",
-                        current: this.getAttribute("src"),
-                    },
-                });
-                document.dispatchEvent(keyPrev);
+                this.photoPrev()
             }
         });
         this.render()
