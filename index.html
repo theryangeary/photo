@@ -2,22 +2,34 @@
 <html>
     <head>
         <title>Ryan Geary</title>
-        <style type="text/css">
-            body, html
-                {
-                margin: 0; padding: 0; height: 100%; overflow: hidden;
-            }
+        <!--<style type="text/css">-->
+            <!--body, html-->
+                <!--{-->
+                <!--margin: 0; padding: 0; height: 100%; overflow: hidden;-->
+            <!--}-->
 
-            #content
-                {
-                position:absolute; left: 0; right: 0; bottom: 0; top: 0px;
-            }
-        </style>
+            <!--#content-->
+                <!--{-->
+                <!--position:absolute; left: 0; right: 0; bottom: 0; top: 0px;-->
+            <!--}-->
+        <!--</style>-->
+    <!--</head>-->
+
+    <!--<body>-->
+        <!--<div id="content">-->
+            <!--<iframe width="100%" height="100%" frameborder="0" src=page.html></iframe>-->
+        <!--</div>-->
+    <!--</body>-->
+        <link rel="stylesheet" href="style.css" />
+        <script src="components/columns.js" type="text/javascript" defer></script>
+        <script src="components/fullover.js" type="text/javascript" defer></script>
+        <script src="components/navbar.js" type="text/javascript" defer></script>
+        <script src="components/photo.js" type="text/javascript" defer></script>
+        <script src="components/title.js" type="text/javascript" defer></script>
+        <script src="components/body.js" type="text/javascript" defer></script>
+        <script src="script.js" type="text/javascript" defer></script>
     </head>
-
     <body>
-        <div id="content">
-            <iframe width="100%" height="100%" frameborder="0" src=page.html></iframe>
-        </div>
+        <body-component></body-component>
     </body>
 </html>
