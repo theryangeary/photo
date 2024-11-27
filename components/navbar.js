@@ -11,18 +11,18 @@ class Navbar extends HTMLElement {
         <a href="javascript:void(0)" class="dropbtn">Selected Works</a>
         <div class="dropdown-content">
             <a href="?tag=panorama">Panoramas</a>
-            <a href="?tag=selectedworks&tag=street">Street Photography</a>
-            <a href="?tag=selectedworks&tag=cityscape">Cityscapes</a>
-            <a href="?tag=selectedworks&tag=landscape">Landscape</a>
-            <a href="?tag=selectedworks&tag=wildlife">Wildlife</a>
+            <a href="?selectedworks=street">Street Photography</a>
+            <a href="?selectedworks=cityscape">Cityscapes</a>
+            <a href="?selectedworks=landscape">Landscape</a>
+            <a href="?selectedworks=wildlife">Wildlife</a>
         </div>
     </li>
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">On Location</a>
         <div class="dropdown-content">
-            <a href="?tag=pnw2024&prefix=2024">Pacific Northwest</a>
-            <a href="?tag=ecuador&prefix=2024">Ecuador</a>
-            <a href="?tag=utah&prefix=2024">Utah</a>
+            <a href="?trip=pnw2024">Pacific Northwest</a>
+            <a href="?trip=ecuador">Ecuador</a>
+            <a href="?trip=utah">Utah</a>
         </div>
     </li>
     <li class="dropdown">
