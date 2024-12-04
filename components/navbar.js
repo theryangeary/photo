@@ -37,11 +37,6 @@ class Navbar extends HTMLElement {
             <a href="?archive=202411">November 2024</a>
         </div>
     </li>
-    <li class="icon">
-        <a href="javascript:void(0);" onclick="toggleNavbarResponsive()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </li>
 </ul>
 `
     }

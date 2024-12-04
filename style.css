@@ -39,10 +39,18 @@ img {
 }
 
 h1 {
+    display: inline-block;
     font-family: "Helvetica";
     font-weight: 100;
     font-size: 2em;
     padding: 1em;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        padding: 0.5em;
+        padding-bottom: 0.25em;
+    }
 }
 
 #fullover {
@@ -110,12 +118,16 @@ h1 {
     font-weight: 100;
 }
 
-.navbar a {
+.navbar a, .navbar-icon {
     display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.navbar-icon {
+    padding-top: 0;
 }
 
 li.dropdown {
@@ -152,6 +164,9 @@ li.dropdown {
         background-color: #333333;
         color: white;
     }
+    .navbar-icon {
+        display: none;
+    }
 }
 
 .navbar .icon {
@@ -160,10 +175,10 @@ li.dropdown {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
 @media screen and (max-width: 600px) {
-    .navbar li:not(:first-child) {display: none;}
+    .navbar li {display: none;}
     .navbar li.icon {
         float: right;
-        display: block;
+        display: inline-block;
     }
 }
 
@@ -175,6 +190,10 @@ li.dropdown {
         right: 0;
         top: 0;
     }
+    a.navbar-icon {
+        position: absolute;
+        right: 0;
+}
     .navbar.responsive li {
         float: none;
         display: block;
