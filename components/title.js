@@ -5,7 +5,11 @@ class Title extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-<h1>Ryan Geary</h1>
+<h1>Ryan Geary
+<a class="navbar-icon" href="javascript:void(0);" onclick="toggleNavbarResponsive()">
+    <i class="fa fa-bars"></i>
+</a>
+</h1>
 
 `
     }
