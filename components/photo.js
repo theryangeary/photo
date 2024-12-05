@@ -17,9 +17,22 @@ class Photo extends HTMLElement {
     }
 
     connectedCallback() {
+        this.render()
+    }
+
+    render() {
         this.innerHTML = `
-<img onclick="displayFullover(this)" src="${this.getAttribute("src")}" ${this.getTitle()} loading="lazy">
+<img src="${this.getAttribute("src")}" ${this.getTitle()} loading="lazy">
 `
+        this.addEventListener("click", () =>{
+            document.dispatchEvent(
+                new CustomEvent("photoclick", {
+                    detail: {
+                        photo: this,
+                    },
+                })
+            )
+        })
     }
 }
 
