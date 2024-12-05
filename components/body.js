@@ -20,3 +20,4 @@ class Body extends HTMLElement {
 }
 
 customElements.define('body-component', Body);
+export {Body}

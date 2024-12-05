@@ -15,3 +15,4 @@ class Columns extends HTMLElement {
 }
 
 customElements.define('columns-component', Columns);
+export {Columns}

@@ -119,3 +119,4 @@ class Fullover extends HTMLElement {
 }
 
 customElements.define('fullover-component', Fullover);
+export {Fullover}

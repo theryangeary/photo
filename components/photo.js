@@ -24,3 +24,4 @@ class Photo extends HTMLElement {
 }
 
 customElements.define('photo-component', Photo);
+export {Photo}

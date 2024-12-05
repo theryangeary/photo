@@ -75,3 +75,4 @@ function toggleNavbarResponsive() {
 
 
 customElements.define('navbar-component', Navbar);
+export {Navbar}
