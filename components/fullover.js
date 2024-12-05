@@ -26,6 +26,11 @@ class Fullover extends HTMLElement {
         document.dispatchEvent(photoNext);
     }
 
+    clickPhotoNext(event) {
+        event.stopPropagation()
+        this.photoNext()
+    }
+
     photoPrev() {
         const photoPrev = new CustomEvent("photoPrev", {
             detail: {
@@ -34,6 +39,11 @@ class Fullover extends HTMLElement {
             },
         });
         document.dispatchEvent(photoPrev);
+    }
+
+    clickPhotoPrev(event) {
+        event.stopPropagation()
+        this.photoPrev()
     }
 
     checkDirection(touchstartX, touchstartY, touchendX, touchendY) {
@@ -92,7 +102,15 @@ class Fullover extends HTMLElement {
         const description = this.getDescription()
         this.innerHTML = `
 <div id="fullover" onclick="document.getElementById('fullover-component').hide()">
-    <div onclick="document.getElementById('fullover-component').hide()" class="x-out"><a>&#x2715;</a></div>
+    <div onclick="document.getElementById('fullover-component').hide()" class="fullover-icon x-out">
+        <a>&#x2715;</a>
+    </div>
+    <div onclick="document.getElementById('fullover-component').clickPhotoPrev()" class="fullover-icon arrow arrow-left">
+        <i class="fa fa-arrow-left"></i>
+    </div>
+    <div onclick="document.getElementById('fullover-component').clickPhotoNext(event)" class="fullover-icon arrow arrow-right">
+        <i class="fa fa-arrow-right"></i>
+    </div>
     <img src="${src}"/>
     ${description}
 </div>

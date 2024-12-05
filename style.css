@@ -93,13 +93,33 @@ h1 {
     font-weight: 100;
 }
 
-.x-out {
+.fullover-icon {
     position: absolute;
     display:flex;
-    padding: 2px;
+    padding: 4px;
+    cursor: default;
+}
+
+.x-out {
     right: 2%;
     top: 2%;
     text-align: right;
+}
+.arrow {
+    top: 50%;
+    text-align: center;
+}
+.arrow-left {
+    left: 0.5%;
+}
+.arrow-right {
+    right: 0.5%;
+}
+
+@media screen and (max-width: 600px) {
+    .arrow {
+        display: none;
+    }
 }
 
 .navbar {
@@ -193,7 +213,7 @@ li.dropdown {
     a.navbar-icon {
         position: absolute;
         right: 0;
-}
+    }
     .navbar.responsive li {
         float: none;
         display: block;
