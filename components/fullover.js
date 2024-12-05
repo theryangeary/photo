@@ -82,6 +82,12 @@ class Fullover extends HTMLElement {
                 this.photoPrev()
             }
         });
+
+        document.addEventListener('photoclick', (event) => {
+            this.setPhoto(event.detail.photo)
+            this.show()
+        });
+
         this.render()
     }
 
@@ -95,6 +101,17 @@ class Fullover extends HTMLElement {
 
     show() {
         document.getElementById("fullover").classList.add("show")
+    }
+
+    setPhoto(photo) {
+        this.setAttribute("src", photo.getAttribute("src"))
+        this.setAttribute("description", photo.getAttribute("title"))
+    }
+
+    setPhoto2(collectionEntry) {
+        this.setAttribute("src", "/photo/img/"+collectionEntry.name)
+        this.setAttribute("description", collectionEntry.title)
+        this.show()
     }
 
     render() {
