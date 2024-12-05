@@ -28,3 +28,4 @@ class Title extends HTMLElement {
 }
 
 customElements.define('title-component', Title);
+export {Title}
