@@ -51,7 +51,7 @@ function resizeColumns(smallScreen) {
     } else {
         showCol2()
         emptyCols()
-        for (i = 0; i < displayIndex; i++) {
+        for (let i = 0; i < displayIndex; i++) {
             displayImage(displayCollection[i])
         }
         scroll(0, currentScroll/scrollInversionConstant)
