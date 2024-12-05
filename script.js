@@ -8,14 +8,27 @@ import {Photo} from '/photo/components/photo.js'
 import {Title} from '/photo/components/title.js'
 
 const url = window.location.href
+
+// query based selection
 const params = new URLSearchParams(window.location.search);
 let queryTagList = params.getAll("tag");
 let archiveMonth = params.get("archive");
 let selectedWorks = params.get("selectedworks");
 let trip = params.get("trip");
 let prefix = params.get("prefix");
+
+// path based selection
+const fullPath = url.split('/')
+const photoIdx = fullPath.indexOf("photo")
+// get path after "photo"
+const relevantPath = fullPath.splice(photoIdx+1)
+relevantPath
+    .filter((tag) => tag !== "")
+    .filter((tag) => tag[0] !== "?")
+    .forEach((tag) => queryTagList.push(tag))
+
 let shouldShowPanos = queryTagList.includes("panorama");
-let shouldShowPortfolio = url.indexOf('?') == -1 || url.indexOf('?') == url.length-1;
+let shouldShowPortfolio = (url.indexOf('?') == -1 || url.indexOf('?') == url.length-1)&& relevantPath.length === 0;
 
 const photosDiv = document.getElementById("photos");
 const col1 = document.getElementById("col1");
@@ -97,7 +110,7 @@ function hasTag(img, tag) {
 }
 
 function hasAnyTag(img, tagList) {
-    for (queryTagIdx = 0; queryTagIdx < tagList.length; queryTagIdx++) {
+    for (let queryTagIdx = 0; queryTagIdx < tagList.length; queryTagIdx++) {
         for (let tagIdx = 0; tagIdx < img.tags.length; tagIdx++) {
             if (img.tags[tagIdx] == tagList[queryTagIdx]) {
                 return true
@@ -109,7 +122,7 @@ function hasAnyTag(img, tagList) {
 
 function hasAllTags(img, tagList) {
     each_query_tag:
-    for (queryTagIdx = 0; queryTagIdx < tagList.length; queryTagIdx++) {
+    for (let queryTagIdx = 0; queryTagIdx < tagList.length; queryTagIdx++) {
         if (img.tags.includes(tagList[queryTagIdx])) {
             continue each_query_tag
         }
@@ -182,12 +195,12 @@ if (selectedWorks != null) {
 // filters return true if the image should be filtered out
 let filters = [
     archiveMonthFilter,
- selectedWorksFilter,
+    selectedWorksFilter,
     tripFilter,
- tagFilter,
- panoFilter,
- portfolioFilter,
- prefixFilter
+    tagFilter,
+    panoFilter,
+    portfolioFilter,
+    prefixFilter
 ]
 
 function prefixFilter(img) {
