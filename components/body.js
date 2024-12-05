@@ -1,4 +1,3 @@
-
 class Body extends HTMLElement {
     id() {
         return "body-component"
@@ -7,7 +6,7 @@ class Body extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
 <body>
-    <title-component></title-component>
+    <title-component id="title-component" data-title="Ryan Geary"></title-component>
 
     <navbar-component></navbar-component>
 
