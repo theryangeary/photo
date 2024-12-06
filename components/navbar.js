@@ -14,6 +14,7 @@ class Navbar extends HTMLElement {
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Selected Works</a>
         <div class="dropdown-content">
+            <a href="/photo/selectedworks/panorama">Panoramas</a>
             <a href="/photo/selectedworks/street">Street Photography</a>
             <a href="/photo/selectedworks/cityscape">Cityscapes</a>
             <a href="/photo/selectedworks/landscape">Landscape</a>
