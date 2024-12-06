@@ -32,13 +32,13 @@ class Navbar extends HTMLElement {
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Archive</a>
         <div class="dropdown-content">
-            <a href="/photo/?archive=202405">May 2024</a>
-            <a href="/photo/?archive=202406">June 2024</a>
-            <a href="/photo/?archive=202407">July 2024</a>
-            <a href="/photo/?archive=202408">August 2024</a>
-            <a href="/photo/?archive=202409">September 2024</a>
-            <a href="/photo/?archive=202410">October 2024</a>
-            <a href="/photo/?archive=202411">November 2024</a>
+            <a href="/photo/archive/202405">May 2024</a>
+            <a href="/photo/archive/202406">June 2024</a>
+            <a href="/photo/archive/202407">July 2024</a>
+            <a href="/photo/archive/202408">August 2024</a>
+            <a href="/photo/archive/202409">September 2024</a>
+            <a href="/photo/archive/202410">October 2024</a>
+            <a href="/photo/archive/202411">November 2024</a>
         </div>
     </li>
 </ul>

@@ -24,11 +24,16 @@ const photoIdx = fullPath.indexOf("photo")
 const relevantPath = fullPath.splice(photoIdx+1)
     .filter((tag) => tag !== "")
     .filter((tag) => tag[0] !== "?")
-relevantPath
-    .forEach((tag) => queryTagList.push(tag))
+if (!relevantPath.includes("archive")) {
+    relevantPath
+        .forEach((tag) => queryTagList.push(tag))
+} else {
+    archiveMonth = relevantPath[relevantPath.indexOf("archive")+1]
+}
 
 let shouldShowPanos = queryTagList.includes("panorama");
 let shouldShowPortfolio = (url.indexOf('?') == -1 || url.indexOf('?') == url.length-1) && relevantPath.length === 0;
+
 
 const photosDiv = document.getElementById("photos");
 const col1 = document.getElementById("col1");
