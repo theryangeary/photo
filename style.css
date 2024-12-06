@@ -4,6 +4,8 @@ body {
 
 .row {
     display: flex;
+    max-width: 130vh;
+    margin: auto;
 }
 
 /* Responsive layout - one column */
