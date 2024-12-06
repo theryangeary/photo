@@ -1805,13 +1805,14 @@ let collection=
   {
     "name": "20240728_0014.jpg",
     "tags": [
+      "2024",
       "america",
       "anna",
       "archive",
       "genre",
       "locations",
       "people",
-      "pnw2024",
+      "pnw",
       "portrait",
       "seattle",
       "subject",
@@ -1825,6 +1826,7 @@ let collection=
   {
     "name": "20240728_0036.jpg",
     "tags": [
+      "2024",
       "america",
       "anna",
       "archive",
@@ -1833,7 +1835,7 @@ let collection=
       "locations",
       "nature",
       "people",
-      "pnw2024",
+      "pnw",
       "seattle",
       "subject",
       "trips",
@@ -1846,13 +1848,14 @@ let collection=
   {
     "name": "20240728_0074.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
       "landscape",
       "locations",
       "nature",
-      "pnw2024",
+      "pnw",
       "seattle",
       "trips",
       "washington",
@@ -1864,12 +1867,13 @@ let collection=
   {
     "name": "20240728_0081.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
       "locations",
       "nature",
-      "pnw2024",
+      "pnw",
       "seattle",
       "trips",
       "washington",
@@ -1882,13 +1886,14 @@ let collection=
   {
     "name": "20240728_0089.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
       "landscape",
       "locations",
       "nature",
-      "pnw2024",
+      "pnw",
       "portfolio",
       "seattle",
       "selectedworks",
@@ -1903,6 +1908,7 @@ let collection=
   {
     "name": "20240728_0111.jpg",
     "tags": [
+      "2024",
       "america",
       "anna",
       "archive",
@@ -1912,7 +1918,7 @@ let collection=
       "mtrainier",
       "nature",
       "people",
-      "pnw2024",
+      "pnw",
       "subject",
       "trips",
       "washington",
@@ -1924,6 +1930,7 @@ let collection=
   {
     "name": "20240728_0114.jpg",
     "tags": [
+      "2024",
       "america",
       "anna",
       "archive",
@@ -1933,7 +1940,7 @@ let collection=
       "mtrainier",
       "nature",
       "people",
-      "pnw2024",
+      "pnw",
       "subject",
       "trips",
       "washington",
@@ -1945,6 +1952,7 @@ let collection=
   {
     "name": "20240728_0255.jpg",
     "tags": [
+      "2024",
       "america",
       "anna",
       "archive",
@@ -1954,7 +1962,7 @@ let collection=
       "mtrainier",
       "nature",
       "people",
-      "pnw2024",
+      "pnw",
       "subject",
       "trips",
       "washington",
@@ -1966,6 +1974,7 @@ let collection=
   {
     "name": "20240728_0293.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -1973,7 +1982,7 @@ let collection=
       "locations",
       "mtrainier",
       "nature",
-      "pnw2024",
+      "pnw",
       "portfolio",
       "selectedworks",
       "trips",
@@ -1987,6 +1996,7 @@ let collection=
   {
     "name": "20240728_0334.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -1994,7 +2004,7 @@ let collection=
       "locations",
       "mtrainier",
       "nature",
-      "pnw2024",
+      "pnw",
       "trips",
       "washington",
       "website"
@@ -2005,6 +2015,7 @@ let collection=
   {
     "name": "20240728_0398.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -2012,7 +2023,7 @@ let collection=
       "locations",
       "mtrainier",
       "nature",
-      "pnw2024",
+      "pnw",
       "trips",
       "washington",
       "website"
@@ -2023,13 +2034,14 @@ let collection=
   {
     "name": "20240728_0470.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "portland",
       "trips",
       "website",
@@ -2042,6 +2054,7 @@ let collection=
   {
     "name": "20240728_0508.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -2050,7 +2063,7 @@ let collection=
       "mthood",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "trips",
       "website"
     ],
@@ -2060,6 +2073,7 @@ let collection=
   {
     "name": "20240728_0540.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -2067,7 +2081,7 @@ let collection=
       "mthood",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "selectedworks",
       "trips",
       "website",
@@ -2080,6 +2094,7 @@ let collection=
   {
     "name": "20240728_0617.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bend",
@@ -2088,7 +2103,7 @@ let collection=
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "trips",
       "website"
     ],
@@ -2098,6 +2113,7 @@ let collection=
   {
     "name": "20240728_0621.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bend",
@@ -2106,7 +2122,7 @@ let collection=
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "trips",
       "website"
     ],
@@ -2116,6 +2132,7 @@ let collection=
   {
     "name": "20240728_0622.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bend",
@@ -2124,7 +2141,7 @@ let collection=
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "trips",
       "website"
     ],
@@ -2134,6 +2151,7 @@ let collection=
   {
     "name": "20240728_0669.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bend",
@@ -2142,7 +2160,7 @@ let collection=
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "trips",
       "website"
     ],
@@ -2152,6 +2170,7 @@ let collection=
   {
     "name": "20240728_0691.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bend",
@@ -2159,7 +2178,7 @@ let collection=
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "selectedworks",
       "trips",
       "website",
@@ -2172,6 +2191,7 @@ let collection=
   {
     "name": "20240728_0704.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bend",
@@ -2180,7 +2200,7 @@ let collection=
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "selectedworks",
       "trips",
       "website"
@@ -2192,6 +2212,7 @@ let collection=
   {
     "name": "20240728_0727.jpg",
     "tags": [
+      "2024",
       "america",
       "anna",
       "archive",
@@ -2202,7 +2223,7 @@ let collection=
       "nature",
       "oregon",
       "people",
-      "pnw2024",
+      "pnw",
       "subject",
       "trips",
       "website"
@@ -2213,6 +2234,7 @@ let collection=
   {
     "name": "20240728_0734.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bend",
@@ -2221,7 +2243,7 @@ let collection=
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "trips",
       "website"
     ],
@@ -2231,6 +2253,7 @@ let collection=
   {
     "name": "20240728_0741.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bend",
@@ -2239,7 +2262,7 @@ let collection=
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "selectedworks",
       "trips",
       "website"
@@ -2251,6 +2274,7 @@ let collection=
   {
     "name": "20240728_0755.jpg",
     "tags": [
+      "2024",
       "america",
       "anna",
       "archive",
@@ -2261,7 +2285,7 @@ let collection=
       "nature",
       "oregon",
       "people",
-      "pnw2024",
+      "pnw",
       "selectedworks",
       "subject",
       "trips",
@@ -2274,6 +2298,7 @@ let collection=
   {
     "name": "20240728_0830.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "craterlake",
@@ -2282,7 +2307,7 @@ let collection=
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "portfolio",
       "selectedworks",
       "trips",
@@ -2295,6 +2320,7 @@ let collection=
   {
     "name": "20240728_0899.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "craterlake",
@@ -2303,7 +2329,7 @@ let collection=
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "trips",
       "website"
     ],
@@ -2313,6 +2339,7 @@ let collection=
   {
     "name": "20240728_0980.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "craterlake",
@@ -2321,7 +2348,7 @@ let collection=
       "locations",
       "nature",
       "oregon",
-      "pnw2024",
+      "pnw",
       "selectedworks",
       "trips",
       "website"
@@ -2792,9 +2819,9 @@ let collection=
   {
     "name": "20240912_0031.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "locations",
       "trips",
       "website"
@@ -2805,10 +2832,10 @@ let collection=
   {
     "name": "20240912_0039.jpg",
     "tags": [
+      "2024",
       "anna",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "people",
@@ -2823,10 +2850,10 @@ let collection=
   {
     "name": "20240912_0041.jpg",
     "tags": [
+      "2024",
       "anna",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -2842,10 +2869,10 @@ let collection=
   {
     "name": "20240912_0046.jpg",
     "tags": [
+      "2024",
       "architecture",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "trips",
@@ -2857,9 +2884,9 @@ let collection=
   {
     "name": "20240912_0091.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "locations",
       "trips",
       "website"
@@ -2870,9 +2897,9 @@ let collection=
   {
     "name": "20240912_0099.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "locations",
       "trips",
       "website"
@@ -2883,9 +2910,9 @@ let collection=
   {
     "name": "20240912_0140.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -2899,9 +2926,9 @@ let collection=
   {
     "name": "20240912_0143.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -2915,9 +2942,9 @@ let collection=
   {
     "name": "20240912_0151.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -2931,9 +2958,9 @@ let collection=
   {
     "name": "20240912_0158.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -2949,9 +2976,9 @@ let collection=
   {
     "name": "20240912_0164.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "locations",
       "trips",
       "website"
@@ -2962,9 +2989,9 @@ let collection=
   {
     "name": "20240912_0230.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -2978,10 +3005,10 @@ let collection=
   {
     "name": "20240912_0274.jpg",
     "tags": [
+      "2024",
       "anna",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -2998,9 +3025,9 @@ let collection=
   {
     "name": "20240912_0299.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3014,9 +3041,9 @@ let collection=
   {
     "name": "20240912_0337.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3030,9 +3057,9 @@ let collection=
   {
     "name": "20240912_0351.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3048,9 +3075,9 @@ let collection=
   {
     "name": "20240912_0384.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3064,9 +3091,9 @@ let collection=
   {
     "name": "20240912_0387.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3080,10 +3107,10 @@ let collection=
   {
     "name": "20240912_0455.jpg",
     "tags": [
+      "2024",
       "architecture",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "trips",
@@ -3095,9 +3122,9 @@ let collection=
   {
     "name": "20240912_0462.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3113,9 +3140,9 @@ let collection=
   {
     "name": "20240912_0475.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3129,9 +3156,9 @@ let collection=
   {
     "name": "20240912_0486.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "locations",
       "trips",
       "website"
@@ -3142,9 +3169,9 @@ let collection=
   {
     "name": "20240912_0493.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3158,9 +3185,9 @@ let collection=
   {
     "name": "20240912_0501.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3174,9 +3201,9 @@ let collection=
   {
     "name": "20240912_0504.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3190,9 +3217,9 @@ let collection=
   {
     "name": "20240912_0506.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3206,9 +3233,9 @@ let collection=
   {
     "name": "20240912_0508.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3222,9 +3249,9 @@ let collection=
   {
     "name": "20240912_0553.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3240,9 +3267,9 @@ let collection=
   {
     "name": "20240912_0644.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3256,9 +3283,9 @@ let collection=
   {
     "name": "20240912_0670.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3274,9 +3301,9 @@ let collection=
   {
     "name": "20240912_0931.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3290,10 +3317,10 @@ let collection=
   {
     "name": "20240912_1050.jpg",
     "tags": [
+      "2024",
       "architecture",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "trips",
@@ -3305,9 +3332,9 @@ let collection=
   {
     "name": "20240912_1065.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3321,10 +3348,10 @@ let collection=
   {
     "name": "20240912_1083.jpg",
     "tags": [
+      "2024",
       "architecture",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3338,9 +3365,9 @@ let collection=
   {
     "name": "20240912_1196.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3354,10 +3381,10 @@ let collection=
   {
     "name": "20240912_1393.jpg",
     "tags": [
+      "2024",
       "anna",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3373,9 +3400,9 @@ let collection=
   {
     "name": "20240912_1537.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3389,9 +3416,9 @@ let collection=
   {
     "name": "20240912_1820.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3407,9 +3434,9 @@ let collection=
   {
     "name": "20240912_1844.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3425,9 +3452,9 @@ let collection=
   {
     "name": "20240912_2251.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "locations",
       "trips",
       "website"
@@ -3438,9 +3465,9 @@ let collection=
   {
     "name": "20240912_2278.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3454,10 +3481,10 @@ let collection=
   {
     "name": "20240912_2281.jpg",
     "tags": [
+      "2024",
       "anna",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "people",
@@ -3472,9 +3499,9 @@ let collection=
   {
     "name": "20240912_2299.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "locations",
       "trips",
       "website"
@@ -3485,9 +3512,9 @@ let collection=
   {
     "name": "20240912_2664.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3503,9 +3530,9 @@ let collection=
   {
     "name": "20240912_2710.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3519,9 +3546,9 @@ let collection=
   {
     "name": "20240912_2955.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3535,9 +3562,9 @@ let collection=
   {
     "name": "20240912_3202.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "locations",
       "trips",
       "website"
@@ -3548,9 +3575,9 @@ let collection=
   {
     "name": "20240912_3355.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3566,9 +3593,9 @@ let collection=
   {
     "name": "20240912_3443.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "locations",
       "nature",
@@ -3582,9 +3609,9 @@ let collection=
   {
     "name": "20240912_3572.jpg",
     "tags": [
+      "2024",
       "archive",
       "ecuador",
-      "ecuador2024",
       "genre",
       "landscape",
       "locations",
@@ -3745,6 +3772,7 @@ let collection=
   {
     "name": "20241022_0132.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -3753,7 +3781,6 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "wildlife",
       "zion"
@@ -3765,6 +3792,7 @@ let collection=
   {
     "name": "20241022_0168.jpg",
     "tags": [
+      "2024",
       "america",
       "genre",
       "landscape",
@@ -3773,7 +3801,6 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -3784,6 +3811,7 @@ let collection=
   {
     "name": "20241022_0175.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -3792,7 +3820,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -3802,6 +3829,7 @@ let collection=
   {
     "name": "20241022_0228.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -3811,7 +3839,6 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -3822,6 +3849,7 @@ let collection=
   {
     "name": "20241022_0249.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "astro",
@@ -3831,7 +3859,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -3841,6 +3868,7 @@ let collection=
   {
     "name": "20241022_0263.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -3849,7 +3877,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -3859,6 +3886,7 @@ let collection=
   {
     "name": "20241022_0630.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -3867,7 +3895,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -3877,6 +3904,7 @@ let collection=
   {
     "name": "20241022_0668.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -3885,7 +3913,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -3895,6 +3922,7 @@ let collection=
   {
     "name": "20241022_0812.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -3905,7 +3933,6 @@ let collection=
       "sunset",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -3915,6 +3942,7 @@ let collection=
   {
     "name": "20241022_0853.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -3924,7 +3952,6 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -3934,6 +3961,7 @@ let collection=
   {
     "name": "20241022_0884.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bryce",
@@ -3945,7 +3973,6 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "utah2024",
       "website"
     ],
     "heightRatio": 0.748276,
@@ -3955,6 +3982,7 @@ let collection=
   {
     "name": "20241022_0901.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -3964,7 +3992,6 @@ let collection=
       "sanddunes",
       "trips",
       "utah",
-      "utah2024",
       "website"
     ],
     "heightRatio": 0.748224,
@@ -3973,6 +4000,7 @@ let collection=
   {
     "name": "20241022_0973.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -3982,7 +4010,6 @@ let collection=
       "sanddunes",
       "trips",
       "utah",
-      "utah2024",
       "website"
     ],
     "heightRatio": 0.748276,
@@ -3991,6 +4018,7 @@ let collection=
   {
     "name": "20241022_1097.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -4000,7 +4028,6 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -4010,6 +4037,7 @@ let collection=
   {
     "name": "20241022_1346.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -4018,7 +4046,6 @@ let collection=
       "quailcreek",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "wildlife"
     ],
@@ -4028,6 +4055,7 @@ let collection=
   {
     "name": "20241022_1388.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -4037,7 +4065,6 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "wildlife"
     ],
@@ -4048,6 +4075,7 @@ let collection=
   {
     "name": "20241022_1514.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bryce",
@@ -4057,7 +4085,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website"
     ],
     "heightRatio": 1.33641,
@@ -4066,6 +4093,7 @@ let collection=
   {
     "name": "20241022_1561.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bryce",
@@ -4074,7 +4102,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "wildlife"
     ],
@@ -4084,6 +4111,7 @@ let collection=
   {
     "name": "20241022_1881.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bryce",
@@ -4093,7 +4121,6 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "wildlife"
     ],
@@ -4104,6 +4131,7 @@ let collection=
   {
     "name": "20241022_2032.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bryce",
@@ -4114,7 +4142,6 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "wildlife"
     ],
@@ -4125,6 +4152,7 @@ let collection=
   {
     "name": "20241022_2068.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "bryce",
@@ -4134,7 +4162,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website"
     ],
     "heightRatio": 0.748276,
@@ -4143,6 +4170,7 @@ let collection=
   {
     "name": "20241022_2533.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -4150,7 +4178,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "wildlife",
       "zion"
@@ -4161,6 +4188,7 @@ let collection=
   {
     "name": "20241022_2717.jpg",
     "tags": [
+      "2024",
       "america",
       "architecture",
       "archive",
@@ -4169,7 +4197,6 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -4180,6 +4207,7 @@ let collection=
   {
     "name": "20241022_2748.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -4187,7 +4215,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "wildlife",
       "zion"
@@ -4198,6 +4225,7 @@ let collection=
   {
     "name": "20241022_2750.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -4206,7 +4234,6 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "wildlife",
       "zion"
@@ -4218,6 +4245,7 @@ let collection=
   {
     "name": "20241022_2790.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -4226,7 +4254,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -4236,6 +4263,7 @@ let collection=
   {
     "name": "20241022_2838.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "genre",
@@ -4243,7 +4271,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "wildlife",
       "zion"
@@ -4254,6 +4281,7 @@ let collection=
   {
     "name": "20241022_3039.jpg",
     "tags": [
+      "2024",
       "america",
       "archive",
       "astro",
@@ -4262,7 +4290,6 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -4341,6 +4368,7 @@ let collection=
   {
     "name": "20241031_0002.jpg",
     "tags": [
+      "2024",
       "america",
       "bryce",
       "genre",
@@ -4352,7 +4380,6 @@ let collection=
       "series",
       "trips",
       "utah",
-      "utah2024",
       "website"
     ],
     "heightRatio": 0.352911,
@@ -4450,6 +4477,7 @@ let collection=
   {
     "name": "20241105_0001.jpg",
     "tags": [
+      "2024",
       "america",
       "genre",
       "landscape",
@@ -4460,7 +4488,6 @@ let collection=
       "series",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
@@ -4471,6 +4498,7 @@ let collection=
   {
     "name": "20241105_0002.jpg",
     "tags": [
+      "2024",
       "america",
       "locations",
       "panorama",
@@ -4478,7 +4506,6 @@ let collection=
       "series",
       "trips",
       "utah",
-      "utah2024",
       "website",
       "zion"
     ],
