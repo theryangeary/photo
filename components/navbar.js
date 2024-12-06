@@ -24,9 +24,9 @@ class Navbar extends HTMLElement {
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">On Location</a>
         <div class="dropdown-content">
-            <a href="/photo/?trip=pnw2024">Pacific Northwest</a>
-            <a href="/photo/?trip=ecuador">Ecuador</a>
-            <a href="/photo/?trip=utah">Utah</a>
+            <a href="/photo/trips/2024/pnw">Pacific Northwest</a>
+            <a href="/photo/trips/2024/ecuador">Ecuador</a>
+            <a href="/photo/trips/2024/utah">Utah</a>
         </div>
     </li>
     <li class="dropdown">

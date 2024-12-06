@@ -327,7 +327,8 @@ function main() {
         return
     }
 
-    if (prefix == null && archiveMonth == null && trip == null) {
+    if ((prefix == null && archiveMonth == null && trip == null) &&
+        (!relevantPath.includes("prefix") && !relevantPath.includes("archive") && !relevantPath.includes("trips"))) {
         // display newest first for collections that are not obligated to be chronological
         displayCollection.reverse()
         // display highest rated first for collections that are not obligated to be chronological
