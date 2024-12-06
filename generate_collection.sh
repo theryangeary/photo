@@ -1,5 +1,7 @@
 #!/bin/bash
 
+output_file="collection.js"
+
 calc(){ awk "BEGIN { print "$*" }"; }
 export -f calc
 
@@ -33,4 +35,6 @@ function path_to_js_object() {
 }
 export -f path_to_js_object
 
-sed -i.bak "s/^collection=.*/$(find . -name '*.jpg' | xargs -n 1 -I {} bash -c 'path_to_js_object "$@"' _ {} | sort | gawk 'BEGINFILE{print "collection=["}{print $0 ","}ENDFILE{print "]"}' | tr '\n' ' ' )/" script.js
+echo "let collection=" > $output_file
+find . -name '*.jpg' | xargs -n 1 -I {} bash -c 'path_to_js_object "$@"' _ {} | sort | jq --slurp . >> $output_file
+echo "export {collection};" >> $output_file
