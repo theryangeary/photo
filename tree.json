@@ -1,6 +1,7 @@
 [
   {
     "archive": [
+      2024,
       202405,
       202406,
       202407,
@@ -14,20 +15,20 @@
     "trips": [
       {
         "2024": [
-              "pnw",
-              "ecuador",
-              "utah"
+          "pnw",
+          "ecuador",
+          "utah"
         ]
       }
     ]
   },
   {
     "selectedworks": [
-        "panorama",
-        "street",
-        "cityscape",
-        "landscape",
-        "wildlife"
+      "panorama",
+      "street",
+      "cityscape",
+      "landscape",
+      "wildlife"
     ]
   }
 ]
