@@ -116,6 +116,9 @@ class Fullover extends HTMLElement {
 
     render() {
         const src = this.getAttribute('src')
+        if (src === null) {
+            return
+        }
         const description = this.getDescription()
         this.innerHTML = `
 <div id="fullover" onclick="document.getElementById('fullover-component').hide()">
