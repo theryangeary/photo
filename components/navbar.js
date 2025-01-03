@@ -39,6 +39,7 @@ class Navbar extends HTMLElement {
             <a href="/photo/archive/202409">September 2024</a>
             <a href="/photo/archive/202410">October 2024</a>
             <a href="/photo/archive/202411">November 2024</a>
+            <a href="/photo/archive/202412">December 2024</a>
         </div>
     </li>
 </ul>
