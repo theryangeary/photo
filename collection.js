@@ -1612,7 +1612,7 @@ let collection=
     ],
     "heightRatio": 0.666667,
     "title": "American Robin with Juvenile, Fort Greene Park",
-    "rating": 4
+    "rating": 2
   },
   {
     "name": "20240707_0038.jpg",
@@ -2965,7 +2965,7 @@ let collection=
     ],
     "heightRatio": 0.748148,
     "title": "Llamas, Tambo Condor",
-    "rating": 4
+    "rating": 3
   },
   {
     "name": "20240912_0164.jpg",
@@ -3423,7 +3423,7 @@ let collection=
     ],
     "heightRatio": 1.33663,
     "title": "Masked Trogon, Bellavista Cloud Forest",
-    "rating": 4
+    "rating": 2
   },
   {
     "name": "20240912_1844.jpg",
@@ -3441,7 +3441,7 @@ let collection=
     ],
     "heightRatio": 0.748148,
     "title": "Flame-faced Tanager, Bellavista Cloud Forest",
-    "rating": 4
+    "rating": 2
   },
   {
     "name": "20240912_2251.jpg",
@@ -4120,7 +4120,7 @@ let collection=
     ],
     "heightRatio": 0.748148,
     "title": "Common Ravens, Bryce Canyon",
-    "rating": 3
+    "rating": 2
   },
   {
     "name": "20241022_2032.jpg",
@@ -4234,7 +4234,7 @@ let collection=
     ],
     "heightRatio": 0.748148,
     "title": "Mule Deer, Zion",
-    "rating": 3
+    "rating": 2
   },
   {
     "name": "20241022_2790.jpg",
@@ -4432,7 +4432,7 @@ let collection=
     ],
     "heightRatio": 0.750926,
     "title": "Mallards, Battery Park",
-    "rating": 4
+    "rating": 2
   },
   {
     "name": "20241103_0413.jpg",
@@ -4466,7 +4466,7 @@ let collection=
     ],
     "heightRatio": 0.750926,
     "title": "Blue Jay, Greenwood Cemetery",
-    "rating": 3
+    "rating": 2
   },
   {
     "name": "20241105_0001.jpg",
@@ -4675,7 +4675,7 @@ let collection=
     ],
     "heightRatio": 0.750926,
     "title": "Intruder Detected",
-    "rating": 3
+    "rating": 2
   },
   {
     "name": "20241110_0691.jpg",
@@ -5804,6 +5804,18 @@ let collection=
     "rating": 2
   },
   {
+    "name": "20250303_0488.jpg",
+    "tags": [
+      "genre",
+      "nature",
+      "selectedworks",
+      "website",
+      "wildlife"
+    ],
+    "heightRatio": 0.750926,
+    "rating": 4
+  },
+  {
     "name": "20250310_0433.jpg",
     "tags": [
       "2025",
@@ -5821,8 +5833,11 @@ let collection=
       "2025",
       "archive",
       "everglades",
+      "genre",
+      "nature",
       "trips",
-      "website"
+      "website",
+      "wildlife"
     ],
     "heightRatio": 0.750926,
     "rating": 2
@@ -5833,11 +5848,15 @@ let collection=
       "2025",
       "archive",
       "everglades",
+      "genre",
+      "nature",
+      "selectedworks",
       "trips",
-      "website"
+      "website",
+      "wildlife"
     ],
     "heightRatio": 1.35849,
-    "rating": 2
+    "rating": 3
   },
   {
     "name": "20250310_2623.jpg",
@@ -5845,11 +5864,15 @@ let collection=
       "2025",
       "archive",
       "everglades",
+      "genre",
+      "nature",
+      "selectedworks",
       "trips",
-      "website"
+      "website",
+      "wildlife"
     ],
     "heightRatio": 0.750926,
-    "rating": 2
+    "rating": 4
   },
   {
     "name": "20250311_0126.jpg",
@@ -5881,11 +5904,15 @@ let collection=
       "2025",
       "archive",
       "everglades",
+      "genre",
+      "nature",
+      "selectedworks",
       "trips",
-      "website"
+      "website",
+      "wildlife"
     ],
     "heightRatio": 0.750926,
-    "rating": 2
+    "rating": 3
   },
   {
     "name": "20250311_0842.jpg",
@@ -5893,8 +5920,11 @@ let collection=
       "2025",
       "archive",
       "everglades",
+      "genre",
+      "nature",
       "trips",
-      "website"
+      "website",
+      "wildlife"
     ],
     "heightRatio": 1.33169,
     "rating": 2
@@ -5941,11 +5971,15 @@ let collection=
       "2025",
       "archive",
       "everglades",
+      "genre",
+      "nature",
+      "selectedworks",
       "trips",
-      "website"
+      "website",
+      "wildlife"
     ],
     "heightRatio": 0.750926,
-    "rating": 2
+    "rating": 4
   },
   {
     "name": "20250312_0568.jpg",
@@ -5953,8 +5987,12 @@ let collection=
       "2025",
       "archive",
       "everglades",
+      "genre",
+      "nature",
+      "selectedworks",
       "trips",
-      "website"
+      "website",
+      "wildlife"
     ],
     "heightRatio": 1.33169,
     "rating": 5
@@ -5977,8 +6015,11 @@ let collection=
       "2025",
       "archive",
       "everglades",
+      "genre",
+      "nature",
       "trips",
-      "website"
+      "website",
+      "wildlife"
     ],
     "heightRatio": 1.33169,
     "rating": 2
@@ -6085,8 +6126,11 @@ let collection=
       "2025",
       "archive",
       "everglades",
+      "genre",
+      "nature",
       "trips",
-      "website"
+      "website",
+      "wildlife"
     ],
     "heightRatio": 0.750926,
     "rating": 2
@@ -6097,11 +6141,15 @@ let collection=
       "2025",
       "archive",
       "everglades",
+      "genre",
+      "nature",
+      "selectedworks",
       "trips",
-      "website"
+      "website",
+      "wildlife"
     ],
     "heightRatio": 0.750926,
-    "rating": 2
+    "rating": 3
   },
   {
     "name": "verrazzano.jpg",
