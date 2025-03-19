@@ -27,6 +27,7 @@ class Navbar extends HTMLElement {
             <a href="/photo/trips/2024/pnw">Pacific Northwest</a>
             <a href="/photo/trips/2024/ecuador">Ecuador</a>
             <a href="/photo/trips/2024/utah">Utah</a>
+            <a href="/photo/trips/2025/everglades">Everglades</a>
         </div>
     </li>
     <li class="dropdown">

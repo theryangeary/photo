@@ -322,6 +322,7 @@ function main() {
     for (let i = 0; i < collection.length; i++) {
         for (let filterIdx = 0; filterIdx < filters.length; filterIdx++) {
             if (filters[filterIdx](collection[i])) {
+                console.log(filters[filterIdx], collection[i])
                 continue eachimg
             }
         }
