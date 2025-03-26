@@ -19,6 +19,7 @@ class Navbar extends HTMLElement {
             <a href="/photo/selectedworks/cityscape">Cityscapes</a>
             <a href="/photo/selectedworks/landscape">Landscape</a>
             <a href="/photo/selectedworks/wildlife">Wildlife</a>
+            <a href="/photo/selectedworks/subwayentrance">Subway Structures</a>
         </div>
     </li>
     <li class="dropdown">

@@ -11,9 +11,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -27,9 +27,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -43,9 +43,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -60,10 +60,10 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleTheHighlineHotelRating4"
     ],
-    "heightRatio": 1.33663,
-    "title": "The Highline Hotel",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, new york, nyc, selectedworks, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -79,10 +79,10 @@ let collection=
       "portfolio",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleCyclistUndertheHighlineRating5"
     ],
-    "heightRatio": 1.33663,
-    "title": "Cyclist Under the Highline",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, portfolio, selectedworks, street, website Exif Image Height ",
     "rating": 5
   },
   {
@@ -98,10 +98,10 @@ let collection=
       "portfolio",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080TitleHotelSt.GeorgeLiquorStoreRating4"
     ],
-    "heightRatio": 0.747222,
-    "title": "Hotel St. George Liquor Store",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, portfolio, selectedworks, street, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -115,9 +115,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.747222,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -133,9 +133,9 @@ let collection=
       "people",
       "portrait",
       "subject",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -149,9 +149,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth807Rating3"
     ],
-    "heightRatio": 1.33829,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -165,9 +165,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -181,9 +181,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -197,9 +197,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth794Rating3"
     ],
-    "heightRatio": 1.3602,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -213,9 +213,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth784Rating3"
     ],
-    "heightRatio": 1.37755,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -229,9 +229,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight802ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.742593,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -247,9 +247,10 @@ let collection=
       "selectedworks",
       "series",
       "subwayentrance",
-      "website"
+      "website",
+      "year1ExifImageHeight864ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.747222,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -263,9 +264,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -279,9 +280,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth791Rating3"
     ],
-    "heightRatio": 1.36536,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -295,9 +296,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight802ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.742593,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -311,9 +312,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight730ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.675926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -330,10 +331,10 @@ let collection=
       "selectedworks",
       "street",
       "subject",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleNJTransitRiderRating4"
     ],
-    "heightRatio": 1.33663,
-    "title": "NJ Transit Rider",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, portfolio, selectedworks, street, subject, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -347,9 +348,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -364,10 +365,10 @@ let collection=
       "nature",
       "newjersey",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080TitleBeachHousesRating3"
     ],
-    "heightRatio": 0.748148,
-    "title": "Beach Houses",
+    "heightRatio": 1,
+    "title": "america, archive, genre, landscape, locations, long branch, nature, new jersey, selectedworks, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -381,7 +382,7 @@ let collection=
       "longbranch",
       "nature",
       "newjersey",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth1080Rating4"
     ],
     "heightRatio": 1,
     "rating": 4
@@ -397,9 +398,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -413,9 +414,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth807Rating3"
     ],
-    "heightRatio": 1.33829,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -429,9 +430,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -448,9 +449,9 @@ let collection=
       "portfolio",
       "portrait",
       "subject",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -464,9 +465,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth808Rating2"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -480,9 +481,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -496,9 +497,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight812ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.751852,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -512,9 +513,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.747222,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -528,9 +529,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth799Rating3"
     ],
-    "heightRatio": 1.35169,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -544,9 +545,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth775Rating3"
     ],
-    "heightRatio": 1.39355,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -560,9 +561,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -576,9 +577,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth797Rating3"
     ],
-    "heightRatio": 1.35508,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -592,9 +593,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -608,9 +609,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -624,9 +625,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth800Rating3"
     ],
-    "heightRatio": 1.35,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -640,9 +641,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -656,9 +657,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth795Rating4"
     ],
-    "heightRatio": 1.35849,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -672,9 +673,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth807Rating3"
     ],
-    "heightRatio": 1.33829,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -688,9 +689,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth795Rating3"
     ],
-    "heightRatio": 1.35849,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -704,9 +705,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth786Rating4"
     ],
-    "heightRatio": 1.37405,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -720,9 +721,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight793ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.734259,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -736,9 +737,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -753,9 +754,9 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -769,9 +770,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth804Rating3"
     ],
-    "heightRatio": 1.34328,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -785,9 +786,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -801,9 +802,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth808Rating2"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -817,9 +818,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -835,10 +836,10 @@ let collection=
       "nyc",
       "portfolio",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth807TitleProspectParkPaddleBoatsRating4"
     ],
-    "heightRatio": 1.33829,
-    "title": "Prospect Park Paddle Boats",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, new york, nyc, portfolio, selectedworks, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -852,9 +853,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -868,9 +869,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight771ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.713889,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -884,9 +885,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight805ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.74537,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -900,9 +901,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth863Rating3"
     ],
-    "heightRatio": 1.25145,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -916,9 +917,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -932,9 +933,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -948,9 +949,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -965,10 +966,10 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleFerryUnderManhattanBridgeRating4"
     ],
-    "heightRatio": 1.33663,
-    "title": "Ferry Under Manhattan Bridge",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, new york, nyc, selectedworks, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -982,9 +983,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth799Rating3"
     ],
-    "heightRatio": 1.35169,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -998,9 +999,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1014,9 +1015,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth733Rating3"
     ],
-    "heightRatio": 1.4734,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1030,9 +1031,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1046,9 +1047,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1062,9 +1063,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1080,9 +1081,9 @@ let collection=
       "selectedworks",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight583ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.539815,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1098,10 +1099,10 @@ let collection=
       "sanfrancisco",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleF-MarketHistoricStreetcarRating4"
     ],
-    "heightRatio": 1.33663,
-    "title": "F-Market Historic Streetcar",
+    "heightRatio": 1,
+    "title": "america, archive, california, city, genre, locations, portfolio, san francisco, selectedworks, street, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -1114,9 +1115,9 @@ let collection=
       "genre",
       "locations",
       "sanfrancisco",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth710Rating3"
     ],
-    "heightRatio": 1.52113,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1129,9 +1130,9 @@ let collection=
       "locations",
       "sanfrancisco",
       "stilllife",
-      "website"
+      "websiteExifImageHeight805ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.74537,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1148,9 +1149,9 @@ let collection=
       "sanfrancisco",
       "street",
       "subject",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth800Rating3"
     ],
-    "heightRatio": 1.35,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1167,10 +1168,10 @@ let collection=
       "selectedworks",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight539ExifImageWidth1080TitlePalaceofFineArtsRating4"
     ],
-    "heightRatio": 0.499074,
-    "title": "Palace of Fine Arts",
+    "heightRatio": 1,
+    "title": "america, archive, california, city, cityscape, genre, locations, san francisco, selectedworks, subject, sunset, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -1186,9 +1187,9 @@ let collection=
       "sanfrancisco",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth778Rating3"
     ],
-    "heightRatio": 1.38817,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1202,9 +1203,9 @@ let collection=
       "locations",
       "nature",
       "sanfrancisco",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth804Rating3"
     ],
-    "heightRatio": 1.34328,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1220,10 +1221,10 @@ let collection=
       "portfolio",
       "sanfrancisco",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleGoldenGateBridgeRating4"
     ],
-    "heightRatio": 1.33663,
-    "title": "Golden Gate Bridge",
+    "heightRatio": 1,
+    "title": "america, archive, california, genre, landscape, locations, nature, portfolio, san francisco, selectedworks, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -1237,9 +1238,9 @@ let collection=
       "locations",
       "nature",
       "sanfrancisco",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1253,10 +1254,10 @@ let collection=
       "selectedworks",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight583ExifImageWidth1080TitleTheWindlassRating4"
     ],
-    "heightRatio": 0.539815,
-    "title": "The Windlass",
+    "heightRatio": 1,
+    "title": "archive, genre, landscape, nature, portfolio, selectedworks, subject, sunset, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -1272,10 +1273,10 @@ let collection=
       "nyc",
       "portfolio",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleBirthdayPartyRating4"
     ],
-    "heightRatio": 1.33663,
-    "title": "Birthday Party",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, new york, nyc, portfolio, selectedworks, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -1291,9 +1292,9 @@ let collection=
       "nyc",
       "street",
       "subject",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.747222,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1309,10 +1310,10 @@ let collection=
       "portfolio",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth807TitlePradaPortholeRating4"
     ],
-    "heightRatio": 1.33829,
-    "title": "Prada Porthole",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, portfolio, selectedworks, street, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -1326,9 +1327,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1344,9 +1345,9 @@ let collection=
       "portfolio",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1356,9 +1357,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website"
+      "websiteExifImageHeight925ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.856481,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1368,9 +1369,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1381,10 +1382,10 @@ let collection=
       "cityscape",
       "genre",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleShoreRoadParkDugoutRating4"
     ],
-    "heightRatio": 1.33663,
-    "title": "Shore Road Park Dugout",
+    "heightRatio": 1,
+    "title": "archive, city, cityscape, genre, selectedworks, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -1394,9 +1395,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1406,9 +1407,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1418,9 +1419,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1433,9 +1434,9 @@ let collection=
       "portfolio",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth807Rating4"
     ],
-    "heightRatio": 1.33829,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1448,10 +1449,10 @@ let collection=
       "neon",
       "selectedworks",
       "subject",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080TitleNitehawkCinemaRating4"
     ],
-    "heightRatio": 0.748148,
-    "title": "Nitehawk Cinema",
+    "heightRatio": 1,
+    "title": "archive, city, cityscape, genre, neon, selectedworks, subject, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -1463,9 +1464,9 @@ let collection=
       "genre",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1480,10 +1481,10 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight809ExifImageWidth1080TitleYouLookGreatToday!Rating3"
     ],
-    "heightRatio": 0.749074,
-    "title": "You Look Great Today!",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, selectedworks, street, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -1499,10 +1500,10 @@ let collection=
       "panorama",
       "selectedworks",
       "series",
-      "website"
+      "websiteExifImageHeight381ExifImageWidth1080TitleDowntownManhattanRating3"
     ],
-    "heightRatio": 0.352778,
-    "title": "Downtown Manhattan",
+    "heightRatio": 1,
+    "title": "america, city, cityscape, genre, locations, new york, nyc, panorama, selectedworks, series, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -1517,10 +1518,10 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleManhattanBridgeWalkwayRating3"
     ],
-    "heightRatio": 1.33663,
-    "title": "Manhattan Bridge Walkway",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, selectedworks, street, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -1532,9 +1533,9 @@ let collection=
       "genre",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1544,9 +1545,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1556,9 +1557,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website"
+      "websiteExifImageHeight864ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.8,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1575,9 +1576,9 @@ let collection=
       "nyc",
       "people",
       "subject",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1591,9 +1592,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight785ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.726852,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1608,10 +1609,11 @@ let collection=
       "nyc",
       "selectedworks",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight720ExifImageWidth1080TitleAmericanRobinwithJuvenile",
+      "FortGreeneParkRating2"
     ],
-    "heightRatio": 0.666667,
-    "title": "American Robin with Juvenile, Fort Greene Park",
+    "heightRatio": 1,
+    "title": "america, archive, genre, locations, nature, new york, nyc, selectedworks, website, wildlife Exif Image Height ",
     "rating": 2
   },
   {
@@ -1625,9 +1627,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight720ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.666667,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -1641,9 +1643,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1661,10 +1663,10 @@ let collection=
       "selectedworks",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080TitleLongBranchStationRating4"
     ],
-    "heightRatio": 0.748148,
-    "title": "Long Branch Station",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, long branch, new jersey, portfolio, selectedworks, subject, sunset, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -1679,9 +1681,9 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1695,9 +1697,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight539ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.499074,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1711,9 +1713,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1727,9 +1729,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1743,9 +1745,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth925Rating3"
     ],
-    "heightRatio": 1.16757,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1759,9 +1761,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight925ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.856481,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1775,9 +1777,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight540ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.5,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1791,9 +1793,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1812,9 +1814,9 @@ let collection=
       "subject",
       "trips",
       "washington",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1834,9 +1836,9 @@ let collection=
       "subject",
       "trips",
       "washington",
-      "website"
+      "websiteExifImageHeight791ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.732407,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1853,9 +1855,9 @@ let collection=
       "seattle",
       "trips",
       "washington",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1872,9 +1874,9 @@ let collection=
       "trips",
       "washington",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -1893,10 +1895,10 @@ let collection=
       "selectedworks",
       "trips",
       "washington",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080TitlePointDefianceRating4"
     ],
-    "heightRatio": 0.747222,
-    "title": "Point Defiance",
+    "heightRatio": 1,
+    "title": "2024, america, archive, genre, landscape, locations, nature, pnw, portfolio, seattle, selectedworks, trips, washington, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -1916,9 +1918,9 @@ let collection=
       "subject",
       "trips",
       "washington",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth925Rating3"
     ],
-    "heightRatio": 1.16757,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -1938,9 +1940,9 @@ let collection=
       "subject",
       "trips",
       "washington",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth925Rating4"
     ],
-    "heightRatio": 1.16757,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1960,9 +1962,9 @@ let collection=
       "subject",
       "trips",
       "washington",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -1981,10 +1983,10 @@ let collection=
       "selectedworks",
       "trips",
       "washington",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleMtRainierRating4"
     ],
-    "heightRatio": 1.33663,
-    "title": "Mt Rainier",
+    "heightRatio": 1,
+    "title": "2024, america, archive, genre, landscape, locations, mt rainier, nature, pnw, portfolio, selectedworks, trips, washington, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -2001,9 +2003,9 @@ let collection=
       "pnw",
       "trips",
       "washington",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -2020,9 +2022,9 @@ let collection=
       "pnw",
       "trips",
       "washington",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2039,10 +2041,12 @@ let collection=
       "portland",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080TitleSpottedTowhee",
+      "InternationalRoseTestGarden",
+      "PortlandRating3"
     ],
-    "heightRatio": 0.748148,
-    "title": "Spotted Towhee, International Rose Test Garden, Portland",
+    "heightRatio": 1,
+    "title": "2024, america, archive, genre, locations, nature, oregon, pnw, portland, trips, website, wildlife Exif Image Height ",
     "rating": 3
   },
   {
@@ -2059,9 +2063,9 @@ let collection=
       "oregon",
       "pnw",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2079,10 +2083,11 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080TitleGolden-MantledGroundSquirrel",
+      "MtHoodRating5"
     ],
-    "heightRatio": 0.748148,
-    "title": "Golden-Mantled Ground Squirrel, Mt Hood",
+    "heightRatio": 1,
+    "title": "2024, america, archive, genre, locations, mt hood, nature, oregon, pnw, selectedworks, trips, website, wildlife Exif Image Height ",
     "rating": 5
   },
   {
@@ -2099,9 +2104,9 @@ let collection=
       "oregon",
       "pnw",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2118,9 +2123,9 @@ let collection=
       "oregon",
       "pnw",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2137,9 +2142,9 @@ let collection=
       "oregon",
       "pnw",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2156,9 +2161,9 @@ let collection=
       "oregon",
       "pnw",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2176,10 +2181,11 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth807TitleWesternFenceLizard",
+      "BendRating3"
     ],
-    "heightRatio": 1.33829,
-    "title": "Western Fence Lizard, Bend",
+    "heightRatio": 1,
+    "title": "2024, america, archive, bend, genre, locations, nature, oregon, pnw, selectedworks, trips, website, wildlife Exif Image Height ",
     "rating": 3
   },
   {
@@ -2197,10 +2203,10 @@ let collection=
       "pnw",
       "selectedworks",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleMiseryRidgeRating4"
     ],
-    "heightRatio": 1.33663,
-    "title": "Misery Ridge",
+    "heightRatio": 1,
+    "title": "2024, america, archive, bend, genre, landscape, locations, nature, oregon, pnw, selectedworks, trips, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -2220,9 +2226,9 @@ let collection=
       "pnw",
       "subject",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2239,9 +2245,9 @@ let collection=
       "oregon",
       "pnw",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2259,10 +2265,10 @@ let collection=
       "pnw",
       "selectedworks",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleCrookedRiverfromMiseryRidgeRating4"
     ],
-    "heightRatio": 1.33663,
-    "title": "Crooked River from Misery Ridge",
+    "heightRatio": 1,
+    "title": "2024, america, archive, bend, genre, landscape, locations, nature, oregon, pnw, selectedworks, trips, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -2283,10 +2289,10 @@ let collection=
       "selectedworks",
       "subject",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080TitleMiseryRidgeTrailRating3"
     ],
-    "heightRatio": 0.748148,
-    "title": "Misery Ridge Trail",
+    "heightRatio": 1,
+    "title": "2024, america, anna, archive, bend, genre, landscape, locations, nature, oregon, people, pnw, selectedworks, subject, trips, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -2305,10 +2311,10 @@ let collection=
       "portfolio",
       "selectedworks",
       "trips",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080TitleSwimmersinCraterLakeRating5"
     ],
-    "heightRatio": 0.747222,
-    "title": "Swimmers in Crater Lake",
+    "heightRatio": 1,
+    "title": "2024, america, archive, crater lake, genre, landscape, locations, nature, oregon, pnw, portfolio, selectedworks, trips, website Exif Image Height ",
     "rating": 5
   },
   {
@@ -2325,9 +2331,9 @@ let collection=
       "oregon",
       "pnw",
       "trips",
-      "website"
+      "websiteExifImageHeight799ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.739815,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2345,10 +2351,10 @@ let collection=
       "pnw",
       "selectedworks",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth807TitleOuthouseatCraterLakeRating4"
     ],
-    "heightRatio": 1.33829,
-    "title": "Outhouse at Crater Lake",
+    "heightRatio": 1,
+    "title": "2024, america, archive, crater lake, genre, landscape, locations, nature, oregon, pnw, selectedworks, trips, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -2363,10 +2369,25 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080TitleManhattanBridgeMaintenanceDoorRating3"
     ],
-    "heightRatio": 0.747222,
-    "title": "Manhattan Bridge Maintenance Door",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, new york, nyc, selectedworks, website Exif Image Height ",
+    "rating": 3
+  },
+  {
+    "name": "20240804_0113.jpg",
+    "tags": [
+      "america",
+      "locations",
+      "newyork",
+      "nyc",
+      "selectedworks",
+      "series",
+      "subwayentrance",
+      "websiteExifImageHeight846ExifImageWidth1080Rating3"
+    ],
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2380,7 +2401,7 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth1080Rating3"
     ],
     "heightRatio": 1,
     "rating": 3
@@ -2398,10 +2419,11 @@ let collection=
       "panorama",
       "selectedworks",
       "series",
-      "website"
+      "websiteExifImageHeight381ExifImageWidth1080TitleVanDykeSt",
+      "RedHookRating3"
     ],
-    "heightRatio": 0.352778,
-    "title": "Van Dyke St, Red Hook",
+    "heightRatio": 1,
+    "title": "america, city, cityscape, genre, locations, new york, nyc, panorama, selectedworks, series, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -2413,10 +2435,10 @@ let collection=
       "portfolio",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight804ExifImageWidth1080TitleSteve'sKeyLimePieRating4"
     ],
-    "heightRatio": 0.744444,
-    "title": "Steve's Key Lime Pie",
+    "heightRatio": 1,
+    "title": "archive, city, genre, portfolio, selectedworks, street, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -2430,7 +2452,7 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth1080Rating3"
     ],
     "heightRatio": 1,
     "rating": 3
@@ -2446,9 +2468,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.747222,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2463,10 +2485,25 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 4
+  },
+  {
+    "name": "20240809_0130.jpg",
+    "tags": [
+      "america",
+      "locations",
+      "newyork",
+      "nyc",
+      "selectedworks",
+      "series",
+      "subwayentrance",
+      "websiteExifImageHeight807ExifImageWidth1080Rating3"
+    ],
+    "heightRatio": 1,
+    "rating": 3
   },
   {
     "name": "20240813_0001.jpg",
@@ -2479,7 +2516,7 @@ let collection=
       "genre",
       "locations",
       "massachusetts",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth1080Rating3"
     ],
     "heightRatio": 1,
     "rating": 3
@@ -2496,10 +2533,10 @@ let collection=
       "locations",
       "massachusetts",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth1080TitleForestHillsBoundOrangeLineRating4"
     ],
     "heightRatio": 1,
-    "title": "Forest Hills Bound Orange Line",
+    "title": "america, archive, boston, city, cityscape, genre, locations, massachusetts, selectedworks, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -2513,7 +2550,7 @@ let collection=
       "genre",
       "locations",
       "massachusetts",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth1080Rating3"
     ],
     "heightRatio": 1,
     "rating": 3
@@ -2531,7 +2568,7 @@ let collection=
       "nyc",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth1080Rating3"
     ],
     "heightRatio": 1,
     "rating": 3
@@ -2551,10 +2588,10 @@ let collection=
       "series",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight381ExifImageWidth1080TitlePier2Rating4"
     ],
-    "heightRatio": 0.352778,
-    "title": "Pier 2",
+    "heightRatio": 1,
+    "title": "america, city, cityscape, genre, locations, new york, nyc, panorama, selectedworks, series, subject, sunset, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -2570,9 +2607,9 @@ let collection=
       "nyc",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2586,9 +2623,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2602,7 +2639,7 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth1080Rating3"
     ],
     "heightRatio": 1,
     "rating": 3
@@ -2619,9 +2656,9 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth807Rating3"
     ],
-    "heightRatio": 1.33829,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2635,9 +2672,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2651,9 +2688,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2668,10 +2705,10 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080TitleDogUndertheManhattanBridgeOverpass(DUMBO)Rating3"
     ],
-    "heightRatio": 0.748148,
-    "title": "Dog Under the Manhattan Bridge Overpass (DUMBO)",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, selectedworks, street, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -2686,10 +2723,10 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080TitleJane'sCarouselRating3"
     ],
-    "heightRatio": 0.748148,
-    "title": "Jane's Carousel",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, new york, nyc, selectedworks, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -2703,9 +2740,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2719,10 +2756,10 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808TitleHopscotchRating3"
     ],
-    "heightRatio": 1.33663,
-    "title": "Hopscotch",
+    "heightRatio": 1,
+    "title": "america, architecture, archive, genre, locations, new york, nyc, selectedworks, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -2737,10 +2774,10 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080TitleBrooklynSchoolYardRating3"
     ],
-    "heightRatio": 0.747222,
-    "title": "Brooklyn School Yard",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, new york, nyc, selectedworks, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -2754,9 +2791,9 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2771,7 +2808,7 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth1080Rating3"
     ],
     "heightRatio": 1,
     "rating": 3
@@ -2788,10 +2825,10 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080TitleAmsterdamBilliardsRating3"
     ],
-    "heightRatio": 0.748148,
-    "title": "Amsterdam Billiards",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, new york, nyc, selectedworks, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -2805,9 +2842,24 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
+    "rating": 3
+  },
+  {
+    "name": "20240829_0246.jpg",
+    "tags": [
+      "america",
+      "locations",
+      "newyork",
+      "nyc",
+      "selectedworks",
+      "series",
+      "subwayentrance",
+      "websiteExifImageHeight820ExifImageWidth1080Rating3"
+    ],
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2818,9 +2870,9 @@ let collection=
       "ecuador",
       "locations",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating1"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 1
   },
   {
@@ -2836,9 +2888,9 @@ let collection=
       "portrait",
       "subject",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2855,9 +2907,9 @@ let collection=
       "people",
       "subject",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2870,9 +2922,9 @@ let collection=
       "genre",
       "locations",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2883,9 +2935,9 @@ let collection=
       "ecuador",
       "locations",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating1"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 1
   },
   {
@@ -2896,9 +2948,9 @@ let collection=
       "ecuador",
       "locations",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating1"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 1
   },
   {
@@ -2912,9 +2964,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth808Rating2"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -2928,9 +2980,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2944,9 +2996,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -2961,10 +3013,11 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080TitleLlamas",
+      "TamboCondorRating3"
     ],
-    "heightRatio": 0.748148,
-    "title": "Llamas, Tambo Condor",
+    "heightRatio": 1,
+    "title": "2024, archive, ecuador, genre, locations, nature, selectedworks, trips, website, wildlife Exif Image Height ",
     "rating": 3
   },
   {
@@ -2975,9 +3028,9 @@ let collection=
       "ecuador",
       "locations",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating1"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 1
   },
   {
@@ -2991,9 +3044,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight807ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.747222,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -3011,9 +3064,9 @@ let collection=
       "selectedworks",
       "subject",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3027,9 +3080,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3043,9 +3096,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3060,10 +3113,11 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080TitleCarunculatedCaracara",
+      "Cayambe-CocaRating5"
     ],
-    "heightRatio": 0.748148,
-    "title": "Carunculated Caracara, Cayambe-Coca",
+    "heightRatio": 1,
+    "title": "2024, archive, ecuador, genre, locations, nature, selectedworks, trips, website, wildlife Exif Image Height ",
     "rating": 5
   },
   {
@@ -3077,9 +3131,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3093,9 +3147,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3108,9 +3162,9 @@ let collection=
       "genre",
       "locations",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3126,9 +3180,9 @@ let collection=
       "subject",
       "sunset",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3142,9 +3196,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth807Rating3"
     ],
-    "heightRatio": 1.33829,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3155,9 +3209,9 @@ let collection=
       "ecuador",
       "locations",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating1"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 1
   },
   {
@@ -3171,9 +3225,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3187,9 +3241,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3203,9 +3257,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3219,9 +3273,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3235,9 +3289,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3252,10 +3306,10 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080TitleBuff-tailedCoronetRating4"
     ],
-    "heightRatio": 0.748148,
-    "title": "Buff-tailed Coronet",
+    "heightRatio": 1,
+    "title": "2024, archive, ecuador, genre, locations, nature, selectedworks, trips, website, wildlife Exif Image Height ",
     "rating": 4
   },
   {
@@ -3269,9 +3323,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3286,10 +3340,10 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080TitleChesnut-breastedCoronetRating5"
     ],
-    "heightRatio": 0.748148,
-    "title": "Chesnut-breasted Coronet",
+    "heightRatio": 1,
+    "title": "2024, archive, ecuador, genre, locations, nature, selectedworks, trips, website, wildlife Exif Image Height ",
     "rating": 5
   },
   {
@@ -3303,9 +3357,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -3318,9 +3372,9 @@ let collection=
       "genre",
       "locations",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3334,9 +3388,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3351,9 +3405,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.747222,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3367,9 +3421,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3386,9 +3440,9 @@ let collection=
       "people",
       "subject",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3402,9 +3456,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -3419,10 +3473,11 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth808TitleMaskedTrogon",
+      "BellavistaCloudForestRating2"
     ],
-    "heightRatio": 1.33663,
-    "title": "Masked Trogon, Bellavista Cloud Forest",
+    "heightRatio": 1,
+    "title": "2024, archive, ecuador, genre, locations, nature, selectedworks, trips, website, wildlife Exif Image Height ",
     "rating": 2
   },
   {
@@ -3437,10 +3492,11 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080TitleFlame-facedTanager",
+      "BellavistaCloudForestRating2"
     ],
-    "heightRatio": 0.748148,
-    "title": "Flame-faced Tanager, Bellavista Cloud Forest",
+    "heightRatio": 1,
+    "title": "2024, archive, ecuador, genre, locations, nature, selectedworks, trips, website, wildlife Exif Image Height ",
     "rating": 2
   },
   {
@@ -3451,9 +3507,9 @@ let collection=
       "ecuador",
       "locations",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating1"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 1
   },
   {
@@ -3467,9 +3523,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3485,9 +3541,9 @@ let collection=
       "portrait",
       "subject",
       "trips",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.747222,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3498,9 +3554,9 @@ let collection=
       "ecuador",
       "locations",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating1"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 1
   },
   {
@@ -3515,10 +3571,10 @@ let collection=
       "nature",
       "selectedworks",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080TitleNapoRiverBoatRating3"
     ],
-    "heightRatio": 0.748148,
-    "title": "Napo River Boat",
+    "heightRatio": 1,
+    "title": "2024, archive, ecuador, genre, landscape, locations, nature, selectedworks, trips, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -3532,9 +3588,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3548,9 +3604,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3561,9 +3617,9 @@ let collection=
       "ecuador",
       "locations",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating1"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 1
   },
   {
@@ -3579,9 +3635,9 @@ let collection=
       "subject",
       "sunset",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3595,9 +3651,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -3611,9 +3667,9 @@ let collection=
       "locations",
       "nature",
       "trips",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3624,10 +3680,10 @@ let collection=
       "panorama",
       "selectedworks",
       "series",
-      "website"
+      "websiteExifImageHeight381ExifImageWidth1080TitleGuangoLodgeRating3"
     ],
-    "heightRatio": 0.352778,
-    "title": "Guango Lodge",
+    "heightRatio": 1,
+    "title": "architecture, genre, panorama, selectedworks, series, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -3641,9 +3697,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -3657,9 +3713,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -3673,9 +3729,9 @@ let collection=
       "genre",
       "locations",
       "newyork",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3689,7 +3745,7 @@ let collection=
       "locations",
       "newyork",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth1080Rating3"
     ],
     "heightRatio": 1,
     "rating": 3
@@ -3705,9 +3761,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3722,10 +3778,10 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080TitleFlatTireCheckRating3"
     ],
-    "heightRatio": 0.747222,
-    "title": "Flat Tire Check",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, selectedworks, street, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -3739,9 +3795,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3757,10 +3813,10 @@ let collection=
       "nyc",
       "portfolio",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080TitleJFKAirTrafficControlRating4"
     ],
-    "heightRatio": 0.748148,
-    "title": "JFK Air Traffic Control",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, new york, nyc, portfolio, selectedworks, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -3777,10 +3833,10 @@ let collection=
       "utah",
       "website",
       "wildlife",
-      "zion"
+      "zionExifImageHeight1080ExifImageWidth808TitleCowHerdnearCedarBreaksRating5"
     ],
-    "heightRatio": 1.33663,
-    "title": "Cow Herd near Cedar Breaks",
+    "heightRatio": 1,
+    "title": "2024, america, archive, genre, locations, nature, selectedworks, trips, utah, website, wildlife, zion Exif Image Height ",
     "rating": 5
   },
   {
@@ -3796,10 +3852,10 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight1080ExifImageWidth808TitleCedarBreaksRating3"
     ],
-    "heightRatio": 1.33663,
-    "title": "Cedar Breaks",
+    "heightRatio": 1,
+    "title": "2024, america, genre, landscape, locations, nature, selectedworks, trips, utah, website, zion Exif Image Height ",
     "rating": 3
   },
   {
@@ -3815,9 +3871,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -3834,10 +3890,10 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight808ExifImageWidth1080TitleMoonRiseRating3"
     ],
-    "heightRatio": 0.748148,
-    "title": "Moon Rise",
+    "heightRatio": 1,
+    "title": "2024, america, archive, genre, landscape, locations, nature, selectedworks, trips, utah, website, zion Exif Image Height ",
     "rating": 3
   },
   {
@@ -3854,9 +3910,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3872,9 +3928,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3890,9 +3946,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3908,9 +3964,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3928,9 +3984,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -3947,9 +4003,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight1080ExifImageWidth808Rating4"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -3967,10 +4023,10 @@ let collection=
       "selectedworks",
       "trips",
       "utah",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080TitleThunderbirdRestaurantRating4"
     ],
-    "heightRatio": 0.748148,
-    "title": "Thunderbird Restaurant",
+    "heightRatio": 1,
+    "title": "2024, america, archive, bryce, city, cityscape, genre, locations, portfolio, selectedworks, trips, utah, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -3986,9 +4042,9 @@ let collection=
       "sanddunes",
       "trips",
       "utah",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4004,9 +4060,9 @@ let collection=
       "sanddunes",
       "trips",
       "utah",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4023,9 +4079,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight808ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -4041,9 +4097,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4060,10 +4116,11 @@ let collection=
       "trips",
       "utah",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080TitleMallards",
+      "QuailCreekRating3"
     ],
-    "heightRatio": 0.748148,
-    "title": "Mallards, Quail Creek",
+    "heightRatio": 1,
+    "title": "2024, america, archive, genre, locations, nature, quail creek, selectedworks, trips, utah, website, wildlife Exif Image Height ",
     "rating": 3
   },
   {
@@ -4079,9 +4136,9 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4097,9 +4154,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight807ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.747222,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4116,10 +4173,11 @@ let collection=
       "trips",
       "utah",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight808ExifImageWidth1080TitleCommonRavens",
+      "BryceCanyonRating2"
     ],
-    "heightRatio": 0.748148,
-    "title": "Common Ravens, Bryce Canyon",
+    "heightRatio": 1,
+    "title": "2024, america, archive, bryce, genre, locations, nature, selectedworks, trips, utah, website, wildlife Exif Image Height ",
     "rating": 2
   },
   {
@@ -4137,10 +4195,10 @@ let collection=
       "trips",
       "utah",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth808TitleCommonRavenonBryceCanyonScenicDriveRating5"
     ],
-    "heightRatio": 1.33663,
-    "title": "Common Raven on Bryce Canyon Scenic Drive",
+    "heightRatio": 1,
+    "title": "2024, america, archive, bryce, genre, locations, nature, portfolio, selectedworks, trips, utah, website, wildlife Exif Image Height ",
     "rating": 5
   },
   {
@@ -4156,9 +4214,9 @@ let collection=
       "nature",
       "trips",
       "utah",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4174,9 +4232,9 @@ let collection=
       "utah",
       "website",
       "wildlife",
-      "zion"
+      "zionExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4192,10 +4250,10 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight807ExifImageWidth1080TitleWaterTankRating3"
     ],
-    "heightRatio": 0.747222,
-    "title": "Water Tank",
+    "heightRatio": 1,
+    "title": "2024, america, architecture, archive, genre, locations, selectedworks, trips, utah, website, zion Exif Image Height ",
     "rating": 3
   },
   {
@@ -4211,9 +4269,9 @@ let collection=
       "utah",
       "website",
       "wildlife",
-      "zion"
+      "zionExifImageHeight807ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.747222,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4230,10 +4288,11 @@ let collection=
       "utah",
       "website",
       "wildlife",
-      "zion"
+      "zionExifImageHeight808ExifImageWidth1080TitleMuleDeer",
+      "ZionRating2"
     ],
-    "heightRatio": 0.748148,
-    "title": "Mule Deer, Zion",
+    "heightRatio": 1,
+    "title": "2024, america, archive, genre, locations, nature, selectedworks, trips, utah, website, wildlife, zion Exif Image Height ",
     "rating": 2
   },
   {
@@ -4249,9 +4308,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4267,9 +4326,9 @@ let collection=
       "utah",
       "website",
       "wildlife",
-      "zion"
+      "zionExifImageHeight807ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.747222,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4285,9 +4344,9 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight808ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -4301,9 +4360,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth808Rating3"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4318,9 +4377,9 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.748148,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4335,10 +4394,10 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight808ExifImageWidth1080TitleWorkerClosingGarageDoorRating4"
     ],
-    "heightRatio": 0.748148,
-    "title": "Worker Closing Garage Door",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, selectedworks, street, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -4353,10 +4412,10 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight807ExifImageWidth1080TitleCarWashRating3"
     ],
-    "heightRatio": 0.747222,
-    "title": "Car Wash",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, selectedworks, street, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -4374,10 +4433,10 @@ let collection=
       "series",
       "trips",
       "utah",
-      "website"
+      "websiteExifImageHeight381ExifImageWidth1080TitleBryceAmphitheaterRating3"
     ],
-    "heightRatio": 0.352778,
-    "title": "Bryce Amphitheater",
+    "heightRatio": 1,
+    "title": "2024, america, bryce, genre, landscape, locations, nature, panorama, selectedworks, series, trips, utah, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -4393,9 +4452,9 @@ let collection=
       "nyc",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4411,9 +4470,9 @@ let collection=
       "nyc",
       "subject",
       "sunset",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating3"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4428,10 +4487,11 @@ let collection=
       "nyc",
       "selectedworks",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080TitleMallards",
+      "BatteryParkRating2"
     ],
-    "heightRatio": 0.750926,
-    "title": "Mallards, Battery Park",
+    "heightRatio": 1,
+    "title": "america, archive, genre, locations, nature, new york, nyc, selectedworks, website, wildlife Exif Image Height ",
     "rating": 2
   },
   {
@@ -4445,9 +4505,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4462,10 +4522,11 @@ let collection=
       "nyc",
       "selectedworks",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080TitleBlueJay",
+      "GreenwoodCemeteryRating2"
     ],
-    "heightRatio": 0.750926,
-    "title": "Blue Jay, Greenwood Cemetery",
+    "heightRatio": 1,
+    "title": "america, archive, genre, locations, nature, new york, nyc, selectedworks, website, wildlife Exif Image Height ",
     "rating": 2
   },
   {
@@ -4483,10 +4544,10 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight381ExifImageWidth1080TitleWatchman'sOverlookRating3"
     ],
-    "heightRatio": 0.352778,
-    "title": "Watchman's Overlook",
+    "heightRatio": 1,
+    "title": "2024, america, genre, landscape, locations, nature, panorama, selectedworks, series, trips, utah, website, zion Exif Image Height ",
     "rating": 3
   },
   {
@@ -4501,10 +4562,10 @@ let collection=
       "trips",
       "utah",
       "website",
-      "zion"
+      "zionExifImageHeight381ExifImageWidth1080TitleBehindWatchman'sOverlookRating2"
     ],
-    "heightRatio": 0.352778,
-    "title": "Behind Watchman's Overlook",
+    "heightRatio": 1,
+    "title": "2024, america, locations, panorama, selectedworks, series, trips, utah, website, zion Exif Image Height ",
     "rating": 2
   },
   {
@@ -4519,10 +4580,10 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080TitleGreenlightBookstoreRating3"
     ],
-    "heightRatio": 0.750926,
-    "title": "Greenlight Bookstore",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, new york, nyc, selectedworks, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -4537,10 +4598,10 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080TitleSluttyVeganRating4"
     ],
-    "heightRatio": 0.750926,
-    "title": "Slutty Vegan",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, selectedworks, street, website Exif Image Height ",
     "rating": 4
   },
   {
@@ -4554,9 +4615,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4570,9 +4631,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4587,10 +4648,10 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080TitleNoParkingAnytimeRating3"
     ],
-    "heightRatio": 0.750926,
-    "title": "No Parking Anytime",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, selectedworks, street, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -4605,10 +4666,10 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth810TitleCyclistRating3"
     ],
-    "heightRatio": 1.33333,
-    "title": "Cyclist",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, selectedworks, street, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -4622,9 +4683,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight810ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.75,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4638,9 +4699,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4654,9 +4715,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4671,10 +4732,10 @@ let collection=
       "nyc",
       "selectedworks",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080TitleIntruderDetectedRating2"
     ],
-    "heightRatio": 0.750926,
-    "title": "Intruder Detected",
+    "heightRatio": 1,
+    "title": "america, archive, genre, locations, nature, new york, nyc, selectedworks, website, wildlife Exif Image Height ",
     "rating": 2
   },
   {
@@ -4688,10 +4749,11 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight809ExifImageWidth1080TitleBlackCappedChickadee",
+      "ProspectParkRating3"
     ],
-    "heightRatio": 0.749074,
-    "title": "Black Capped Chickadee, Prospect Park",
+    "heightRatio": 1,
+    "title": "america, archive, genre, locations, nature, new york, nyc, website, wildlife Exif Image Height ",
     "rating": 3
   },
   {
@@ -4705,9 +4767,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight809ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.749074,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4722,10 +4784,11 @@ let collection=
       "nyc",
       "selectedworks",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth809TitleGreatBlueHeron",
+      "ProspectParkRating3"
     ],
-    "heightRatio": 1.33498,
-    "title": "Great Blue Heron, Prospect Park",
+    "heightRatio": 1,
+    "title": "america, archive, genre, locations, nature, new york, nyc, selectedworks, website, wildlife Exif Image Height ",
     "rating": 3
   },
   {
@@ -4739,9 +4802,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight809ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.749074,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4758,10 +4821,25 @@ let collection=
       "newyork",
       "nyc",
       "subject",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating2"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 2
+  },
+  {
+    "name": "20241119_0038.jpg",
+    "tags": [
+      "america",
+      "locations",
+      "newyork",
+      "nyc",
+      "selectedworks",
+      "series",
+      "subwayentrance",
+      "websiteExifImageHeight801ExifImageWidth1080Rating3"
+    ],
+    "heightRatio": 1,
+    "rating": 3
   },
   {
     "name": "20241119_0048.jpg",
@@ -4778,9 +4856,9 @@ let collection=
       "nyc",
       "selectedworks",
       "subject",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating3"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4794,9 +4872,24 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
+    "rating": 3
+  },
+  {
+    "name": "20241119_0119.jpg",
+    "tags": [
+      "america",
+      "locations",
+      "newyork",
+      "nyc",
+      "selectedworks",
+      "series",
+      "subwayentrance",
+      "websiteExifImageHeight800ExifImageWidth1080Rating3"
+    ],
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4809,9 +4902,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4826,10 +4919,10 @@ let collection=
       "newyork",
       "nyc",
       "selectedworks",
-      "website"
+      "websiteExifImageHeight809ExifImageWidth1080TitleSeaportPigeonsRating3"
     ],
-    "heightRatio": 0.749074,
-    "title": "Seaport Pigeons",
+    "heightRatio": 1,
+    "title": "america, archive, city, cityscape, genre, locations, new york, nyc, selectedworks, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -4843,9 +4936,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4859,9 +4952,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4875,10 +4968,25 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
+  },
+  {
+    "name": "20241123_0039.jpg",
+    "tags": [
+      "america",
+      "locations",
+      "newyork",
+      "nyc",
+      "selectedworks",
+      "series",
+      "subwayentrance",
+      "websiteExifImageHeight811ExifImageWidth1080Rating3"
+    ],
+    "heightRatio": 1,
+    "rating": 3
   },
   {
     "name": "20241123_0494.jpg",
@@ -4892,9 +5000,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4908,9 +5016,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4923,9 +5031,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4940,9 +5048,9 @@ let collection=
       "newyork",
       "nyc",
       "rooseveltisland",
-      "website"
+      "websiteExifImageHeight810ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.75,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4957,9 +5065,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -4971,9 +5079,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -4988,9 +5096,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5005,9 +5113,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5022,9 +5130,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight810ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.75,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5039,9 +5147,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5056,9 +5164,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5072,10 +5180,10 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080TitleNorthernMockingbirdRating3"
     ],
-    "heightRatio": 0.750926,
-    "title": "Northern Mockingbird",
+    "heightRatio": 1,
+    "title": "america, archive, city, genre, locations, new york, nyc, street, website Exif Image Height ",
     "rating": 3
   },
   {
@@ -5092,9 +5200,9 @@ let collection=
       "nyc",
       "onemanhattansquare",
       "subject",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5108,9 +5216,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5125,9 +5233,9 @@ let collection=
       "nyc",
       "subject",
       "website",
-      "worldtradecenter"
+      "worldtradecenterExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5141,9 +5249,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5157,10 +5265,10 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080TitleDownyWoodpeckerRating3"
     ],
-    "heightRatio": 0.750926,
-    "title": "Downy Woodpecker",
+    "heightRatio": 1,
+    "title": "america, archive, genre, locations, nature, new york, nyc, website, wildlife Exif Image Height ",
     "rating": 3
   },
   {
@@ -5174,10 +5282,10 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080TitleDownyWoodpeckerRating3"
     ],
-    "heightRatio": 0.750926,
-    "title": "Downy Woodpecker",
+    "heightRatio": 1,
+    "title": "america, archive, genre, locations, nature, new york, nyc, website, wildlife Exif Image Height ",
     "rating": 3
   },
   {
@@ -5191,10 +5299,10 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080TitleDownyWoodpeckerRating2"
     ],
-    "heightRatio": 0.750926,
-    "title": "Downy Woodpecker",
+    "heightRatio": 1,
+    "title": "america, archive, genre, locations, nature, new york, nyc, website, wildlife Exif Image Height ",
     "rating": 2
   },
   {
@@ -5208,9 +5316,9 @@ let collection=
       "nature",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5224,10 +5332,10 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080TitleGreatBlueHeronRating3"
     ],
-    "heightRatio": 0.750926,
-    "title": "Great Blue Heron",
+    "heightRatio": 1,
+    "title": "america, archive, genre, locations, nature, new york, nyc, website, wildlife Exif Image Height ",
     "rating": 3
   },
   {
@@ -5241,9 +5349,9 @@ let collection=
       "genre",
       "locations",
       "texas",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5256,7 +5364,7 @@ let collection=
       "genre",
       "locations",
       "texas",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth1080Rating3"
     ],
     "heightRatio": 1,
     "rating": 3
@@ -5272,9 +5380,9 @@ let collection=
       "genre",
       "locations",
       "texas",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5288,9 +5396,9 @@ let collection=
       "genre",
       "locations",
       "texas",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating2"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5304,9 +5412,9 @@ let collection=
       "locations",
       "nature",
       "texas",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5323,9 +5431,9 @@ let collection=
       "people",
       "street",
       "subject",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5339,9 +5447,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5355,9 +5463,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5371,9 +5479,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5383,9 +5491,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website"
+      "websiteExifImageHeight833ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.771296,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5395,9 +5503,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating2"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5407,9 +5515,9 @@ let collection=
       "mirrorselfie",
       "people",
       "subject",
-      "website"
+      "websiteExifImageHeight804ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.744444,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5418,9 +5526,9 @@ let collection=
       "architecture",
       "archive",
       "genre",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5430,9 +5538,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website"
+      "websiteExifImageHeight810ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.75,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5442,9 +5550,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5453,9 +5561,9 @@ let collection=
       "architecture",
       "archive",
       "genre",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5464,10 +5572,29 @@ let collection=
       "architecture",
       "archive",
       "genre",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
+  },
+  {
+    "name": "20250125_0019.jpg",
+    "tags": [
+      "america",
+      "architecture",
+      "empirestatebuilding",
+      "genre",
+      "locations",
+      "newyork",
+      "nyc",
+      "selectedworks",
+      "series",
+      "subject",
+      "subwayentrance",
+      "websiteExifImageHeight1080ExifImageWidth758Rating3"
+    ],
+    "heightRatio": 1,
+    "rating": 3
   },
   {
     "name": "20250125_0065.jpg",
@@ -5479,10 +5606,27 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight791ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.732407,
+    "heightRatio": 1,
     "rating": 2
+  },
+  {
+    "name": "20250125_0075.jpg",
+    "tags": [
+      "america",
+      "architecture",
+      "genre",
+      "locations",
+      "newyork",
+      "nyc",
+      "selectedworks",
+      "series",
+      "subwayentrance",
+      "websiteExifImageHeight911ExifImageWidth1080Rating3"
+    ],
+    "heightRatio": 1,
+    "rating": 3
   },
   {
     "name": "20250125_0077.jpg",
@@ -5495,9 +5639,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5510,9 +5654,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5526,9 +5670,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5538,9 +5682,9 @@ let collection=
       "city",
       "genre",
       "street",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5554,9 +5698,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5570,9 +5714,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5586,9 +5730,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5602,9 +5746,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating3"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5618,9 +5762,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating2"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5634,9 +5778,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight849ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.786111,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5650,9 +5794,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5666,9 +5810,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight796ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.737037,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5682,9 +5826,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -5700,9 +5844,9 @@ let collection=
       "people",
       "portrait",
       "subject",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating3"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5716,9 +5860,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5732,9 +5876,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
-      "website"
+      "websiteExifImageHeight791ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.732407,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5748,9 +5892,9 @@ let collection=
       "newyork",
       "nyc",
       "street",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5766,9 +5910,9 @@ let collection=
       "nyc",
       "series",
       "subwayentrance",
-      "website"
+      "websiteExifImageHeight775ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.717593,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5782,9 +5926,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5798,9 +5942,9 @@ let collection=
       "newyork",
       "nyc",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5810,9 +5954,9 @@ let collection=
       "nature",
       "selectedworks",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -5822,9 +5966,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5837,9 +5981,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5853,9 +5997,9 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth795Rating3"
     ],
-    "heightRatio": 1.35849,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5869,9 +6013,9 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -5881,9 +6025,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating2"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5893,9 +6037,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight863ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.799074,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5909,9 +6053,9 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -5924,9 +6068,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth811Rating2"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5936,9 +6080,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating2"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5948,9 +6092,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating2"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5960,9 +6104,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -5976,9 +6120,9 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating4"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 4
   },
   {
@@ -5992,9 +6136,9 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth811Rating5"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 5
   },
   {
@@ -6004,9 +6148,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -6019,9 +6163,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight1080ExifImageWidth811Rating2"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -6031,9 +6175,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -6043,9 +6187,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight864ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.8,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -6055,9 +6199,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth811Rating2"
     ],
-    "heightRatio": 1.33169,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -6067,9 +6211,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight1080ExifImageWidth863Rating2"
     ],
-    "heightRatio": 1.25145,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -6079,9 +6223,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight812ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.751852,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -6091,9 +6235,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight852ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.788889,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -6103,9 +6247,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight795ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.736111,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -6115,9 +6259,9 @@ let collection=
       "archive",
       "everglades",
       "trips",
-      "website"
+      "websiteExifImageHeight863ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.799074,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -6130,9 +6274,9 @@ let collection=
       "nature",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating2"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 2
   },
   {
@@ -6146,9 +6290,9 @@ let collection=
       "selectedworks",
       "trips",
       "website",
-      "wildlife"
+      "wildlifeExifImageHeight811ExifImageWidth1080Rating3"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 1,
     "rating": 3
   },
   {
@@ -6164,10 +6308,10 @@ let collection=
       "panorama",
       "selectedworks",
       "series",
-      "website"
+      "websiteExifImageHeight381ExifImageWidth1080TitleSouthBrooklynRating3"
     ],
-    "heightRatio": 0.352778,
-    "title": "South Brooklyn",
+    "heightRatio": 1,
+    "title": "america, city, cityscape, genre, locations, new york, nyc, panorama, selectedworks, series, website Exif Image Height ",
     "rating": 3
   }
 ]
