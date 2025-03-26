@@ -9,7 +9,8 @@ function path_to_js_object() {
     path=$1
     basename="$(basename $path)"
     output="{\"name\": \"$basename\""
-    tags="$(exiftool -Subject $path | grep -Eo ":.*$" | tr -d ':' | tr -d ' ' | tr , '\n')"
+    fields="$(exiftool -Subject -ExifImageHeight -ExifImageWidth -Title -Rating $path)"
+    tags="$(echo $fields | grep Subject | grep -Eo ":.*$" | tr -d ':' | tr -d ' ' | tr , '\n')"
     output="$output , \"tags\": ["
     first=true
     for tag in $tags; do
@@ -21,15 +22,15 @@ function path_to_js_object() {
         fi
     done
     output="$output ]"
-    height=$(exiftool -ExifImageHeight $path | choose -1)
-    width=$(exiftool -ExifImageWidth $path | choose -1)
+    height=$(echo $fields | grep "Exif Image Height" | choose -1)
+    width=$(echo $fields | grep "Exif Image Width" | choose -1)
     heightRatio=$(calc $height/$width)
     output="$output , \"heightRatio\": $heightRatio"
-    title="$(exiftool -Title $path | choose -f ': ' 1)"
+    title="$(echo $fields | grep "Title" | choose -f ': ' 1)"
     if [[ -n $title ]]; then
         output="$output , \"title\": \"$title\""
     fi
-    output="$output , \"rating\": $(exiftool -Rating $path | choose -1)"
+    output="$output , \"rating\": $(echo $fields | grep "Rating" | choose -1)"
     output="$output }"
     echo "$output"
 }
