@@ -6,6 +6,7 @@ import {Fullover} from '/photo/components/fullover.js'
 import {Navbar} from '/photo/components/navbar.js'
 import {Photo} from '/photo/components/photo.js'
 import {Title} from '/photo/components/title.js'
+import {monthName} from '/photo/components/tree.js'
 
 const url = window.location.href
 
@@ -134,22 +135,6 @@ function hasAllTags(img, tagList) {
         return false
     }
     return true
-}
-
-function monthName(monthDigitString) {
-    if (monthDigitString==="01") return "January";
-    if (monthDigitString==="02") return "February";
-    if (monthDigitString==="03") return "March";
-    if (monthDigitString==="04") return "April";
-    if (monthDigitString==="05") return "May";
-    if (monthDigitString==="06") return "June";
-    if (monthDigitString==="07") return "July";
-    if (monthDigitString==="08") return "August";
-    if (monthDigitString==="09") return "September";
-    if (monthDigitString==="10") return "October";
-    if (monthDigitString==="11") return "November";
-    if (monthDigitString==="12") return "December";
-    return "";
 }
 
 function archiveMonthAsString(archiveMonth) {
@@ -322,7 +307,6 @@ function main() {
     for (let i = 0; i < collection.length; i++) {
         for (let filterIdx = 0; filterIdx < filters.length; filterIdx++) {
             if (filters[filterIdx](collection[i])) {
-                console.log(filters[filterIdx], collection[i])
                 continue eachimg
             }
         }
