@@ -1,3 +1,5 @@
+import {tree, monthName} from "./tree.js"
+
 class Navbar extends HTMLElement {
     id() {
         return "navbar"
@@ -8,46 +10,61 @@ class Navbar extends HTMLElement {
     }
 
     render() {
-        this.innerHTML = `
+        let base = `
 <ul class="navbar" id="navbar">
     <li><a href="/photo">Home</a></li>
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Selected Works</a>
-        <div class="dropdown-content">
-            <a href="/photo/selectedworks/panorama">Panoramas</a>
-            <a href="/photo/selectedworks/street">Street Photography</a>
-            <a href="/photo/selectedworks/cityscape">Cityscapes</a>
-            <a href="/photo/selectedworks/landscape">Landscape</a>
-            <a href="/photo/selectedworks/wildlife">Wildlife</a>
-            <a href="/photo/selectedworks/subwayentrance">Subway Structures</a>
+        <div class="dropdown-content">`
+
+        for (let i = 0; i < tree['selectedworks'].length; i++) {
+            base += `
+            <a href="/photo/selectedworks/${tree['selectedworks'][i]['path']}">${tree['selectedworks'][i]['name']}</a>
+            `
+        }
+
+        base += `
         </div>
     </li>
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">On Location</a>
         <div class="dropdown-content">
-            <a href="/photo/trips/2024/pnw">Pacific Northwest</a>
-            <a href="/photo/trips/2024/ecuador">Ecuador</a>
-            <a href="/photo/trips/2024/utah">Utah</a>
-            <a href="/photo/trips/2025/everglades">Everglades</a>
+        `
+
+        for (let yearIdx = 0; yearIdx < tree.trips.length; yearIdx++) {
+            let yearSet = tree.trips[yearIdx]
+            for (let tripIdx = 0; tripIdx < yearSet.destinations.length; tripIdx++) {
+                base += `
+                <a href="/photo/trips/${yearSet.year}/${yearSet.destinations[tripIdx].path}">${yearSet.destinations[tripIdx].name}</a>
+                `
+            }
+        }
+
+        base += `
         </div>
     </li>
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Archive</a>
         <div class="dropdown-content">
-            <a href="/photo/archive/202405">May 2024</a>
-            <a href="/photo/archive/202406">June 2024</a>
-            <a href="/photo/archive/202407">July 2024</a>
-            <a href="/photo/archive/202408">August 2024</a>
-            <a href="/photo/archive/202409">September 2024</a>
-            <a href="/photo/archive/202410">October 2024</a>
-            <a href="/photo/archive/202411">November 2024</a>
-            <a href="/photo/archive/202412">December 2024</a>
-            <a href="/photo/archive/202501">January 2025</a>
-            <a href="/photo/archive/202502">February 2025</a>
+        `
+
+        for (let yearIdx = 0; yearIdx < tree.archive.length; yearIdx++) {
+            console.log(tree.archive[yearIdx])
+            for (let monthIdx = 0; monthIdx < tree.archive[yearIdx].months.length; monthIdx++) {
+                console.log(tree.archive[yearIdx].months[monthIdx])
+                base += `
+                <a href="/photo/archive/${tree.archive[yearIdx].year}${tree.archive[yearIdx].months[monthIdx]}">${monthName(tree.archive[yearIdx].months[monthIdx])} ${tree.archive[yearIdx].year}</a>
+                `
+            }
+        }
+
+        base += `
         </div>
     </li>
 </ul>
 `
+
+        this.innerHTML = base
         Array.from(document.getElementsByClassName("dropbtn")).forEach(
             (dropbtn) => dropbtn.addEventListener("click", () => this.toggleDropdown(dropbtn))
         )
@@ -73,10 +90,7 @@ class Navbar extends HTMLElement {
             dropdown.className = "dropdown"
         }
     }
-
 }
-
-
 
 customElements.define('navbar-component', Navbar);
 export {Navbar}
