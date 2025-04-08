@@ -36,6 +36,27 @@ let tree =
         ]
     }
 
+function allPaths() {
+    var paths = [];
+    for (let i = 0; i < tree['selectedworks'].length; i++) {
+        paths.push(`selectedworks/${tree['selectedworks'][i]['path']}`)
+    }
+    for (let yearIdx = 0; yearIdx < tree.trips.length; yearIdx++) {
+        let yearSet = tree.trips[yearIdx]
+        for (let tripIdx = 0; tripIdx < yearSet.destinations.length; tripIdx++) {
+            paths.push(`trips/${yearSet.year}/${yearSet.destinations[tripIdx].path}`)
+        }
+    }
+    for (let yearIdx = 0; yearIdx < tree.archive.length; yearIdx++) {
+        paths.push(`archive/${tree.archive[yearIdx].year}`)
+        for (let monthIdx = 0; monthIdx < tree.archive[yearIdx].months.length; monthIdx++) {
+            paths.push(`archive/${tree.archive[yearIdx].year}${tree.archive[yearIdx].months[monthIdx]}`)
+        }
+    }
+    return paths
+}
+
+
 function monthName(monthDigitString) {
     if (monthDigitString==="01") return "January";
     if (monthDigitString==="02") return "February";
@@ -52,4 +73,4 @@ function monthName(monthDigitString) {
     return "";
 }
 
-export {tree, monthName};
+export {tree, monthName, allPaths};
