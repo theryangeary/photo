@@ -758,9 +758,11 @@ let collection=
       "locations",
       "newyork",
       "nyc",
+      "revise",
       "selectedworks",
       "street",
       "website",
+      "year1",
       "year1"
     ],
     "heightRatio": 1.25,
@@ -1094,7 +1096,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 0.499074,
+    "heightRatio": 0.5,
     "rating": 3
   },
   {
@@ -1195,7 +1197,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 0.499074,
+    "heightRatio": 0.5,
     "title": "Palace of Fine Arts",
     "rating": 4
   },
@@ -1283,7 +1285,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 0.499074,
+    "heightRatio": 0.5,
     "title": "The Windlass",
     "rating": 4
   },
@@ -1411,8 +1413,10 @@ let collection=
       "city",
       "cityscape",
       "genre",
+      "revise",
       "selectedworks",
       "website",
+      "year1",
       "year1"
     ],
     "heightRatio": 1.33663,
@@ -1535,9 +1539,10 @@ let collection=
       "panorama",
       "selectedworks",
       "series",
-      "website"
+      "website",
+      "year1"
     ],
-    "heightRatio": 0.352778,
+    "heightRatio": 0.352941,
     "title": "Downtown Manhattan",
     "rating": 3
   },
@@ -1734,7 +1739,7 @@ let collection=
       "nyc",
       "website"
     ],
-    "heightRatio": 0.499074,
+    "heightRatio": 0.5,
     "rating": 3
   },
   {
@@ -1780,7 +1785,9 @@ let collection=
       "locations",
       "newyork",
       "nyc",
+      "revise",
       "website",
+      "year1",
       "year1"
     ],
     "heightRatio": 1.16757,
@@ -2175,7 +2182,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 1.25,
+    "heightRatio": 1.25145,
     "rating": 3
   },
   {
@@ -2335,9 +2342,11 @@ let collection=
       "nature",
       "oregon",
       "pnw",
+      "revise",
       "selectedworks",
       "trips",
       "website",
+      "year1",
       "year1"
     ],
     "heightRatio": 1.25145,
@@ -2496,9 +2505,10 @@ let collection=
       "panorama",
       "selectedworks",
       "series",
-      "website"
+      "website",
+      "year1"
     ],
-    "heightRatio": 0.352778,
+    "heightRatio": 0.352941,
     "title": "Van Dyke St, Red Hook",
     "rating": 3
   },
@@ -2509,9 +2519,11 @@ let collection=
       "city",
       "genre",
       "portfolio",
+      "revise",
       "selectedworks",
       "street",
       "website",
+      "year1",
       "year1"
     ],
     "heightRatio": 0.665741,
@@ -2667,9 +2679,10 @@ let collection=
       "series",
       "subject",
       "sunset",
-      "website"
+      "website",
+      "year1"
     ],
-    "heightRatio": 0.352778,
+    "heightRatio": 0.352941,
     "title": "Pier 2",
     "rating": 4
   },
@@ -3767,7 +3780,7 @@ let collection=
       "series",
       "website"
     ],
-    "heightRatio": 0.352778,
+    "heightRatio": 0.352941,
     "title": "Guango Lodge",
     "rating": 3
   },
@@ -4090,10 +4103,12 @@ let collection=
       "locations",
       "nature",
       "printforkatie",
+      "revise",
       "selectedworks",
       "trips",
       "utah",
       "website",
+      "year1",
       "year1",
       "zion"
     ],
@@ -4625,9 +4640,10 @@ let collection=
       "series",
       "trips",
       "utah",
-      "website"
+      "website",
+      "year1"
     ],
-    "heightRatio": 0.352778,
+    "heightRatio": 0.352941,
     "title": "Bryce Amphitheater",
     "rating": 3
   },
@@ -4737,7 +4753,7 @@ let collection=
       "website",
       "zion"
     ],
-    "heightRatio": 0.352778,
+    "heightRatio": 0.352941,
     "title": "Watchman's Overlook",
     "rating": 3
   },
@@ -4755,7 +4771,7 @@ let collection=
       "website",
       "zion"
     ],
-    "heightRatio": 0.352778,
+    "heightRatio": 0.352941,
     "title": "Behind Watchman's Overlook",
     "rating": 2
   },
@@ -4869,9 +4885,11 @@ let collection=
       "locations",
       "newyork",
       "nyc",
+      "revise",
       "selectedworks",
       "street",
       "website",
+      "year1",
       "year1"
     ],
     "heightRatio": 1.33333,
@@ -5605,7 +5623,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 1,
+    "heightRatio": 0.750926,
     "rating": 3
   },
   {
@@ -6731,65 +6749,295 @@ let collection=
       "series",
       "trips",
       "website",
-      "wildlife"
+      "wildlife",
+      "year1"
     ],
-    "heightRatio": 0.352778,
+    "heightRatio": 0.352941,
     "rating": 3
   },
   {
     "name": "20250402_0283.jpg",
     "tags": [
+      "archive",
+      "website",
       "year1"
     ],
     "heightRatio": 0.794444,
-    "rating": 2
+    "rating": 3
+  },
+  {
+    "name": "20250402_0404.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 1.25145,
+    "rating": 3
+  },
+  {
+    "name": "20250402_0828.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.665741,
+    "rating": 3
   },
   {
     "name": "20250403_0017.jpg",
     "tags": [
+      "archive",
+      "website",
       "year1"
     ],
-    "heightRatio": 0.499074,
+    "heightRatio": 0.5,
+    "rating": 3
+  },
+  {
+    "name": "20250403_0069.jpg",
+    "tags": [
+      "archive",
+      "panorama",
+      "series",
+      "website"
+    ],
+    "heightRatio": 0.333333,
     "rating": 2
   },
   {
     "name": "20250403_0117.jpg",
     "tags": [
+      "archive",
+      "website",
       "year1"
     ],
     "heightRatio": 0.666667,
-    "rating": 2
+    "rating": 3
   },
   {
     "name": "20250405_0001.jpg",
     "tags": [
+      "archive",
+      "panorama",
+      "series",
+      "website",
       "year1"
     ],
-    "heightRatio": 0.352778,
+    "heightRatio": 0.352941,
+    "rating": 2
+  },
+  {
+    "name": "20250405_0019.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.5,
     "rating": 2
   },
   {
     "name": "20250405_0055.jpg",
     "tags": [
+      "archive",
+      "panorama",
+      "series",
+      "website",
       "year1"
     ],
-    "heightRatio": 0.352778,
+    "heightRatio": 0.369231,
     "rating": 2
   },
   {
-    "name": "20250409_0991.jpg",
+    "name": "20250405_0161.jpg",
     "tags": [
-      "year1"
+      "archive",
+      "website"
+    ],
+    "heightRatio": 1.25145,
+    "rating": 2
+  },
+  {
+    "name": "20250409_0660.jpg",
+    "tags": [
+      "archive",
+      "website"
     ],
     "heightRatio": 0.665741,
     "rating": 2
   },
   {
+    "name": "20250409_0991.jpg",
+    "tags": [
+      "archive",
+      "website",
+      "year1"
+    ],
+    "heightRatio": 0.665741,
+    "rating": 3
+  },
+  {
     "name": "20250409_1115.jpg",
     "tags": [
+      "archive",
+      "website",
       "year1"
     ],
     "heightRatio": 0.666667,
+    "rating": 3
+  },
+  {
+    "name": "20250418_0044.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.666667,
+    "rating": 2
+  },
+  {
+    "name": "20250418_1058.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.665741,
+    "rating": 2
+  },
+  {
+    "name": "20250418_1126.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.665741,
+    "rating": 2
+  },
+  {
+    "name": "20250418_1534.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.666667,
+    "rating": 2
+  },
+  {
+    "name": "20250418_1873.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 1,
+    "rating": 2
+  },
+  {
+    "name": "20250418_2423.jpg",
+    "tags": [
+      "archive",
+      "website",
+      "year1"
+    ],
+    "heightRatio": 0.748148,
+    "rating": 3
+  },
+  {
+    "name": "20250424_0086.jpg",
+    "tags": [
+      "archive",
+      "website",
+      "year1"
+    ],
+    "heightRatio": 1.25,
+    "rating": 3
+  },
+  {
+    "name": "20250424_0155.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 1.25145,
+    "rating": 2
+  },
+  {
+    "name": "20250424_0206.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.750926,
+    "rating": 2
+  },
+  {
+    "name": "20250430_0523.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 1.25,
+    "rating": 2
+  },
+  {
+    "name": "20250430_0553.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.665741,
+    "rating": 2
+  },
+  {
+    "name": "20250430_0598.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.750926,
+    "rating": 2
+  },
+  {
+    "name": "20250430_0800.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 1.25145,
+    "rating": 2
+  },
+  {
+    "name": "20250430_0851.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.666667,
+    "rating": 2
+  },
+  {
+    "name": "20250430_0889.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.749074,
+    "rating": 2
+  },
+  {
+    "name": "20250430_0942.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.799074,
+    "rating": 2
+  },
+  {
+    "name": "20250430_1172.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.749074,
     "rating": 2
   },
   {
@@ -6807,7 +7055,7 @@ let collection=
       "series",
       "website"
     ],
-    "heightRatio": 0.352778,
+    "heightRatio": 0.352941,
     "title": "South Brooklyn",
     "rating": 3
   }
