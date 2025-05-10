@@ -49,13 +49,18 @@ class Navbar extends HTMLElement {
         `
 
         for (let yearIdx = 0; yearIdx < tree.archive.length; yearIdx++) {
-            console.log(tree.archive[yearIdx])
+            base += `
+            <a href="javascript:void(0)" class="subdropdown">${tree.archive[yearIdx].year}</a>
+            <div class="subdropdown-content">
+            `
+
             for (let monthIdx = 0; monthIdx < tree.archive[yearIdx].months.length; monthIdx++) {
-                console.log(tree.archive[yearIdx].months[monthIdx])
                 base += `
-                <a href="/photo/archive/${tree.archive[yearIdx].year}${tree.archive[yearIdx].months[monthIdx]}">${monthName(tree.archive[yearIdx].months[monthIdx])} ${tree.archive[yearIdx].year}</a>
+                    <a href="/photo/archive/${tree.archive[yearIdx].year}${tree.archive[yearIdx].months[monthIdx]}">${monthName(tree.archive[yearIdx].months[monthIdx])}</a>
                 `
             }
+
+            base += `</div>`
         }
 
         base += `
@@ -67,6 +72,9 @@ class Navbar extends HTMLElement {
         this.innerHTML = base
         Array.from(document.getElementsByClassName("dropbtn")).forEach(
             (dropbtn) => dropbtn.addEventListener("click", () => this.toggleDropdown(dropbtn))
+        )
+        Array.from(document.getElementsByClassName("subdropdown")).forEach(
+            (dropbtn) => dropbtn.addEventListener("click", () => this.toggleSubdropdown(dropbtn))
         )
     }
 
@@ -88,6 +96,26 @@ class Navbar extends HTMLElement {
             dropdown.classList.add("active")
         } else {
             dropdown.className = "dropdown"
+        }
+    }
+    toggleSubdropdown(t) {
+        if (window.matchMedia("(min-width: 600px)").matches) {
+            // don't set active on desktop, prefering hover
+            return
+        }
+        let dropdown = t
+        let dropdowns = document.getElementsByClassName("subdropdown")
+        if (dropdown.className === "subdropdown") {
+            // ensure only one dropdown is active
+            for (let i = 0; i < dropdowns.length; i++) {
+                if (dropdowns[i] === dropdown) {
+                    continue
+                }
+                dropdowns[i].className = "subdropdown"
+            }
+            dropdown.classList.add("active")
+        } else {
+            dropdown.className = "subdropdown"
         }
     }
 }
