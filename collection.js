@@ -3267,6 +3267,22 @@ let collection=
     "rating": 3
   },
   {
+    "name": "20240912_1196.jpg",
+    "tags": [
+      "2024",
+      "archive",
+      "ecuador",
+      "genre",
+      "landscape",
+      "locations",
+      "nature",
+      "trips",
+      "website"
+    ],
+    "heightRatio": 1.33663,
+    "rating": 3
+  },
+  {
     "name": "20240912_1393.jpg",
     "tags": [
       "2024",
@@ -3336,19 +3352,6 @@ let collection=
     "heightRatio": 0.748148,
     "title": "Flame-faced Tanager, Bellavista Cloud Forest",
     "rating": 2
-  },
-  {
-    "name": "20240912_2251.jpg",
-    "tags": [
-      "2024",
-      "archive",
-      "ecuador",
-      "locations",
-      "trips",
-      "website"
-    ],
-    "heightRatio": 0.748148,
-    "rating": 1
   },
   {
     "name": "20240912_2278.jpg",
