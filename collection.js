@@ -457,12 +457,13 @@ let collection=
       "subject",
       "website"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1.25145,
     "rating": 4
   },
   {
     "name": "20240522_0038.jpg",
     "tags": [
+      "1",
       "america",
       "archive",
       "genre",
@@ -470,10 +471,11 @@ let collection=
       "nature",
       "newyork",
       "nyc",
+      "substack",
       "website",
       "wildlife"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1.25145,
     "rating": 2
   },
   {
@@ -835,6 +837,7 @@ let collection=
   {
     "name": "20240606_0318.jpg",
     "tags": [
+      "1",
       "america",
       "archive",
       "city",
@@ -845,6 +848,7 @@ let collection=
       "nyc",
       "portfolio",
       "selectedworks",
+      "substack",
       "website",
       "year1"
     ],
@@ -1048,39 +1052,6 @@ let collection=
     "rating": 3
   },
   {
-    "name": "20240606_1309.jpg",
-    "tags": [
-      "america",
-      "archive",
-      "city",
-      "genre",
-      "locations",
-      "newyork",
-      "nyc",
-      "street",
-      "website"
-    ],
-    "heightRatio": 1.33663,
-    "rating": 3
-  },
-  {
-    "name": "20240606_1363.jpg",
-    "tags": [
-      "america",
-      "archive",
-      "city",
-      "genre",
-      "locations",
-      "newyork",
-      "nyc",
-      "street",
-      "website",
-      "year1"
-    ],
-    "heightRatio": 1.25145,
-    "rating": 4
-  },
-  {
     "name": "20240617_0113.jpg",
     "tags": [
       "america",
@@ -1090,26 +1061,13 @@ let collection=
       "genre",
       "locations",
       "sanfrancisco",
-      "selectedworks",
       "subject",
       "sunset",
       "website",
       "year1"
     ],
-    "heightRatio": 0.5,
+    "heightRatio": 0.4995,
     "rating": 3
-  },
-  {
-    "name": "20240617_0116.jpg",
-    "tags": [
-      "america",
-      "california",
-      "locations",
-      "sanfrancisco",
-      "year1"
-    ],
-    "heightRatio": 0.499074,
-    "rating": 2
   },
   {
     "name": "20240617_0180.jpg",
@@ -1197,7 +1155,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 0.5,
+    "heightRatio": 0.4995,
     "title": "Palace of Fine Arts",
     "rating": 4
   },
@@ -1285,7 +1243,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 0.5,
+    "heightRatio": 0.49975,
     "title": "The Windlass",
     "rating": 4
   },
@@ -1366,6 +1324,7 @@ let collection=
   {
     "name": "20240618_0040_2.jpg",
     "tags": [
+      "1",
       "america",
       "archive",
       "city",
@@ -1376,6 +1335,7 @@ let collection=
       "portfolio",
       "selectedworks",
       "street",
+      "substack",
       "website",
       "year1"
     ],
@@ -1409,12 +1369,14 @@ let collection=
   {
     "name": "20240623_0060.jpg",
     "tags": [
+      "1",
       "archive",
       "city",
       "cityscape",
       "genre",
       "revise",
       "selectedworks",
+      "substack",
       "website",
       "year1",
       "year1"
@@ -1430,10 +1392,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website",
-      "year1"
+      "website"
     ],
-    "heightRatio": 1.25145,
+    "heightRatio": 1.33663,
     "rating": 4
   },
   {
@@ -1443,10 +1404,9 @@ let collection=
       "city",
       "cityscape",
       "genre",
-      "website",
-      "year1"
+      "website"
     ],
-    "heightRatio": 1.25145,
+    "heightRatio": 1.33663,
     "rating": 4
   },
   {
@@ -1479,6 +1439,7 @@ let collection=
   {
     "name": "20240630_0102.jpg",
     "tags": [
+      "1",
       "archive",
       "city",
       "cityscape",
@@ -1486,6 +1447,7 @@ let collection=
       "neon",
       "selectedworks",
       "subject",
+      "substack",
       "website",
       "year1"
     ],
@@ -1542,7 +1504,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 0.352941,
+    "heightRatio": 0.3525,
     "title": "Downtown Manhattan",
     "rating": 3
   },
@@ -1562,20 +1524,6 @@ let collection=
     ],
     "heightRatio": 1.33663,
     "title": "Manhattan Bridge Walkway",
-    "rating": 3
-  },
-  {
-    "name": "20240630_0515.jpg",
-    "tags": [
-      "archive",
-      "city",
-      "cityscape",
-      "genre",
-      "subject",
-      "sunset",
-      "website"
-    ],
-    "heightRatio": 0.748148,
     "rating": 3
   },
   {
@@ -1739,7 +1687,7 @@ let collection=
       "nyc",
       "website"
     ],
-    "heightRatio": 0.5,
+    "heightRatio": 0.4995,
     "rating": 3
   },
   {
@@ -1842,49 +1790,6 @@ let collection=
     "rating": 3
   },
   {
-    "name": "20240728_0014.jpg",
-    "tags": [
-      "2024",
-      "america",
-      "anna",
-      "archive",
-      "genre",
-      "locations",
-      "people",
-      "pnw",
-      "portrait",
-      "seattle",
-      "subject",
-      "trips",
-      "washington",
-      "website"
-    ],
-    "heightRatio": 1.33663,
-    "rating": 4
-  },
-  {
-    "name": "20240728_0036.jpg",
-    "tags": [
-      "2024",
-      "america",
-      "anna",
-      "archive",
-      "genre",
-      "landscape",
-      "locations",
-      "nature",
-      "people",
-      "pnw",
-      "seattle",
-      "subject",
-      "trips",
-      "washington",
-      "website"
-    ],
-    "heightRatio": 0.732407,
-    "rating": 3
-  },
-  {
     "name": "20240728_0074.jpg",
     "tags": [
       "2024",
@@ -1944,43 +1849,6 @@ let collection=
     "heightRatio": 0.665741,
     "title": "Point Defiance",
     "rating": 4
-  },
-  {
-    "name": "20240728_0107.jpg",
-    "tags": [
-      "2024",
-      "america",
-      "locations",
-      "mtrainier",
-      "pnw",
-      "trips",
-      "washington",
-      "year1"
-    ],
-    "heightRatio": 1.16757,
-    "rating": 1
-  },
-  {
-    "name": "20240728_0111.jpg",
-    "tags": [
-      "2024",
-      "america",
-      "anna",
-      "archive",
-      "genre",
-      "landscape",
-      "locations",
-      "mtrainier",
-      "nature",
-      "people",
-      "pnw",
-      "subject",
-      "trips",
-      "washington",
-      "website"
-    ],
-    "heightRatio": 1.16757,
-    "rating": 3
   },
   {
     "name": "20240728_0114.jpg",
@@ -2146,24 +2014,6 @@ let collection=
     "heightRatio": 0.748148,
     "title": "Golden-Mantled Ground Squirrel, Mt Hood",
     "rating": 5
-  },
-  {
-    "name": "20240728_0541.jpg",
-    "tags": [
-      "2024",
-      "america",
-      "genre",
-      "locations",
-      "mthood",
-      "nature",
-      "oregon",
-      "pnw",
-      "trips",
-      "wildlife",
-      "year1"
-    ],
-    "heightRatio": 0.665741,
-    "rating": 1
   },
   {
     "name": "20240728_0617.jpg",
@@ -2508,7 +2358,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 0.352941,
+    "heightRatio": 0.3525,
     "title": "Van Dyke St, Red Hook",
     "rating": 3
   },
@@ -2623,8 +2473,7 @@ let collection=
       "locations",
       "massachusetts",
       "selectedworks",
-      "website",
-      "year1"
+      "website"
     ],
     "heightRatio": 1,
     "title": "Forest Hills Bound Orange Line",
@@ -2682,7 +2531,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 0.352941,
+    "heightRatio": 0.3525,
     "title": "Pier 2",
     "rating": 4
   },
@@ -2962,56 +2811,6 @@ let collection=
     "rating": 3
   },
   {
-    "name": "20240912_0031.jpg",
-    "tags": [
-      "2024",
-      "archive",
-      "ecuador",
-      "locations",
-      "trips",
-      "website"
-    ],
-    "heightRatio": 0.748148,
-    "rating": 1
-  },
-  {
-    "name": "20240912_0039.jpg",
-    "tags": [
-      "2024",
-      "anna",
-      "archive",
-      "ecuador",
-      "genre",
-      "locations",
-      "people",
-      "portrait",
-      "subject",
-      "trips",
-      "website"
-    ],
-    "heightRatio": 1.33663,
-    "rating": 3
-  },
-  {
-    "name": "20240912_0041.jpg",
-    "tags": [
-      "2024",
-      "anna",
-      "archive",
-      "ecuador",
-      "genre",
-      "landscape",
-      "locations",
-      "nature",
-      "people",
-      "subject",
-      "trips",
-      "website"
-    ],
-    "heightRatio": 1.33663,
-    "rating": 3
-  },
-  {
     "name": "20240912_0046.jpg",
     "tags": [
       "2024",
@@ -3117,19 +2916,6 @@ let collection=
     "heightRatio": 0.748148,
     "title": "Llamas, Tambo Condor",
     "rating": 3
-  },
-  {
-    "name": "20240912_0164.jpg",
-    "tags": [
-      "2024",
-      "archive",
-      "ecuador",
-      "locations",
-      "trips",
-      "website"
-    ],
-    "heightRatio": 1.33663,
-    "rating": 1
   },
   {
     "name": "20240912_0230.jpg",
@@ -3282,35 +3068,6 @@ let collection=
     ],
     "heightRatio": 1.33663,
     "rating": 3
-  },
-  {
-    "name": "20240912_0475.jpg",
-    "tags": [
-      "2024",
-      "archive",
-      "ecuador",
-      "genre",
-      "landscape",
-      "locations",
-      "nature",
-      "trips",
-      "website"
-    ],
-    "heightRatio": 1.33829,
-    "rating": 3
-  },
-  {
-    "name": "20240912_0486.jpg",
-    "tags": [
-      "2024",
-      "archive",
-      "ecuador",
-      "locations",
-      "trips",
-      "website"
-    ],
-    "heightRatio": 1.33663,
-    "rating": 1
   },
   {
     "name": "20240912_0493.jpg",
@@ -3510,22 +3267,6 @@ let collection=
     "rating": 3
   },
   {
-    "name": "20240912_1196.jpg",
-    "tags": [
-      "2024",
-      "archive",
-      "ecuador",
-      "genre",
-      "landscape",
-      "locations",
-      "nature",
-      "trips",
-      "website"
-    ],
-    "heightRatio": 1.33663,
-    "rating": 3
-  },
-  {
     "name": "20240912_1393.jpg",
     "tags": [
       "2024",
@@ -3647,9 +3388,12 @@ let collection=
     "name": "20240912_2299.jpg",
     "tags": [
       "2024",
+      "anna",
       "archive",
       "ecuador",
       "locations",
+      "people",
+      "subject",
       "trips",
       "website"
     ],
@@ -3711,9 +3455,12 @@ let collection=
     "name": "20240912_3202.jpg",
     "tags": [
       "2024",
+      "anna",
       "archive",
       "ecuador",
       "locations",
+      "people",
+      "subject",
       "trips",
       "website"
     ],
@@ -3768,20 +3515,6 @@ let collection=
       "website"
     ],
     "heightRatio": 0.748148,
-    "rating": 3
-  },
-  {
-    "name": "20240913_0001.jpg",
-    "tags": [
-      "architecture",
-      "genre",
-      "panorama",
-      "selectedworks",
-      "series",
-      "website"
-    ],
-    "heightRatio": 0.352941,
-    "title": "Guango Lodge",
     "rating": 3
   },
   {
@@ -3970,12 +3703,13 @@ let collection=
       "landscape",
       "locations",
       "nature",
+      "printforkatie",
       "trips",
       "utah",
       "website",
       "zion"
     ],
-    "heightRatio": 1.33663,
+    "heightRatio": 1.25,
     "rating": 4
   },
   {
@@ -4232,20 +3966,6 @@ let collection=
     "rating": 3
   },
   {
-    "name": "20241022_1421.jpg",
-    "tags": [
-      "2024",
-      "america",
-      "locations",
-      "trips",
-      "utah",
-      "year1",
-      "zion"
-    ],
-    "heightRatio": 0.748148,
-    "rating": 2
-  },
-  {
     "name": "20241022_1514.jpg",
     "tags": [
       "2024",
@@ -4340,48 +4060,6 @@ let collection=
     ],
     "heightRatio": 0.748148,
     "rating": 3
-  },
-  {
-    "name": "20241022_2077.jpg",
-    "tags": [
-      "2024",
-      "america",
-      "bryce",
-      "locations",
-      "trips",
-      "utah",
-      "year1"
-    ],
-    "heightRatio": 1.25145,
-    "rating": 2
-  },
-  {
-    "name": "20241022_2235.jpg",
-    "tags": [
-      "2024",
-      "america",
-      "bryce",
-      "locations",
-      "trips",
-      "utah",
-      "year1"
-    ],
-    "heightRatio": 0.748148,
-    "rating": 2
-  },
-  {
-    "name": "20241022_2258.jpg",
-    "tags": [
-      "2024",
-      "america",
-      "bryce",
-      "locations",
-      "trips",
-      "utah",
-      "year1"
-    ],
-    "heightRatio": 0.666667,
-    "rating": 2
   },
   {
     "name": "20241022_2533.jpg",
@@ -4496,20 +4174,6 @@ let collection=
     "rating": 3
   },
   {
-    "name": "20241022_2862.jpg",
-    "tags": [
-      "2024",
-      "america",
-      "locations",
-      "trips",
-      "utah",
-      "year1",
-      "zion"
-    ],
-    "heightRatio": 0.665741,
-    "rating": 2
-  },
-  {
     "name": "20241022_3039.jpg",
     "tags": [
       "2024",
@@ -4564,6 +4228,7 @@ let collection=
   {
     "name": "20241030_0040.jpg",
     "tags": [
+      "1",
       "america",
       "archive",
       "city",
@@ -4573,26 +4238,12 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
+      "substack",
       "website",
       "year1"
     ],
     "heightRatio": 0.666667,
     "title": "Worker Closing Garage Door",
-    "rating": 4
-  },
-  {
-    "name": "20241030_0058.jpg",
-    "tags": [
-      "america",
-      "city",
-      "genre",
-      "locations",
-      "newyork",
-      "nyc",
-      "street",
-      "year1"
-    ],
-    "heightRatio": 0.747222,
     "rating": 4
   },
   {
@@ -4614,18 +4265,6 @@ let collection=
     "rating": 3
   },
   {
-    "name": "20241030_0080.jpg",
-    "tags": [
-      "america",
-      "locations",
-      "newyork",
-      "nyc",
-      "year1"
-    ],
-    "heightRatio": 0.748148,
-    "rating": 2
-  },
-  {
     "name": "20241031_0002.jpg",
     "tags": [
       "2024",
@@ -4643,7 +4282,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 0.352941,
+    "heightRatio": 0.3525,
     "title": "Bryce Amphitheater",
     "rating": 3
   },
@@ -4753,7 +4392,7 @@ let collection=
       "website",
       "zion"
     ],
-    "heightRatio": 0.352941,
+    "heightRatio": 0.3525,
     "title": "Watchman's Overlook",
     "rating": 3
   },
@@ -4771,7 +4410,7 @@ let collection=
       "website",
       "zion"
     ],
-    "heightRatio": 0.352941,
+    "heightRatio": 0.3525,
     "title": "Behind Watchman's Overlook",
     "rating": 2
   },
@@ -4797,6 +4436,7 @@ let collection=
   {
     "name": "20241105_0023.jpg",
     "tags": [
+      "1",
       "america",
       "archive",
       "city",
@@ -4806,6 +4446,7 @@ let collection=
       "nyc",
       "selectedworks",
       "street",
+      "substack",
       "website",
       "year1"
     ],
@@ -4862,18 +4503,6 @@ let collection=
     "heightRatio": 0.750926,
     "title": "No Parking Anytime",
     "rating": 3
-  },
-  {
-    "name": "20241105_0048.jpg",
-    "tags": [
-      "america",
-      "locations",
-      "newyork",
-      "nyc",
-      "year1"
-    ],
-    "heightRatio": 0.750926,
-    "rating": 2
   },
   {
     "name": "20241105_0069.jpg",
@@ -4977,22 +4606,6 @@ let collection=
     ],
     "heightRatio": 0.749074,
     "title": "Black Capped Chickadee, Prospect Park",
-    "rating": 3
-  },
-  {
-    "name": "20241110_0737.jpg",
-    "tags": [
-      "america",
-      "archive",
-      "genre",
-      "locations",
-      "nature",
-      "newyork",
-      "nyc",
-      "website",
-      "wildlife"
-    ],
-    "heightRatio": 0.749074,
     "rating": 3
   },
   {
@@ -5116,21 +4729,6 @@ let collection=
     "rating": 3
   },
   {
-    "name": "20241119_0135.jpg",
-    "tags": [
-      "america",
-      "city",
-      "genre",
-      "locations",
-      "newyork",
-      "nyc",
-      "street",
-      "year1"
-    ],
-    "heightRatio": 0.750926,
-    "rating": 4
-  },
-  {
     "name": "20241119_0177.jpg",
     "tags": [
       "america",
@@ -5225,7 +4823,7 @@ let collection=
       "subwayentrance",
       "website"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 0.738889,
     "rating": 3
   },
   {
@@ -5431,17 +5029,6 @@ let collection=
     "rating": 3
   },
   {
-    "name": "20241220_0047.jpg",
-    "tags": [
-      "city",
-      "genre",
-      "street",
-      "year1"
-    ],
-    "heightRatio": 0.665741,
-    "rating": 1
-  },
-  {
     "name": "20241220_0050.jpg",
     "tags": [
       "america",
@@ -5627,21 +5214,6 @@ let collection=
     "rating": 3
   },
   {
-    "name": "20241231_0124.jpg",
-    "tags": [
-      "america",
-      "austin",
-      "city",
-      "genre",
-      "locations",
-      "street",
-      "texas",
-      "year1"
-    ],
-    "heightRatio": 1.33498,
-    "rating": 3
-  },
-  {
     "name": "20241231_0803.jpg",
     "tags": [
       "america",
@@ -5741,22 +5313,6 @@ let collection=
     "rating": 3
   },
   {
-    "name": "20241231_0882.jpg",
-    "tags": [
-      "america",
-      "archive",
-      "city",
-      "cityscape",
-      "genre",
-      "locations",
-      "newyork",
-      "nyc",
-      "website"
-    ],
-    "heightRatio": 0.750926,
-    "rating": 2
-  },
-  {
     "name": "20250118_0008.jpg",
     "tags": [
       "archive",
@@ -5783,10 +5339,12 @@ let collection=
   {
     "name": "20250118_0013.jpg",
     "tags": [
+      "1",
       "archive",
       "mirrorselfie",
       "people",
       "subject",
+      "substack",
       "website",
       "year1"
     ],
@@ -6062,22 +5620,6 @@ let collection=
     "rating": 2
   },
   {
-    "name": "20250209_0066.jpg",
-    "tags": [
-      "america",
-      "archive",
-      "city",
-      "cityscape",
-      "genre",
-      "locations",
-      "newyork",
-      "nyc",
-      "website"
-    ],
-    "heightRatio": 0.750926,
-    "rating": 2
-  },
-  {
     "name": "20250217_0004.jpg",
     "tags": [
       "america",
@@ -6127,22 +5669,6 @@ let collection=
     ],
     "heightRatio": 1.33169,
     "rating": 3
-  },
-  {
-    "name": "20250217_0012.jpg",
-    "tags": [
-      "america",
-      "archive",
-      "city",
-      "cityscape",
-      "genre",
-      "locations",
-      "newyork",
-      "nyc",
-      "website"
-    ],
-    "heightRatio": 0.750926,
-    "rating": 2
   },
   {
     "name": "20250217_0022.jpg",
@@ -6223,7 +5749,7 @@ let collection=
       "website",
       "wildlife"
     ],
-    "heightRatio": 0.750926,
+    "heightRatio": 0.665741,
     "rating": 2
   },
   {
@@ -6699,6 +6225,7 @@ let collection=
   {
     "name": "20250313_0141.jpg",
     "tags": [
+      "1",
       "2025",
       "america",
       "archive",
@@ -6708,6 +6235,7 @@ let collection=
       "locations",
       "nature",
       "selectedworks",
+      "substack",
       "trips",
       "website",
       "wildlife"
@@ -6746,13 +6274,14 @@ let collection=
       "locations",
       "nature",
       "panorama",
+      "selectedworks",
       "series",
       "trips",
       "website",
       "wildlife",
       "year1"
     ],
-    "heightRatio": 0.352941,
+    "heightRatio": 0.3525,
     "rating": 3
   },
   {
@@ -6790,7 +6319,7 @@ let collection=
       "website",
       "year1"
     ],
-    "heightRatio": 0.5,
+    "heightRatio": 0.4995,
     "rating": 3
   },
   {
@@ -6798,10 +6327,11 @@ let collection=
     "tags": [
       "archive",
       "panorama",
+      "selectedworks",
       "series",
       "website"
     ],
-    "heightRatio": 0.333333,
+    "heightRatio": 0.3525,
     "rating": 2
   },
   {
@@ -6819,11 +6349,12 @@ let collection=
     "tags": [
       "archive",
       "panorama",
+      "selectedworks",
       "series",
       "website",
       "year1"
     ],
-    "heightRatio": 0.352941,
+    "heightRatio": 0.3525,
     "rating": 2
   },
   {
@@ -6832,7 +6363,7 @@ let collection=
       "archive",
       "website"
     ],
-    "heightRatio": 0.5,
+    "heightRatio": 0.4995,
     "rating": 2
   },
   {
@@ -6840,11 +6371,12 @@ let collection=
     "tags": [
       "archive",
       "panorama",
+      "selectedworks",
       "series",
       "website",
       "year1"
     ],
-    "heightRatio": 0.369231,
+    "heightRatio": 0.369,
     "rating": 2
   },
   {
@@ -6901,6 +6433,16 @@ let collection=
       "website"
     ],
     "heightRatio": 0.665741,
+    "rating": 2
+  },
+  {
+    "name": "20250418_1087.jpg",
+    "tags": [
+      "archive",
+      "website"
+    ],
+    "heightRatio": 0.4995,
+    "title": "30 Hudson Yards & One Vanderbilt",
     "rating": 2
   },
   {
@@ -7055,7 +6597,7 @@ let collection=
       "series",
       "website"
     ],
-    "heightRatio": 0.352941,
+    "heightRatio": 0.3525,
     "title": "South Brooklyn",
     "rating": 3
   }
