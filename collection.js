@@ -2937,7 +2937,6 @@ let collection=
       "locations",
       "nature",
       "people",
-      "selectedworks",
       "subject",
       "trips",
       "website"
