@@ -97,10 +97,14 @@ class Fullover extends HTMLElement {
 
     hide() {
         document.getElementById("fullover").classList.remove("show")
+        document.body.style.removeProperty("height")
+        document.body.style.removeProperty("overflow")
     }
 
     show() {
         document.getElementById("fullover").classList.add("show")
+        document.body.style.height = "100%"
+        document.body.style.overflow = "hidden"
     }
 
     setPhoto(photo) {
