@@ -31,6 +31,13 @@ do
         # Get current state of tracked files that might be modified by make
         git_status_before=$(git status --porcelain)
         
+        # Run linting first
+        echo -e "${BOLD}${CYAN}🔍 Running 'npm run lint'...${NC}"
+        if ! npm run lint; then
+            echo -e "${BOLD}${RED}❌ Error: Linting failed. Please fix linting issues before pushing.${NC}"
+            exit 1
+        fi
+        
         # Run make
         echo -e "${BOLD}${CYAN}🔨 Running 'make'...${NC}"
         if ! make; then
