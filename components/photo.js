@@ -6,24 +6,24 @@ class Photo extends HTMLElement {
     }
 
     id() {
-        return "zoomCheck-"+this.getAttribute("src")
+        return "zoomCheck-"+this.getAttribute("src");
     }
 
     getTitle() {
         if (this.getAttribute("title") === undefined || this.getAttribute("title") === null) {
-            return ""
+            return "";
         }
-        return `title="${this.getAttribute("title")}"`
+        return `title="${this.getAttribute("title")}"`;
     }
 
     connectedCallback() {
-        this.render()
+        this.render();
     }
 
     render() {
         this.innerHTML = `
 <img src="${this.getAttribute("src")}" ${this.getTitle()} loading="lazy">
-`
+`;
         this.addEventListener("click", () =>{
             document.dispatchEvent(
                 new CustomEvent("photoclick", {
@@ -31,10 +31,10 @@ class Photo extends HTMLElement {
                         photo: this,
                     },
                 })
-            )
-        })
+            );
+        });
     }
 }
 
-customElements.define('photo-component', Photo);
-export {Photo}
+customElements.define("photo-component", Photo);
+export {Photo};

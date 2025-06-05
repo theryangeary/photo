@@ -1,4 +1,4 @@
-let tree =
+const tree =
     {
         "archive": [
             {
@@ -34,42 +34,42 @@ let tree =
             {"path": "wildlife", "name": "Wildlife"},
             {"path": "subwayentrance", "name": "Subway Structures"}
         ]
-    }
+    };
 
 function allPaths() {
-    var paths = [];
-    for (let i = 0; i < tree['selectedworks'].length; i++) {
-        paths.push(`selectedworks/${tree['selectedworks'][i]['path']}`)
+    const paths = [];
+    for (let i = 0; i < tree["selectedworks"].length; i++) {
+        paths.push(`selectedworks/${tree["selectedworks"][i]["path"]}`);
     }
     for (let yearIdx = 0; yearIdx < tree.trips.length; yearIdx++) {
-        let yearSet = tree.trips[yearIdx]
+        const yearSet = tree.trips[yearIdx];
         for (let tripIdx = 0; tripIdx < yearSet.destinations.length; tripIdx++) {
-            paths.push(`trips/${yearSet.year}/${yearSet.destinations[tripIdx].path}`)
+            paths.push(`trips/${yearSet.year}/${yearSet.destinations[tripIdx].path}`);
         }
     }
     for (let yearIdx = 0; yearIdx < tree.archive.length; yearIdx++) {
-        paths.push(`archive/${tree.archive[yearIdx].year}`)
+        paths.push(`archive/${tree.archive[yearIdx].year}`);
         for (let monthIdx = 0; monthIdx < tree.archive[yearIdx].months.length; monthIdx++) {
-            paths.push(`archive/${tree.archive[yearIdx].year}${tree.archive[yearIdx].months[monthIdx]}`)
+            paths.push(`archive/${tree.archive[yearIdx].year}${tree.archive[yearIdx].months[monthIdx]}`);
         }
     }
-    return paths
+    return paths;
 }
 
 
 function monthName(monthDigitString) {
-    if (monthDigitString==="01") return "January";
-    if (monthDigitString==="02") return "February";
-    if (monthDigitString==="03") return "March";
-    if (monthDigitString==="04") return "April";
-    if (monthDigitString==="05") return "May";
-    if (monthDigitString==="06") return "June";
-    if (monthDigitString==="07") return "July";
-    if (monthDigitString==="08") return "August";
-    if (monthDigitString==="09") return "September";
-    if (monthDigitString==="10") return "October";
-    if (monthDigitString==="11") return "November";
-    if (monthDigitString==="12") return "December";
+    if (monthDigitString==="01") {return "January";}
+    if (monthDigitString==="02") {return "February";}
+    if (monthDigitString==="03") {return "March";}
+    if (monthDigitString==="04") {return "April";}
+    if (monthDigitString==="05") {return "May";}
+    if (monthDigitString==="06") {return "June";}
+    if (monthDigitString==="07") {return "July";}
+    if (monthDigitString==="08") {return "August";}
+    if (monthDigitString==="09") {return "September";}
+    if (monthDigitString==="10") {return "October";}
+    if (monthDigitString==="11") {return "November";}
+    if (monthDigitString==="12") {return "December";}
     return "";
 }
 

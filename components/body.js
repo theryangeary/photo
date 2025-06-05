@@ -1,6 +1,6 @@
 class Body extends HTMLElement {
     id() {
-        return "body-component"
+        return "body-component";
     }
 
     connectedCallback() {
@@ -15,9 +15,9 @@ class Body extends HTMLElement {
     <columns-component></columns-component>
 </body>
 
-`
+`;
     }
 }
 
-customElements.define('body-component', Body);
-export {Body}
+customElements.define("body-component", Body);
+export {Body};

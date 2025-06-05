@@ -9,7 +9,7 @@ class Columns extends HTMLElement {
     }
 
     id() {
-        return "columns-component"
+        return "columns-component";
     }
 
     connectedCallback() {
@@ -19,7 +19,7 @@ class Columns extends HTMLElement {
     <div class="column" id="col2"> </div>
 </div>
 `;
-        
+
         // Cache column references
         this.col1 = this.querySelector("#col1");
         this.col2 = this.querySelector("#col2");
@@ -64,10 +64,10 @@ class Columns extends HTMLElement {
     addPhoto(photoElement, heightRatio) {
         this.cols[this.nextCol].appendChild(photoElement);
         this.colHeights[this.nextCol] += heightRatio;
-        
+
         // Switch to the shorter column if two columns are visible
-        if (this.col2.style.display !== "none" && 
-            this.cols.length === 2 && 
+        if (this.col2.style.display !== "none" &&
+            this.cols.length === 2 &&
             this.colHeights[this.nextCol] > this.colHeights[(this.nextCol + 1) % 2]) {
             this.nextCol = (this.nextCol + 1) % 2;
         }
@@ -82,14 +82,14 @@ class Columns extends HTMLElement {
     handleResize(smallScreen, redisplayCallback, storedScrollPosition = 0) {
         const currentScroll = storedScrollPosition || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
         const scrollInversionConstant = 4.0;
-        
+
         if (smallScreen.matches) {
             // Small screen: single column
             this.hideSecondColumn();
             this.empty();
             redisplayCallback();
             const newScroll = currentScroll * scrollInversionConstant;
-            
+
             // Wait for content to render before scrolling
             requestAnimationFrame(() => {
                 requestAnimationFrame(() => {
@@ -102,7 +102,7 @@ class Columns extends HTMLElement {
             this.empty();
             redisplayCallback();
             const newScroll = currentScroll / scrollInversionConstant;
-            
+
             // Wait for content to render before scrolling
             requestAnimationFrame(() => {
                 requestAnimationFrame(() => {
@@ -121,5 +121,5 @@ class Columns extends HTMLElement {
     }
 }
 
-customElements.define('columns-component', Columns);
-export {Columns}
+customElements.define("columns-component", Columns);
+export {Columns};

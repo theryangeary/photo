@@ -5,15 +5,15 @@
  */
 
 // Import components to register them
-import './components/body.js';
-import './components/columns.js';
-import './components/fullover.js';
-import './components/navbar.js';
-import './components/photo.js';
-import './components/title.js';
+import "./components/body.js";
+import "./components/columns.js";
+import "./components/fullover.js";
+import "./components/navbar.js";
+import "./components/photo.js";
+import "./components/title.js";
 
 // Import the main gallery orchestrator
-import { PhotoGallery } from './components/photoGallery.js';
+import { PhotoGallery } from "./components/photoGallery.js";
 
 /**
  * Initialize the photo gallery when DOM is ready
@@ -21,9 +21,9 @@ import { PhotoGallery } from './components/photoGallery.js';
 function init() {
     // Wait for custom elements to be defined
     Promise.all([
-        customElements.whenDefined('columns-component'),
-        customElements.whenDefined('title-component'),
-        customElements.whenDefined('fullover-component')
+        customElements.whenDefined("columns-component"),
+        customElements.whenDefined("title-component"),
+        customElements.whenDefined("fullover-component")
     ]).then(() => {
         // Initialize the gallery
         new PhotoGallery();
@@ -31,8 +31,8 @@ function init() {
 }
 
 // Start the application
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
 } else {
     init();
 }

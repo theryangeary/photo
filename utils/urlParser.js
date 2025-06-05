@@ -2,7 +2,7 @@
  * URL parsing and routing utilities for the photo gallery
  */
 
-import { monthName } from '../components/tree.js';
+import { monthName } from "../components/tree.js";
 
 /**
  * Photo gallery router class
@@ -26,9 +26,9 @@ export class PhotoRouter {
         this.prefix = this.params.get("prefix");
 
         // Path based selection
-        const fullPath = this.url.split('/');
+        const fullPath = this.url.split("/");
         const photoIdx = fullPath.indexOf("photo");
-        
+
         // Get path after "photo"
         this.relevantPath = fullPath.slice(photoIdx + 1)
             .filter(segment => segment !== "")
@@ -43,7 +43,7 @@ export class PhotoRouter {
 
         // Determine display modes
         this.shouldShowPanos = this.queryTagList.includes("panorama");
-        this.shouldShowPortfolio = (this.url.indexOf('?') === -1 || this.url.indexOf('?') === this.url.length - 1) 
+        this.shouldShowPortfolio = (this.url.indexOf("?") === -1 || this.url.indexOf("?") === this.url.length - 1)
             && this.relevantPath.length === 0;
     }
 
@@ -142,9 +142,9 @@ export class PhotoRouter {
      * @returns {boolean} True if should sort by rating
      */
     shouldSortByRating() {
-        return (this.prefix == null && this.archiveMonth == null && this.trip == null) &&
-            (!this.relevantPath.includes("prefix") && 
-             !this.relevantPath.includes("archive") && 
+        return (this.prefix === null && this.archiveMonth === null && this.trip === null) &&
+            (!this.relevantPath.includes("prefix") &&
+             !this.relevantPath.includes("archive") &&
              !this.relevantPath.includes("trips"));
     }
 }

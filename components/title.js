@@ -2,11 +2,11 @@ class Title extends HTMLElement {
     static observedAttributes = ["data-title"];
 
     constructor() {
-        super()
+        super();
     }
 
     setTitle(title) {
-        this.setAttribute("data-title", title)
+        this.setAttribute("data-title", title);
     }
 
     /**
@@ -15,10 +15,10 @@ class Title extends HTMLElement {
      * @param {string} archiveLabel - Human readable archive label
      */
     setArchiveTitle(archiveMonth, archiveLabel) {
-        if (archiveMonth == null) {
+        if (archiveMonth === null) {
             return;
         }
-        
+
         if (archiveLabel === "") {
             this.setTitle("Archives");
         } else {
@@ -32,10 +32,10 @@ class Title extends HTMLElement {
      * @param {string} selectedWorksLabel - Human readable selected works label
      */
     setSelectedWorksTitle(selectedWorks, selectedWorksLabel) {
-        if (selectedWorks == null) {
+        if (selectedWorks === null) {
             return;
         }
-        
+
         if (selectedWorksLabel === "") {
             this.setTitle("Selected Works");
         } else {
@@ -53,10 +53,10 @@ class Title extends HTMLElement {
     }
 
     connectedCallback() {
-        this.render()
+        this.render();
     }
     attributeChangedCallback() {
-        this.render()
+        this.render();
     }
     render() {
         this.innerHTML = `
@@ -66,13 +66,13 @@ class Title extends HTMLElement {
     </a>
 </h1>
 
-`
-        document.getElementById("navbar-icon").addEventListener("click", this.toggleNavbarResponsive)
+`;
+        document.getElementById("navbar-icon").addEventListener("click", this.toggleNavbarResponsive);
     }
 
     /* Toggle between adding and removing the "responsive" class to navbar when the user clicks on the icon */
     toggleNavbarResponsive() {
-        var x = document.getElementById("navbar");
+        const x = document.getElementById("navbar");
         if (x.className === "navbar") {
             x.className += " responsive";
         } else {
@@ -81,5 +81,5 @@ class Title extends HTMLElement {
     }
 }
 
-customElements.define('title-component', Title);
-export {Title}
+customElements.define("title-component", Title);
+export {Title};

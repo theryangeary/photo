@@ -2,25 +2,25 @@
  * Main PhotoGallery component that orchestrates the entire gallery functionality
  */
 
-import { collection } from '/photo/collection.js';
-import { PhotoRouter } from '/photo/utils/urlParser.js';
-import { PhotoFilterManager, sortByRating } from '/photo/utils/photoFilters.js';
+import { collection } from "/photo/collection.js";
+import { PhotoRouter } from "/photo/utils/urlParser.js";
+import { PhotoFilterManager, sortByRating } from "/photo/utils/photoFilters.js";
 
 export class PhotoGallery {
     constructor() {
         this.router = new PhotoRouter();
         this.filterManager = new PhotoFilterManager(this.router.getFilterConfig());
         this.displayConfig = this.router.getDisplayConfig();
-        
+
         this.displayCollection = [];
         this.displayIndex = 0;
         this.lastScrollPosition = 0;
-        
+
         // Get DOM elements
-        this.columnsComponent = document.querySelector('columns-component');
-        this.titleComponent = document.querySelector('title-component');
-        this.fulloverComponent = document.querySelector('fullover-component');
-        
+        this.columnsComponent = document.querySelector("columns-component");
+        this.titleComponent = document.querySelector("title-component");
+        this.fulloverComponent = document.querySelector("fullover-component");
+
         this.init();
     }
 
@@ -53,14 +53,14 @@ export class PhotoGallery {
         } else {
             // Make number of columns based on screen size
             const smallScreen = window.matchMedia("(max-width: 720px)");
-            
+
             // Set initial layout without scroll adjustment
             if (smallScreen.matches) {
                 this.columnsComponent.hideSecondColumn();
             } else {
                 this.columnsComponent.showSecondColumn();
             }
-            
+
             // Attach listener for responsive changes only when crossing threshold
             smallScreen.addEventListener("change", () => {
                 this.columnsComponent.handleResize(smallScreen, () => this.redisplayPhotos(), this.lastScrollPosition);
@@ -74,7 +74,7 @@ export class PhotoGallery {
     processCollection() {
         // Apply filters
         this.displayCollection = this.filterManager.applyFilters(collection);
-        
+
         if (this.displayCollection.length === 0) {
             return;
         }
@@ -96,7 +96,7 @@ export class PhotoGallery {
         window.onscroll = () => {
             // Track scroll position for responsive layout changes
             this.lastScrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-            
+
             if (window.scrollY + window.innerHeight < this.getPageHeight() - (2 * window.innerHeight)) {
                 // Don't load yet, plenty of other images are already loaded
                 return;
@@ -149,7 +149,7 @@ export class PhotoGallery {
         if (this.displayIndex === this.displayCollection.length) {
             return;
         }
-        
+
         const newImg = this.displayCollection[this.displayIndex];
         this.displayIndex++;
         this.displayImage(newImg);
@@ -162,11 +162,11 @@ export class PhotoGallery {
     displayImage(img) {
         const photo = document.createElement("photo-component");
         photo.setAttribute("src", "/photo/img/" + img.name);
-        
+
         if (img.title !== undefined) {
             photo.setAttribute("title", img.title);
         }
-        
+
         this.columnsComponent.addPhoto(photo, img.heightRatio);
     }
 
@@ -175,10 +175,10 @@ export class PhotoGallery {
      */
     redisplayPhotos() {
         this.columnsComponent.empty();
-        
+
         const currentDisplayIndex = this.displayIndex;
         this.displayIndex = 0;
-        
+
         for (let i = 0; i < currentDisplayIndex; i++) {
             this.advanceDisplayCollection();
         }

@@ -1,12 +1,12 @@
-import {tree, monthName} from "./tree.js"
+import {tree, monthName} from "./tree.js";
 
 class Navbar extends HTMLElement {
     id() {
-        return "navbar"
+        return "navbar";
     }
 
     connectedCallback() {
-        this.render()
+        this.render();
     }
 
     render() {
@@ -15,12 +15,12 @@ class Navbar extends HTMLElement {
     <li><a href="/photo">Home</a></li>
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Selected Works</a>
-        <div class="dropdown-content">`
+        <div class="dropdown-content">`;
 
-        for (let i = 0; i < tree['selectedworks'].length; i++) {
+        for (let i = 0; i < tree["selectedworks"].length; i++) {
             base += `
-            <a href="/photo/selectedworks/${tree['selectedworks'][i]['path']}">${tree['selectedworks'][i]['name']}</a>
-            `
+            <a href="/photo/selectedworks/${tree["selectedworks"][i]["path"]}">${tree["selectedworks"][i]["name"]}</a>
+            `;
         }
 
         base += `
@@ -29,14 +29,14 @@ class Navbar extends HTMLElement {
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">On Location</a>
         <div class="dropdown-content">
-        `
+        `;
 
         for (let yearIdx = 0; yearIdx < tree.trips.length; yearIdx++) {
-            let yearSet = tree.trips[yearIdx]
+            const yearSet = tree.trips[yearIdx];
             for (let tripIdx = 0; tripIdx < yearSet.destinations.length; tripIdx++) {
                 base += `
                 <a href="/photo/trips/${yearSet.year}/${yearSet.destinations[tripIdx].path}">${yearSet.destinations[tripIdx].name}</a>
-                `
+                `;
             }
         }
 
@@ -46,79 +46,79 @@ class Navbar extends HTMLElement {
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Archive</a>
         <div class="dropdown-content">
-        `
+        `;
 
         for (let yearIdx = 0; yearIdx < tree.archive.length; yearIdx++) {
             base += `
             <a href="javascript:void(0)" class="subdropdown">${tree.archive[yearIdx].year}</a>
             <div class="subdropdown-content">
-            `
+            `;
 
             for (let monthIdx = 0; monthIdx < tree.archive[yearIdx].months.length; monthIdx++) {
                 base += `
                     <a href="/photo/archive/${tree.archive[yearIdx].year}${tree.archive[yearIdx].months[monthIdx]}">${monthName(tree.archive[yearIdx].months[monthIdx])}</a>
-                `
+                `;
             }
 
-            base += `</div>`
+            base += "</div>";
         }
 
         base += `
         </div>
     </li>
 </ul>
-`
+`;
 
-        this.innerHTML = base
+        this.innerHTML = base;
         Array.from(document.getElementsByClassName("dropbtn")).forEach(
             (dropbtn) => dropbtn.addEventListener("click", () => this.toggleDropdown(dropbtn))
-        )
+        );
         Array.from(document.getElementsByClassName("subdropdown")).forEach(
             (dropbtn) => dropbtn.addEventListener("click", () => this.toggleSubdropdown(dropbtn))
-        )
+        );
     }
 
     toggleDropdown(t) {
         if (window.matchMedia("(min-width: 600px)").matches) {
             // don't set active on desktop, prefering hover
-            return
+            return;
         }
-        let dropdown = t.parentElement
-        let dropdowns = document.getElementsByClassName("dropdown")
+        const dropdown = t.parentElement;
+        const dropdowns = document.getElementsByClassName("dropdown");
         if (dropdown.className === "dropdown") {
             // ensure only one dropdown is active
             for (let i = 0; i < dropdowns.length; i++) {
                 if (dropdowns[i] === dropdown) {
-                    continue
+                    continue;
                 }
-                dropdowns[i].className = "dropdown"
+                dropdowns[i].className = "dropdown";
             }
-            dropdown.classList.add("active")
+            dropdown.classList.add("active");
         } else {
-            dropdown.className = "dropdown"
+            dropdown.className = "dropdown";
         }
     }
     toggleSubdropdown(t) {
         if (window.matchMedia("(min-width: 600px)").matches) {
             // don't set active on desktop, prefering hover
-            return
+            return;
         }
-        let dropdown = t
-        let dropdowns = document.getElementsByClassName("subdropdown")
+        const dropdown = t;
+        const dropdowns = document.getElementsByClassName("subdropdown");
         if (dropdown.className === "subdropdown") {
             // ensure only one dropdown is active
             for (let i = 0; i < dropdowns.length; i++) {
                 if (dropdowns[i] === dropdown) {
-                    continue
+                    continue;
                 }
-                dropdowns[i].className = "subdropdown"
+                dropdowns[i].className = "subdropdown";
             }
-            dropdown.classList.add("active")
+            dropdown.classList.add("active");
         } else {
-            dropdown.className = "subdropdown"
+            dropdown.className = "subdropdown";
         }
     }
 }
 
-customElements.define('navbar-component', Navbar);
-export {Navbar}
+customElements.define("navbar-component", Navbar);
+export {Navbar};

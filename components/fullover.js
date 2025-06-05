@@ -6,14 +6,14 @@ class Fullover extends HTMLElement {
     }
 
     id() {
-        return "zoomCheck-"+this.getAttribute("src")+"-fullover"
+        return "zoomCheck-"+this.getAttribute("src")+"-fullover";
     }
 
     getDescription() {
-        if (this.getAttribute("description") == "undefined" || this.getAttribute("description") == "null" || this.getAttribute("description") == null ) {
-            return ""
+        if (this.getAttribute("description") === "undefined" || this.getAttribute("description") === "null" || this.getAttribute("description") === null ) {
+            return "";
         }
-        return `<p>${this.getAttribute("description")}</p>`
+        return `<p>${this.getAttribute("description")}</p>`;
     }
 
     photoNext() {
@@ -27,8 +27,8 @@ class Fullover extends HTMLElement {
     }
 
     clickPhotoNext(event) {
-        event.stopPropagation()
-        this.photoNext()
+        event.stopPropagation();
+        this.photoNext();
     }
 
     photoPrev() {
@@ -42,88 +42,88 @@ class Fullover extends HTMLElement {
     }
 
     clickPhotoPrev(event) {
-        event.stopPropagation()
-        this.photoPrev()
+        event.stopPropagation();
+        this.photoPrev();
     }
 
     checkDirection(touchstartX, touchstartY, touchendX, touchendY) {
         if (Math.abs(touchendX - touchstartX) > Math.abs(touchendY - touchstartY)) {
-            if (touchendX < touchstartX) this.photoNext()
-            if (touchendX > touchstartX) this.photoPrev()
+            if (touchendX < touchstartX) {this.photoNext();}
+            if (touchendX > touchstartX) {this.photoPrev();}
         }
     }
 
     connectedCallback() {
-        let touchstartX = 0
-        let touchstartY = 0
-        let touchendX = 0
-        let touchendY = 0
+        let touchstartX = 0;
+        let touchstartY = 0;
+        let touchendX = 0;
+        let touchendY = 0;
 
-        document.addEventListener('touchstart', e => {
-            touchstartX = e.changedTouches[0].screenX
-            touchstartY = e.changedTouches[0].screenY
-        })
+        document.addEventListener("touchstart", e => {
+            touchstartX = e.changedTouches[0].screenX;
+            touchstartY = e.changedTouches[0].screenY;
+        });
 
-        document.addEventListener('touchend', e => {
-            touchendX = e.changedTouches[0].screenX
-            touchendY = e.changedTouches[0].screenY
-            this.checkDirection(touchstartX, touchstartY, touchendX, touchendY)
-        })
+        document.addEventListener("touchend", e => {
+            touchendX = e.changedTouches[0].screenX;
+            touchendY = e.changedTouches[0].screenY;
+            this.checkDirection(touchstartX, touchstartY, touchendX, touchendY);
+        });
 
-        document.addEventListener('keydown', (event) => {
+        document.addEventListener("keydown", (event) => {
             if (event.keyCode === 27) {
                 // Escape key pressed
-                this.hide()
+                this.hide();
             }
             if (event.keyCode === 39) {
-                this.photoNext()
+                this.photoNext();
             }
             if (event.keyCode === 37) {
-                this.photoPrev()
+                this.photoPrev();
             }
         });
 
-        document.addEventListener('photoclick', (event) => {
-            this.setPhoto(event.detail.photo)
-            this.show()
+        document.addEventListener("photoclick", (event) => {
+            this.setPhoto(event.detail.photo);
+            this.show();
         });
 
-        this.render()
+        this.render();
     }
 
-    attributeChangedCallback(name, oldValue, newValue) {
-        this.render()
+    attributeChangedCallback(_name, _oldValue, _newValue) {
+        this.render();
     }
 
     hide() {
-        document.getElementById("fullover").classList.remove("show")
-        document.body.style.removeProperty("height")
-        document.body.style.removeProperty("overflow")
+        document.getElementById("fullover").classList.remove("show");
+        document.body.style.removeProperty("height");
+        document.body.style.removeProperty("overflow");
     }
 
     show() {
-        document.getElementById("fullover").classList.add("show")
-        document.body.style.height = "100%"
-        document.body.style.overflow = "hidden"
+        document.getElementById("fullover").classList.add("show");
+        document.body.style.height = "100%";
+        document.body.style.overflow = "hidden";
     }
 
     setPhoto(photo) {
-        this.setAttribute("src", photo.getAttribute("src"))
-        this.setAttribute("description", photo.getAttribute("title"))
+        this.setAttribute("src", photo.getAttribute("src"));
+        this.setAttribute("description", photo.getAttribute("title"));
     }
 
     setPhoto2(collectionEntry) {
-        this.setAttribute("src", "/photo/img/"+collectionEntry.name)
-        this.setAttribute("description", collectionEntry.title)
-        this.show()
+        this.setAttribute("src", "/photo/img/"+collectionEntry.name);
+        this.setAttribute("description", collectionEntry.title);
+        this.show();
     }
 
     render() {
-        const src = this.getAttribute('src')
+        const src = this.getAttribute("src");
         if (src === null) {
-            return
+            return;
         }
-        const description = this.getDescription()
+        const description = this.getDescription();
         this.innerHTML = `
 <div id="fullover" onclick="document.getElementById('fullover-component').hide()">
     <div onclick="document.getElementById('fullover-component').hide()" class="fullover-icon x-out">
@@ -138,9 +138,9 @@ class Fullover extends HTMLElement {
     <img src="${src}"/>
     ${description}
 </div>
-`
+`;
     }
 }
 
-customElements.define('fullover-component', Fullover);
-export {Fullover}
+customElements.define("fullover-component", Fullover);
+export {Fullover};

@@ -2,7 +2,7 @@
  * Photo filtering system for the gallery
  */
 
-import { hasTag, hasAllTags } from './tagUtils.js';
+import { hasTag, hasAllTags } from "./tagUtils.js";
 
 /**
  * Class to manage photo filtering
@@ -48,7 +48,7 @@ export class PhotoFilterManager {
      */
     createArchiveMonthFilter() {
         return (img) => {
-            if (this.config.archiveMonth == null) {
+            if (this.config.archiveMonth === null) {
                 return false;
             }
             return (!img.name.startsWith(this.config.archiveMonth) || !hasTag(img, "archive"));
@@ -61,7 +61,7 @@ export class PhotoFilterManager {
      */
     createSelectedWorksFilter() {
         return (img) => {
-            if (this.config.selectedWorks == null) {
+            if (this.config.selectedWorks === null) {
                 return false;
             }
             return (!hasTag(img, "selectedworks") || !hasTag(img, this.config.selectedWorks));
@@ -74,7 +74,7 @@ export class PhotoFilterManager {
      */
     createTripFilter() {
         return (img) => {
-            if (this.config.trip == null) {
+            if (this.config.trip === null) {
                 return false;
             }
             return (!hasTag(img, "trips") || !hasTag(img, this.config.trip));
@@ -127,7 +127,7 @@ export class PhotoFilterManager {
      */
     createPrefixFilter() {
         return (img) => {
-            if (this.config.prefix == null) {
+            if (this.config.prefix === null) {
                 return false;
             }
             return !img.name.startsWith(this.config.prefix);
