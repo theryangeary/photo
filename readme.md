@@ -6,6 +6,14 @@ Most code is in the root or in `components/`. Most other dirs are the generated 
 
 To add a new page and navbar entry, include it in `tree` inside `components/tree.js`.
 
+### Initial Setup
+
+After cloning the repository, install the git hooks:
+
+```bash
+./install-hooks.sh
+```
+
 ### Local Server
 
 run `cd .. && python3 -m httpserver` and then navigate to localhost:8000/photos
