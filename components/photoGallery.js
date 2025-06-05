@@ -14,6 +14,7 @@ export class PhotoGallery {
         
         this.displayCollection = [];
         this.displayIndex = 0;
+        this.lastScrollPosition = 0;
         
         // Get DOM elements
         this.columnsComponent = document.querySelector('columns-component');
@@ -53,12 +54,16 @@ export class PhotoGallery {
             // Make number of columns based on screen size
             const smallScreen = window.matchMedia("(max-width: 720px)");
             
-            // Handle initial layout
-            this.columnsComponent.handleResize(smallScreen, () => this.redisplayPhotos());
+            // Set initial layout without scroll adjustment
+            if (smallScreen.matches) {
+                this.columnsComponent.hideSecondColumn();
+            } else {
+                this.columnsComponent.showSecondColumn();
+            }
             
-            // Attach listener for responsive changes
+            // Attach listener for responsive changes only when crossing threshold
             smallScreen.addEventListener("change", () => {
-                this.columnsComponent.handleResize(smallScreen, () => this.redisplayPhotos());
+                this.columnsComponent.handleResize(smallScreen, () => this.redisplayPhotos(), this.lastScrollPosition);
             });
         }
     }
@@ -87,8 +92,11 @@ export class PhotoGallery {
      * Set up event listeners
      */
     setupEventListeners() {
-        // Scroll-based lazy loading
+        // Scroll-based lazy loading + scroll position tracking
         window.onscroll = () => {
+            // Track scroll position for responsive layout changes
+            this.lastScrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+            
             if (window.scrollY + window.innerHeight < this.getPageHeight() - (2 * window.innerHeight)) {
                 // Don't load yet, plenty of other images are already loaded
                 return;
@@ -166,6 +174,8 @@ export class PhotoGallery {
      * Redisplay all currently loaded photos (used for responsive layout changes)
      */
     redisplayPhotos() {
+        this.columnsComponent.empty();
+        
         const currentDisplayIndex = this.displayIndex;
         this.displayIndex = 0;
         

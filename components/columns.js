@@ -77,9 +77,10 @@ class Columns extends HTMLElement {
      * Handle responsive layout changes
      * @param {MediaQueryList} smallScreen - Media query for small screens
      * @param {Function} redisplayCallback - Callback to redisplay photos
+     * @param {number} storedScrollPosition - Pre-stored scroll position
      */
-    handleResize(smallScreen, redisplayCallback) {
-        const currentScroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    handleResize(smallScreen, redisplayCallback, storedScrollPosition = 0) {
+        const currentScroll = storedScrollPosition || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
         const scrollInversionConstant = 4.0;
         
         if (smallScreen.matches) {
@@ -87,13 +88,27 @@ class Columns extends HTMLElement {
             this.hideSecondColumn();
             this.empty();
             redisplayCallback();
-            window.scroll(0, currentScroll * scrollInversionConstant);
+            const newScroll = currentScroll * scrollInversionConstant;
+            
+            // Wait for content to render before scrolling
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    window.scrollTo(0, newScroll);
+                });
+            });
         } else {
             // Large screen: two columns
             this.showSecondColumn();
             this.empty();
             redisplayCallback();
-            window.scroll(0, currentScroll / scrollInversionConstant);
+            const newScroll = currentScroll / scrollInversionConstant;
+            
+            // Wait for content to render before scrolling
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    window.scrollTo(0, newScroll);
+                });
+            });
         }
     }
 
