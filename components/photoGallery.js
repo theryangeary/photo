@@ -33,6 +33,7 @@ export class PhotoGallery {
         this.processCollection();
         this.setupEventListeners();
         this.initialLoad();
+        this.handleDirectImageAccess();
     }
 
     /**
@@ -75,6 +76,7 @@ export class PhotoGallery {
         // Apply filters
         this.displayCollection = this.filterManager.applyFilters(collection);
 
+
         if (this.displayCollection.length === 0) {
             return;
         }
@@ -111,6 +113,11 @@ export class PhotoGallery {
 
         document.addEventListener("photoPrev", (e) => {
             this.handlePhotoNavigation(e, -1);
+        });
+
+        // Hash change events for browser navigation
+        window.addEventListener("hashchange", () => {
+            this.handleHashChange();
         });
     }
 
@@ -211,5 +218,43 @@ export class PhotoGallery {
      */
     getDisplayIndex() {
         return this.displayIndex;
+    }
+
+    /**
+     * Handle direct access to image URLs
+     */
+    handleDirectImageAccess() {
+        const imageFilename = this.router.getImageFilename();
+        if (!imageFilename) {
+            return;
+        }
+
+        // Find the image in the collection
+        const imageEntry = this.displayCollection.find(img => img.name === imageFilename);
+        if (imageEntry) {
+            // Wait for initial load to complete, then show the image
+            setTimeout(() => {
+                this.fulloverComponent.setPhoto2(imageEntry);
+            }, 500); // Increased timeout to ensure images are loaded
+        }
+    }
+
+    /**
+     * Handle hash changes for browser navigation
+     */
+    handleHashChange() {
+        const hash = window.location.hash;
+
+        if (hash.startsWith("#img/")) {
+            // Show image if hash contains image filename
+            const imageFilename = hash.substring(5);
+            const imageEntry = this.displayCollection.find(img => img.name === imageFilename);
+            if (imageEntry) {
+                this.fulloverComponent.setPhoto2(imageEntry);
+            }
+        } else {
+            // Hide fullover if no image hash
+            this.fulloverComponent.hide();
+        }
     }
 }

@@ -35,7 +35,7 @@ body {
     }
 }
 
-img {
+.column img, .row img {
     width: 100%;
     height: auto;
     padding-top: 10px;
@@ -88,6 +88,8 @@ h1 {
 #fullover > img {
     max-width: 95%;
     max-height: 90%;
+    width: auto;
+    height: auto;
     cursor: default;
 }
 

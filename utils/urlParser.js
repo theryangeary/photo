@@ -25,8 +25,9 @@ export class PhotoRouter {
         this.trip = this.params.get("trip");
         this.prefix = this.params.get("prefix");
 
-        // Path based selection
-        const fullPath = this.url.split("/");
+        // Path based selection - remove hash first
+        const urlWithoutHash = this.url.split("#")[0];
+        const fullPath = urlWithoutHash.split("/");
         const photoIdx = fullPath.indexOf("photo");
 
         // Get path after "photo"
@@ -34,15 +35,33 @@ export class PhotoRouter {
             .filter(segment => segment !== "")
             .filter(segment => segment[0] !== "?");
 
+        // Check for image filename in hash
+        this.imageFilename = null;
+        const hash = window.location.hash;
+        if (hash.startsWith("#img/")) {
+            this.imageFilename = hash.substring(5); // Remove "#img/"
+        }
+
         // Handle path-based routing
-        if (!this.relevantPath.includes("archive")) {
-            this.relevantPath.forEach(tag => this.queryTagList.push(tag));
-        } else {
+        if (this.relevantPath.includes("archive")) {
             this.archiveMonth = this.relevantPath[this.relevantPath.indexOf("archive") + 1];
+        } else if (this.relevantPath.includes("selectedworks")) {
+            const selectedWorksIndex = this.relevantPath.indexOf("selectedworks");
+            if (selectedWorksIndex + 1 < this.relevantPath.length) {
+                this.selectedWorks = this.relevantPath[selectedWorksIndex + 1];
+            }
+        } else if (this.relevantPath.includes("trips")) {
+            const tripsIndex = this.relevantPath.indexOf("trips");
+            if (tripsIndex + 2 < this.relevantPath.length) {
+                this.trip = this.relevantPath[tripsIndex + 2]; // trips/year/destination
+            }
+        } else {
+            // For other paths, treat as tags
+            this.relevantPath.forEach(tag => this.queryTagList.push(tag));
         }
 
         // Determine display modes
-        this.shouldShowPanos = this.queryTagList.includes("panorama");
+        this.shouldShowPanos = this.queryTagList.includes("panorama") || this.selectedWorks === "panorama";
         this.shouldShowPortfolio = (this.url.indexOf("?") === -1 || this.url.indexOf("?") === this.url.length - 1)
             && this.relevantPath.length === 0;
     }
@@ -146,5 +165,42 @@ export class PhotoRouter {
             (!this.relevantPath.includes("prefix") &&
              !this.relevantPath.includes("archive") &&
              !this.relevantPath.includes("trips"));
+    }
+
+    /**
+     * Get the current collection URL (without image filename)
+     * @returns {string} Collection URL
+     */
+    getCollectionUrl() {
+        const pathSegments = window.location.pathname.split("/");
+        const photoIndex = pathSegments.indexOf("photo");
+
+        if (photoIndex === -1) {
+            return window.location.pathname;
+        }
+
+        // Get path up to /photo and add collection path
+        const basePath = pathSegments.slice(0, photoIndex + 1);
+        const collectionPath = this.relevantPath.length > 0 ? this.relevantPath : [];
+
+        return [...basePath, ...collectionPath].join("/");
+    }
+
+    /**
+     * Generate URL for specific image within current collection
+     * @param {string} imageFilename - The image filename
+     * @returns {string} Image URL
+     */
+    getImageUrl(imageFilename) {
+        const collectionUrl = this.getCollectionUrl();
+        return `${collectionUrl}#img/${imageFilename}`;
+    }
+
+    /**
+     * Get the current image filename from URL
+     * @returns {string|null} Image filename or null if not in image view
+     */
+    getImageFilename() {
+        return this.imageFilename;
     }
 }

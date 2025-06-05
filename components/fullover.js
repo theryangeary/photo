@@ -99,6 +99,7 @@ class Fullover extends HTMLElement {
         document.getElementById("fullover").classList.remove("show");
         document.body.style.removeProperty("height");
         document.body.style.removeProperty("overflow");
+        this.restoreCollectionUrl();
     }
 
     show() {
@@ -110,12 +111,33 @@ class Fullover extends HTMLElement {
     setPhoto(photo) {
         this.setAttribute("src", photo.getAttribute("src"));
         this.setAttribute("description", photo.getAttribute("title"));
+
+        // Extract filename from src attribute for URL update
+        const src = photo.getAttribute("src");
+        const filename = src.split("/").pop();
+        this.updateImageUrl(filename);
     }
 
     setPhoto2(collectionEntry) {
         this.setAttribute("src", "/photo/img/"+collectionEntry.name);
         this.setAttribute("description", collectionEntry.title);
+        this.updateImageUrl(collectionEntry.name);
         this.show();
+    }
+
+    /**
+     * Update URL to show specific image
+     * @param {string} imageFilename - The image filename
+     */
+    updateImageUrl(imageFilename) {
+        window.location.hash = `img/${imageFilename}`;
+    }
+
+    /**
+     * Restore URL to collection view (without image)
+     */
+    restoreCollectionUrl() {
+        window.location.hash = "";
     }
 
     render() {
