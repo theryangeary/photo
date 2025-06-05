@@ -9,7 +9,12 @@ function path_to_js_object() {
     path=$1
     basename="$(basename $path)"
     output="{\"name\": \"$basename\""
-    tags="$(exiftool -Subject $path | grep -Eo ":.*$" | tr -d ':' | tr -d ' ' | tr , '\n')"
+    
+    # Single exiftool call to get all metadata
+    exif_data=$(exiftool -Subject -ExifImageHeight -ExifImageWidth -Title -Rating "$path")
+    
+    # Extract tags from Subject field
+    tags="$(echo "$exif_data" | grep "Subject" | grep -Eo ":.*$" | tr -d ':' | tr -d ' ' | tr , '\n')"
     output="$output , \"tags\": ["
     first=true
     for tag in $tags; do
@@ -21,15 +26,22 @@ function path_to_js_object() {
         fi
     done
     output="$output ]"
-    height=$(exiftool -ExifImageHeight $path | choose -1)
-    width=$(exiftool -ExifImageWidth $path | choose -1)
+    
+    # Extract height and width
+    height=$(echo "$exif_data" | grep "Exif Image Height" | choose -1)
+    width=$(echo "$exif_data" | grep "Exif Image Width" | choose -1)
     heightRatio=$(calc $height/$width)
     output="$output , \"heightRatio\": $heightRatio"
-    title="$(exiftool -Title $path | choose -f ': ' 1)"
+    
+    # Extract title
+    title="$(echo "$exif_data" | grep "Title" | choose -f ': ' 1)"
     if [[ -n $title ]]; then
         output="$output , \"title\": \"$title\""
     fi
-    output="$output , \"rating\": $(exiftool -Rating $path | choose -1)"
+    
+    # Extract rating
+    rating=$(echo "$exif_data" | grep "Rating" | choose -1)
+    output="$output , \"rating\": $rating"
     output="$output }"
     echo "$output"
 }
