@@ -9,6 +9,49 @@ class Title extends HTMLElement {
         this.setAttribute("data-title", title)
     }
 
+    /**
+     * Set title based on archive month
+     * @param {string} archiveMonth - Archive month string (YYYYMM)
+     * @param {string} archiveLabel - Human readable archive label
+     */
+    setArchiveTitle(archiveMonth, archiveLabel) {
+        if (archiveMonth == null) {
+            return;
+        }
+        
+        if (archiveLabel === "") {
+            this.setTitle("Archives");
+        } else {
+            this.setTitle(`Archives | ${archiveLabel}`);
+        }
+    }
+
+    /**
+     * Set title based on selected works
+     * @param {string} selectedWorks - Selected works parameter
+     * @param {string} selectedWorksLabel - Human readable selected works label
+     */
+    setSelectedWorksTitle(selectedWorks, selectedWorksLabel) {
+        if (selectedWorks == null) {
+            return;
+        }
+        
+        if (selectedWorksLabel === "") {
+            this.setTitle("Selected Works");
+        } else {
+            this.setTitle(selectedWorksLabel);
+        }
+    }
+
+    /**
+     * Set title based on router configuration
+     * @param {Object} titleConfig - Title configuration from router
+     */
+    setTitleFromConfig(titleConfig) {
+        this.setArchiveTitle(titleConfig.archiveMonth, titleConfig.archiveLabel);
+        this.setSelectedWorksTitle(titleConfig.selectedWorks, titleConfig.selectedWorksLabel);
+    }
+
     connectedCallback() {
         this.render()
     }

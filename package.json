@@ -25,6 +25,7 @@
     ],
     "collectCoverageFrom": [
       "components/**/*.js",
+      "utils/**/*.js",
       "script.js",
       "collection.js",
       "!**/node_modules/**"
