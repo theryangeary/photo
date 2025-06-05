@@ -11,7 +11,7 @@ To add a new page and navbar entry, include it in `tree` inside `components/tree
 After cloning the repository, install the git hooks:
 
 ```bash
-./install-hooks.sh
+./scripts/install-hooks.sh
 ```
 
 ### Local Server

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Change to git repository root
+REPO_ROOT=$(git rev-parse --show-toplevel)
+cd "$REPO_ROOT"
+
 output_file="collection.js"
 
 calc(){ awk "BEGIN { print "$*" }"; }

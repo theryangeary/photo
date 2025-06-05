@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### Building the Site
 - `make` - Generates collection.js and static site directory structure
-- `make collection` - Runs generate_collection.sh to create collection.js from image metadata
+- `make collection` - Runs scripts/generate_collection.sh to create collection.js from image metadata
 - `make directory_structure` - Creates all subdirectories based on tree.js structure
 
 ### Development Server
@@ -37,7 +37,7 @@ This is a static photo gallery website using vanilla JavaScript and custom web c
 - Images are tagged via EXIF Subject field in Darktable
 - Rating system uses EXIF Rating field
 - Title from EXIF Title field
-- generate_collection.sh extracts all metadata into JavaScript objects
+- scripts/generate_collection.sh extracts all metadata into JavaScript objects
 
 ### Filtering System
 Photos are filtered by:

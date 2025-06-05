@@ -2,7 +2,7 @@ default: collection directory_structure
 
 .PHONY: collection
 collection:
-	./generate_collection.sh
+	./scripts/generate_collection.sh
 
 .PHONY: tree
 tree:

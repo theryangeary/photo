@@ -5,6 +5,10 @@
 
 set -e
 
+# Change to git repository root
+REPO_ROOT=$(git rev-parse --show-toplevel)
+cd "$REPO_ROOT"
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
