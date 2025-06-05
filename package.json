@@ -1,1 +1,33 @@
-{"type":"module"}
+{
+  "type": "module",
+  "name": "photo-gallery",
+  "version": "1.0.0",
+  "description": "Static photo gallery website with vanilla JavaScript",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "npm test -- --watch",
+    "test:coverage": "npm test -- --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transform": {},
+    "setupFilesAfterEnv": ["<rootDir>/tests/setup.js"],
+    "moduleNameMapper": {
+      "^/photo/(.*)$": "<rootDir>/$1"
+    },
+    "testMatch": [
+      "**/tests/**/*.test.js",
+      "**/tests/**/*.spec.js"
+    ],
+    "collectCoverageFrom": [
+      "components/**/*.js",
+      "script.js",
+      "collection.js",
+      "!**/node_modules/**"
+    ]
+  }
+}

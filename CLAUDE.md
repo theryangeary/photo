@@ -12,6 +12,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Development Server
 - `cd .. && python3 -m http.server` then navigate to localhost:8000/photo
 
+### Testing
+- `npm test` - Run test suite
+- `npm run test:watch` - Run tests in watch mode
+- `npm run test:coverage` - Generate coverage report
+
 ### Before Building
 1. Export relevant images from Darktable using preset `website`
 2. Ensure `components/tree.js` is up to date with new pages/navbar entries

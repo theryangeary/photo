@@ -8,9 +8,11 @@ To add a new page and navbar entry, include it in `tree` inside `components/tree
 
 ### Initial Setup
 
-After cloning the repository, install the git hooks:
+After cloning the repository:
 
+1. Install dependencies and git hooks:
 ```bash
+npm install
 ./scripts/install-hooks.sh
 ```
 
@@ -29,3 +31,28 @@ Make sure `components/tree.js` is up to date.
 Then run `make`. It will generate `collection.js` and the static site tree structure.
 
 Commit and push.
+
+### Testing
+
+Run the test suite:
+
+```bash
+npm test
+```
+
+Run tests in watch mode during development:
+
+```bash
+npm run test:watch
+```
+
+Generate test coverage report:
+
+```bash
+npm run test:coverage
+```
+
+Tests are located in the `tests/` directory and cover:
+- Component functionality (Photo, Tree utilities)
+- Collection data validation
+- Photo filtering logic
