@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Pre-commit hook that enforces linting standards
+
+# Color codes
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+BOLD='\033[1m'
+NC='\033[0m' # No Color
+
+echo -e "${BOLD}${BLUE}🔍 Running pre-commit linting checks...${NC}"
+
+# Run linting
+if ! npm run lint; then
+    echo -e "${BOLD}${RED}❌ Error: Linting failed. Please fix linting issues before committing.${NC}"
+    echo -e "${PURPLE}💡 Run 'npm run lint:fix' to automatically fix many issues.${NC}"
+    echo -e "${PURPLE}   Then run 'npm run lint' to check remaining issues.${NC}"
+    exit 1
+fi
+
+echo -e "${BOLD}${GREEN}✅ Linting passed. Commit allowed.${NC}"
+exit 0
