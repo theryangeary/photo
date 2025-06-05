@@ -51,6 +51,7 @@ function path_to_js_object() {
 }
 export -f path_to_js_object
 
-echo "let collection=" > $output_file
-find . -name '*.jpg' | xargs -n 1 -I {} bash -c 'path_to_js_object "$@"' _ {} | sort | jq --slurp . >> $output_file
+echo "const collection =" > $output_file
+find . -name '*.jpg' | xargs -n 1 -I {} bash -c 'path_to_js_object "$@"' _ {} | sort | jq --slurp --indent 4 . >> $output_file
+echo ";" >> $output_file
 echo "export {collection};" >> $output_file
