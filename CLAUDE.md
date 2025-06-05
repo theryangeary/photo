@@ -17,11 +17,24 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run test:watch` - Run tests in watch mode
 - `npm run test:coverage` - Generate coverage report
 
-### Before Building
+### Code Quality
+- `make lint` - Check code for linting issues
+- `make fmt` - Auto-fix formatting and style issues
+- `npm run lint` - Direct ESLint check
+- `npm run lint:fix` - Direct ESLint auto-fix
+
+### Git Hooks
+- **Pre-commit**: Prevents commits with linting errors
+- **Pre-push**: Prevents pushing to master with linting errors or build failures
+- Install hooks: `./scripts/install_hooks.sh`
+
+### Development Workflow
 1. Export relevant images from Darktable using preset `website`
 2. Ensure `components/tree.js` is up to date with new pages/navbar entries
-3. Run `make`
-4. Commit and push
+3. `make fmt` - Auto-fix any formatting issues
+4. `make` - Build collection and directory structure
+5. `make lint` - Verify code quality (optional, enforced at commit)
+6. Commit and push (git hooks enforce quality automatically)
 
 ## Architecture
 

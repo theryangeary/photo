@@ -13,7 +13,7 @@ After cloning the repository:
 1. Install dependencies and git hooks:
 ```bash
 npm install
-./scripts/install-hooks.sh
+./scripts/install_hooks.sh
 ```
 
 ### Local Server
@@ -29,6 +29,19 @@ Note that this will not remove any images included that have been removed from t
 Make sure `components/tree.js` is up to date.
 
 Then run `make`. It will generate `collection.js` and the static site tree structure.
+
+### Code Quality
+
+Maintain code quality with these commands:
+
+```bash
+make fmt     # Auto-fix formatting and style issues
+make lint    # Check for linting issues
+```
+
+Git hooks automatically enforce code quality:
+- **Pre-commit**: Prevents commits with linting errors
+- **Pre-push**: Prevents pushing to master with linting/build failures
 
 Commit and push.
 

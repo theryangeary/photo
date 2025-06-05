@@ -4,6 +4,14 @@ default: collection directory_structure
 collection:
 	./scripts/generate_collection.sh
 
+.PHONY: lint
+lint:
+	npm run lint
+
+.PHONY: fmt
+fmt:
+	npm run lint:fix
+
 .PHONY: tree
 tree:
 	tree --filelimit 100
