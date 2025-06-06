@@ -79,8 +79,8 @@ class Navbar extends HTMLElement {
     }
 
     toggleDropdown(t) {
-        if (window.matchMedia("(min-width: 600px)").matches) {
-            // don't set active on desktop, prefering hover
+        if (window.matchMedia("(min-width: 600px) and (pointer: fine)").matches) {
+            // don't set active on desktop with precise pointer, prefering hover
             return;
         }
         const dropdown = t.parentElement;
@@ -99,8 +99,8 @@ class Navbar extends HTMLElement {
         }
     }
     toggleSubdropdown(t) {
-        if (window.matchMedia("(min-width: 600px)").matches) {
-            // don't set active on desktop, prefering hover
+        if (window.matchMedia("(min-width: 600px) and (pointer: fine)").matches) {
+            // don't set active on desktop with precise pointer, prefering hover
             return;
         }
         const dropdown = t;

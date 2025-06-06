@@ -181,6 +181,12 @@ li.dropdown, li.subdropdown {
 
 
 @media screen and (min-width: 600px) {
+    .navbar-icon {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (pointer: fine) {
     .dropdown:hover .dropdown-content, .subdropdown:hover + .subdropdown-content, .subdropdown-content:hover {
         display: block;
     }
@@ -191,9 +197,6 @@ li.dropdown, li.subdropdown {
         background-color: #333333;
         color: white;
     }
-    .navbar-icon {
-        display: none;
-    }
 
     .dropdown-content .subdropdown-content {
         position: absolute;
@@ -203,6 +206,21 @@ li.dropdown, li.subdropdown {
     .dropdown-content a:hover,.subdropdown-content a:hover{
         background-color: #f1f1f1;
         color: black;
+    }
+}
+
+@media screen and (min-width: 600px) and (pointer: coarse) {
+    .dropdown.active .dropdown-content, .subdropdown.active + .subdropdown-content {
+        display: block;
+    }
+    .dropdown.active .dropbtn, .subdropdown.active {
+        background-color: #333333;
+        color: white;
+    }
+    .dropdown-content .subdropdown-content {
+        position: absolute;
+        left: 100%;
+        top: 0;
     }
 }
 
