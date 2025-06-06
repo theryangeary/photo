@@ -239,10 +239,7 @@ export class PhotoGallery {
             // Check if image is in current display collection
             const isInDisplayCollection = this.displayCollection.find(img => img.name === imageEntry.name);
             if (isInDisplayCollection) {
-                // Wait for initial load to complete, then show the image
-                setTimeout(() => {
-                    this.fulloverComponent.setPhoto2(imageEntry);
-                }, 500);
+                this.fulloverComponent.setPhoto2(imageEntry);
             }
         }
     }
