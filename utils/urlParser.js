@@ -2,7 +2,7 @@
  * URL parsing and routing utilities for the photo gallery
  */
 
-import { monthName } from "../components/tree.js";
+import { monthName, tree } from "../components/tree.js";
 import { findImageByHash } from "./imageHash.js";
 
 /**
@@ -105,8 +105,10 @@ export class PhotoRouter {
         return {
             archiveMonth: this.archiveMonth,
             selectedWorks: this.selectedWorks,
+            trip: this.trip,
             archiveLabel: this.getArchiveLabel(),
-            selectedWorksLabel: this.getSelectedWorksLabel()
+            selectedWorksLabel: this.getSelectedWorksLabel(),
+            tripLabel: this.getTripLabel()
         };
     }
 
@@ -152,11 +154,35 @@ export class PhotoRouter {
         }
 
         const titleMap = {
+            "panorama": "Panoramas",
             "street": "Street Photography",
-            "cityscape": "Cityscapes"
+            "cityscape": "Cityscapes",
+            "landscape": "Landscapes",
+            "wildlife": "Wildlife",
+            "subwayentrance": "Subway Entrances"
         };
 
         return titleMap[this.selectedWorks] || "";
+    }
+
+    /**
+     * Convert trip parameter to human readable title
+     * @returns {string} Formatted trip label
+     */
+    getTripLabel() {
+        if (!this.trip) {
+            return "";
+        }
+
+        for (const yearSet of tree.trips) {
+            for (const destination of yearSet.destinations) {
+                if (destination.path === this.trip) {
+                    return destination.name;
+                }
+            }
+        }
+
+        return "";
     }
 
     /**

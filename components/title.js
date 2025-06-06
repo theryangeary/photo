@@ -44,12 +44,30 @@ class Title extends HTMLElement {
     }
 
     /**
+     * Set title based on trip
+     * @param {string} trip - Trip parameter
+     * @param {string} tripLabel - Human readable trip label
+     */
+    setTripTitle(trip, tripLabel) {
+        if (trip === null) {
+            return;
+        }
+
+        if (tripLabel === "") {
+            this.setTitle("On Location");
+        } else {
+            this.setTitle(`On Location | ${tripLabel}`);
+        }
+    }
+
+    /**
      * Set title based on router configuration
      * @param {Object} titleConfig - Title configuration from router
      */
     setTitleFromConfig(titleConfig) {
         this.setArchiveTitle(titleConfig.archiveMonth, titleConfig.archiveLabel);
         this.setSelectedWorksTitle(titleConfig.selectedWorks, titleConfig.selectedWorksLabel);
+        this.setTripTitle(titleConfig.trip, titleConfig.tripLabel);
     }
 
     connectedCallback() {

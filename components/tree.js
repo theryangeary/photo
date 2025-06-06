@@ -32,7 +32,7 @@ const tree =
             {"path": "cityscape", "name": "Cityscapes"},
             {"path": "landscape", "name": "Landscapes"},
             {"path": "wildlife", "name": "Wildlife"},
-            {"path": "subwayentrance", "name": "Subway Structures"}
+            {"path": "subwayentrance", "name": "Subway Entrances"}
         ]
     };
 
