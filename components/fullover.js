@@ -1,8 +1,11 @@
+import { generateImageHash } from "/photo/utils/imageHash.js";
+
 class Fullover extends HTMLElement {
     static observedAttributes = ["src", "description"];
 
     constructor() {
         super();
+        this.collection = null;
     }
 
     id() {
@@ -115,22 +118,31 @@ class Fullover extends HTMLElement {
         // Extract filename from src attribute for URL update
         const src = photo.getAttribute("src");
         const filename = src.split("/").pop();
-        this.updateImageUrl(filename);
+        this.updateImageUrlWithHash(filename);
     }
 
     setPhoto2(collectionEntry) {
         this.setAttribute("src", "/photo/img/"+collectionEntry.name);
         this.setAttribute("description", collectionEntry.title);
-        this.updateImageUrl(collectionEntry.name);
+        this.updateImageUrlWithHash(collectionEntry.name);
         this.show();
     }
 
     /**
-     * Update URL to show specific image
+     * Update URL to show specific image using hash
      * @param {string} imageFilename - The image filename
      */
-    updateImageUrl(imageFilename) {
-        window.location.hash = `img/${imageFilename}`;
+    updateImageUrlWithHash(imageFilename) {
+        const hash = generateImageHash(imageFilename);
+        window.location.hash = hash;
+    }
+
+    /**
+     * Set the collection reference for hash lookups
+     * @param {Array} collection - Image collection
+     */
+    setCollection(collection) {
+        this.collection = collection;
     }
 
     /**

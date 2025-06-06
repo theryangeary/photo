@@ -5,6 +5,7 @@
 import { collection } from "/photo/collection.js";
 import { PhotoRouter } from "/photo/utils/urlParser.js";
 import { PhotoFilterManager, sortByRating } from "/photo/utils/photoFilters.js";
+import { findImageByHash } from "/photo/utils/imageHash.js";
 
 export class PhotoGallery {
     constructor() {
@@ -20,6 +21,9 @@ export class PhotoGallery {
         this.columnsComponent = document.querySelector("columns-component");
         this.titleComponent = document.querySelector("title-component");
         this.fulloverComponent = document.querySelector("fullover-component");
+
+        // Set collection reference for fullover component
+        this.fulloverComponent.setCollection(collection);
 
         this.init();
     }
@@ -221,21 +225,25 @@ export class PhotoGallery {
     }
 
     /**
-     * Handle direct access to image URLs
+     * Handle direct access to image URLs using hash
      */
     handleDirectImageAccess() {
-        const imageFilename = this.router.getImageFilename();
-        if (!imageFilename) {
+        const imageHash = this.router.getImageHash();
+        if (!imageHash) {
             return;
         }
 
-        // Find the image in the collection
-        const imageEntry = this.displayCollection.find(img => img.name === imageFilename);
+        // Find the image in the full collection using hash
+        const imageEntry = findImageByHash(imageHash, collection);
         if (imageEntry) {
-            // Wait for initial load to complete, then show the image
-            setTimeout(() => {
-                this.fulloverComponent.setPhoto2(imageEntry);
-            }, 500); // Increased timeout to ensure images are loaded
+            // Check if image is in current display collection
+            const isInDisplayCollection = this.displayCollection.find(img => img.name === imageEntry.name);
+            if (isInDisplayCollection) {
+                // Wait for initial load to complete, then show the image
+                setTimeout(() => {
+                    this.fulloverComponent.setPhoto2(imageEntry);
+                }, 500);
+            }
         }
     }
 
@@ -245,12 +253,16 @@ export class PhotoGallery {
     handleHashChange() {
         const hash = window.location.hash;
 
-        if (hash.startsWith("#img/")) {
-            // Show image if hash contains image filename
-            const imageFilename = hash.substring(5);
-            const imageEntry = this.displayCollection.find(img => img.name === imageFilename);
+        if (hash.startsWith("#") && hash.length > 1) {
+            // Show image if hash contains image hash
+            const imageHash = hash.substring(1);
+            const imageEntry = findImageByHash(imageHash, collection);
             if (imageEntry) {
-                this.fulloverComponent.setPhoto2(imageEntry);
+                // Check if image is in current display collection
+                const isInDisplayCollection = this.displayCollection.find(img => img.name === imageEntry.name);
+                if (isInDisplayCollection) {
+                    this.fulloverComponent.setPhoto2(imageEntry);
+                }
             }
         } else {
             // Hide fullover if no image hash

@@ -3,6 +3,7 @@
  */
 
 import { monthName } from "../components/tree.js";
+import { findImageByHash } from "./imageHash.js";
 
 /**
  * Photo gallery router class
@@ -35,11 +36,13 @@ export class PhotoRouter {
             .filter(segment => segment !== "")
             .filter(segment => segment[0] !== "?");
 
-        // Check for image filename in hash
+        // Check for image hash in URL
+        this.imageHash = null;
         this.imageFilename = null;
         const hash = window.location.hash;
-        if (hash.startsWith("#img/")) {
-            this.imageFilename = hash.substring(5); // Remove "#img/"
+        if (hash.startsWith("#") && hash.length > 1) {
+            // Assume any non-empty hash is an image hash
+            this.imageHash = hash.substring(1); // Remove "#"
         }
 
         // Handle path-based routing
@@ -187,20 +190,34 @@ export class PhotoRouter {
     }
 
     /**
-     * Generate URL for specific image within current collection
-     * @param {string} imageFilename - The image filename
+     * Generate URL for specific image within current collection using hash
+     * @param {string} imageHash - The image hash
      * @returns {string} Image URL
      */
-    getImageUrl(imageFilename) {
+    getImageUrl(imageHash) {
         const collectionUrl = this.getCollectionUrl();
-        return `${collectionUrl}#img/${imageFilename}`;
+        return `${collectionUrl}#${imageHash}`;
     }
 
     /**
-     * Get the current image filename from URL
-     * @returns {string|null} Image filename or null if not in image view
+     * Get the current image hash from URL
+     * @returns {string|null} Image hash or null if not in image view
      */
-    getImageFilename() {
-        return this.imageFilename;
+    getImageHash() {
+        return this.imageHash;
+    }
+
+    /**
+     * Get the current image filename from URL hash by looking up in collection
+     * @param {Array} collection - Image collection to search
+     * @returns {string|null} Image filename or null if not found
+     */
+    getImageFilename(collection) {
+        if (!this.imageHash || !collection) {
+            return null;
+        }
+
+        const image = findImageByHash(this.imageHash, collection);
+        return image ? image.name : null;
     }
 }
