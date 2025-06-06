@@ -10,7 +10,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `make directory_structure` - Creates all subdirectories based on tree.js structure
 
 ### Development Server
-- `cd .. && python3 -m http.server` then navigate to localhost:8000/photo
+- `make serve` - Start development server on localhost:8000 (then navigate to localhost:8000/photo)
 
 ### Testing
 - `npm test` - Run test suite

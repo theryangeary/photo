@@ -20,6 +20,10 @@ tree:
 directory_structure:
 	NODE_PATH=. node -e '(async () => { const {allPaths} = await import("./components/tree.js"); process.stdout.write(JSON.stringify(allPaths()) + "\n");})()' | jq '.[]' | xargs -I_ echo 'mkdir -p _ ; cp index.html _ ;' | sh
 
+.PHONY: serve
+serve:
+	cd .. && python3 -m http.server
+
 .PHONY: git_clean_img
 git_clean_img:
 	# check workdir is clean
