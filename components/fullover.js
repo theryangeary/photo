@@ -9,11 +9,11 @@ class Fullover extends HTMLElement {
     }
 
     id() {
-        return "zoomCheck-"+this.getAttribute("src")+"-fullover";
+        return "zoomCheck-" + this.getAttribute("src") + "-fullover";
     }
 
     getDescription() {
-        if (this.getAttribute("description") === "undefined" || this.getAttribute("description") === "null" || this.getAttribute("description") === null ) {
+        if (this.getAttribute("description") === "undefined" || this.getAttribute("description") === "null" || this.getAttribute("description") === null) {
             return "";
         }
         return `<p>${this.getAttribute("description")}</p>`;
@@ -23,7 +23,7 @@ class Fullover extends HTMLElement {
         const photoNext = new CustomEvent("photoNext", {
             detail: {
                 name: "next",
-                current:  this.getAttribute("src"),
+                current: this.getAttribute("src"),
             },
         });
         document.dispatchEvent(photoNext);
@@ -38,7 +38,7 @@ class Fullover extends HTMLElement {
         const photoPrev = new CustomEvent("photoPrev", {
             detail: {
                 name: "prev",
-                current:  this.getAttribute("src"),
+                current: this.getAttribute("src"),
             },
         });
         document.dispatchEvent(photoPrev);
@@ -51,8 +51,8 @@ class Fullover extends HTMLElement {
 
     checkDirection(touchstartX, touchstartY, touchendX, touchendY) {
         if (Math.abs(touchendX - touchstartX) > Math.abs(touchendY - touchstartY)) {
-            if (touchendX < touchstartX) {this.photoNext();}
-            if (touchendX > touchstartX) {this.photoPrev();}
+            if (touchendX < touchstartX) { this.photoNext(); }
+            if (touchendX > touchstartX) { this.photoPrev(); }
         }
     }
 
@@ -122,7 +122,7 @@ class Fullover extends HTMLElement {
     }
 
     setPhoto2(collectionEntry) {
-        this.setAttribute("src", "/photo/img/"+collectionEntry.name);
+        this.setAttribute("src", "/photo/img/" + collectionEntry.name);
         this.setAttribute("description", collectionEntry.title);
         this.updateImageUrlWithHash(collectionEntry.name);
         this.show();
@@ -149,7 +149,8 @@ class Fullover extends HTMLElement {
      * Restore URL to collection view (without image)
      */
     restoreCollectionUrl() {
-        window.location.hash = "";
+        history.pushState("", document.title, window.location.pathname
+            + window.location.search);
     }
 
     render() {
@@ -177,4 +178,5 @@ class Fullover extends HTMLElement {
 }
 
 customElements.define("fullover-component", Fullover);
-export {Fullover};
+export { Fullover };
+
