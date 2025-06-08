@@ -22,7 +22,8 @@ const tree =
             {
                 "year": "2025",
                 "destinations": [
-                    {"path": "everglades", "name": "The Everglades"}
+                    {"path": "everglades", "name": "The Everglades"},
+                    {"path": "acadia", "name": "Acadia"}
                 ]
             }
         ],
@@ -73,4 +74,5 @@ function monthName(monthDigitString) {
     return "";
 }
 
-export {tree, monthName, allPaths};
+export { allPaths, monthName, tree };
+
