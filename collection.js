@@ -7168,6 +7168,161 @@ const collection =
         "rating": 2
     },
     {
+        "name": "20250630_0020.jpg",
+        "tags": [
+            "3",
+            "archive",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 2
+    },
+    {
+        "name": "20250630_0024.jpg",
+        "tags": [
+            "3",
+            "archive",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 2
+    },
+    {
+        "name": "20250630_0288.jpg",
+        "tags": [
+            "3",
+            "archive",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20250630_0293.jpg",
+        "tags": [
+            "3",
+            "archive",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 0.8,
+        "rating": 2
+    },
+    {
+        "name": "20250630_0302.jpg",
+        "tags": [
+            "3",
+            "archive",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20250730_0002.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 1
+    },
+    {
+        "name": "20250730_0007.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 1
+    },
+    {
+        "name": "20250730_0062.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 1
+    },
+    {
+        "name": "20250730_0086.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 1
+    },
+    {
+        "name": "20250730_0094.jpg",
+        "tags": [
+            "3",
+            "archive",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 1
+    },
+    {
+        "name": "20250730_0096.jpg",
+        "tags": [
+            "3",
+            "archive",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 1
+    },
+    {
+        "name": "20250814_0008.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 1.33169,
+        "rating": 1
+    },
+    {
+        "name": "20250828_0439.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 1
+    },
+    {
+        "name": "20250828_0502.jpg",
+        "tags": [
+            "archive",
+            "series",
+            "subwayentrance",
+            "website"
+        ],
+        "heightRatio": 1.26021,
+        "rating": 3
+    },
+    {
+        "name": "20250828_0715.jpg",
+        "tags": [
+            "archive",
+            "genre",
+            "nature",
+            "selectedworks",
+            "website",
+            "wildlife"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 1
+    },
+    {
         "name": "verrazzano.jpg",
         "tags": [
             "america",
