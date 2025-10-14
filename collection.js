@@ -7281,15 +7281,6 @@ const collection =
         "rating": 1
     },
     {
-        "name": "20250814_0008.jpg",
-        "tags": [
-            "archive",
-            "website"
-        ],
-        "heightRatio": 1.33169,
-        "rating": 1
-    },
-    {
         "name": "20250828_0439.jpg",
         "tags": [
             "archive",
@@ -7321,6 +7312,270 @@ const collection =
         ],
         "heightRatio": 1.25145,
         "rating": 1
+    },
+    {
+        "name": "20250907_0051.jpg",
+        "tags": [
+            "2025",
+            "america",
+            "archive",
+            "locations",
+            "northcascades",
+            "pnw",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 3
+    },
+    {
+        "name": "20250907_0100.jpg",
+        "tags": [
+            "2025",
+            "4",
+            "america",
+            "archive",
+            "locations",
+            "northcascades",
+            "pnw",
+            "substack",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 3
+    },
+    {
+        "name": "20250907_0143.jpg",
+        "tags": [
+            "2025",
+            "america",
+            "archive",
+            "locations",
+            "northcascades",
+            "pnw",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 2
+    },
+    {
+        "name": "20250907_0248.jpg",
+        "tags": [
+            "2025",
+            "america",
+            "archive",
+            "locations",
+            "northcascades",
+            "pnw",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20250907_0314.jpg",
+        "tags": [
+            "2025",
+            "4",
+            "america",
+            "archive",
+            "locations",
+            "northcascades",
+            "pnw",
+            "substack",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.762174,
+        "rating": 3
+    },
+    {
+        "name": "20250907_0342.jpg",
+        "tags": [
+            "2025",
+            "4",
+            "america",
+            "archive",
+            "locations",
+            "northcascades",
+            "pnw",
+            "substack",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20250907_0363.jpg",
+        "tags": [
+            "2025",
+            "4",
+            "america",
+            "archive",
+            "locations",
+            "olympicpeninsula",
+            "pnw",
+            "substack",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.5,
+        "rating": 2
+    },
+    {
+        "name": "20250907_0382.jpg",
+        "tags": [
+            "2025",
+            "4",
+            "america",
+            "archive",
+            "eugene",
+            "locations",
+            "oregon",
+            "pnw",
+            "substack",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 3
+    },
+    {
+        "name": "20250907_0825.jpg",
+        "tags": [
+            "2025",
+            "4",
+            "america",
+            "archive",
+            "genre",
+            "locations",
+            "nature",
+            "oregon",
+            "pnw",
+            "substack",
+            "trips",
+            "website",
+            "wildlife"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 2
+    },
+    {
+        "name": "20250924_0573.jpg",
+        "tags": [
+            "4",
+            "america",
+            "archive",
+            "genre",
+            "locations",
+            "nature",
+            "newyork",
+            "nyc",
+            "selectedworks",
+            "substack",
+            "website",
+            "wildlife"
+        ],
+        "heightRatio": 0.666667,
+        "title": "Green Heron Fishing",
+        "rating": 4
+    },
+    {
+        "name": "20250924_0737.jpg",
+        "tags": [
+            "4",
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20250924_0747.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 0.8,
+        "rating": 3
+    },
+    {
+        "name": "20250924_0768.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20250924_0780.jpg",
+        "tags": [
+            "4",
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 0.5,
+        "rating": 4
+    },
+    {
+        "name": "20250924_0782.jpg",
+        "tags": [
+            "4",
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 3
+    },
+    {
+        "name": "20250930_0013.jpg",
+        "tags": [
+            "4",
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
     },
     {
         "name": "verrazzano.jpg",

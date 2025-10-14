@@ -24,6 +24,7 @@ export class PhotoRouter {
         this.archiveMonth = this.params.get("archive");
         this.selectedWorks = this.params.get("selectedworks");
         this.trip = this.params.get("trip");
+        this.tripYear = this.params.get("tripYear");
         this.prefix = this.params.get("prefix");
 
         // Path based selection - remove hash first
@@ -55,6 +56,9 @@ export class PhotoRouter {
             }
         } else if (this.relevantPath.includes("trips")) {
             const tripsIndex = this.relevantPath.indexOf("trips");
+            if (tripsIndex + 1 < this.relevantPath.length) {
+                this.tripYear = this.relevantPath[tripsIndex + 1]; // trips/year/destination
+            }
             if (tripsIndex + 2 < this.relevantPath.length) {
                 this.trip = this.relevantPath[tripsIndex + 2]; // trips/year/destination
             }
@@ -79,6 +83,7 @@ export class PhotoRouter {
             archiveMonth: this.archiveMonth,
             selectedWorks: this.selectedWorks,
             trip: this.trip,
+            tripYear: this.tripYear,
             prefix: this.prefix,
             shouldShowPanos: this.shouldShowPanos,
             shouldShowPortfolio: this.shouldShowPortfolio
@@ -106,6 +111,7 @@ export class PhotoRouter {
             archiveMonth: this.archiveMonth,
             selectedWorks: this.selectedWorks,
             trip: this.trip,
+            tripYear: this.tripYear,
             archiveLabel: this.getArchiveLabel(),
             selectedWorksLabel: this.getSelectedWorksLabel(),
             tripLabel: this.getTripLabel()
@@ -175,6 +181,9 @@ export class PhotoRouter {
         }
 
         for (const yearSet of tree.trips) {
+            if (yearSet.year !== this.tripYear) {
+                continue;
+            }
             for (const destination of yearSet.destinations) {
                 if (destination.path === this.trip) {
                     return destination.name;

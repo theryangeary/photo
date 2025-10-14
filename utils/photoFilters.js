@@ -77,7 +77,10 @@ export class PhotoFilterManager {
             if (this.config.trip === null) {
                 return false;
             }
-            return (!hasTag(img, "trips") || !hasTag(img, this.config.trip));
+            if (this.config.tripYear === null) {
+                return (!hasTag(img, "trips") || !hasTag(img, this.config.trip));
+            }
+            return (!hasTag(img, "trips") || !hasTag(img, this.config.trip) || !hasTag(img, this.config.tripYear));
         };
     }
 

@@ -18,10 +18,10 @@ describe('PhotoRouter', () => {
     test('should parse basic photo URL', () => {
       window.location.href = 'http://localhost/photo';
       window.location.search = '';
-      
+
       const router = new PhotoRouter();
       const config = router.getFilterConfig();
-      
+
       expect(config.queryTagList).toEqual([]);
       expect(config.shouldShowPortfolio).toBe(true);
     });
@@ -29,10 +29,10 @@ describe('PhotoRouter', () => {
     test('should parse query parameters', () => {
       window.location.href = 'http://localhost/photo?tag=city&archive=202405';
       window.location.search = '?tag=city&archive=202405';
-      
+
       const router = new PhotoRouter();
       const config = router.getFilterConfig();
-      
+
       expect(config.queryTagList).toContain('city');
       expect(config.archiveMonth).toBe('202405');
     });
@@ -40,7 +40,7 @@ describe('PhotoRouter', () => {
     test('should parse path-based selection', () => {
       const router = new PhotoRouter('http://localhost/photo/street/cityscape');
       const config = router.getFilterConfig();
-      
+
       expect(config.queryTagList).toContain('street');
       expect(config.queryTagList).toContain('cityscape');
     });
@@ -48,7 +48,7 @@ describe('PhotoRouter', () => {
     test('should detect panorama mode', () => {
       const router = new PhotoRouter('http://localhost/photo/panorama');
       const config = router.getDisplayConfig();
-      
+
       expect(config.shouldShowPanos).toBe(true);
     });
   });
@@ -58,7 +58,7 @@ describe('PhotoRouter', () => {
       const router = new PhotoRouter();
       router.archiveMonth = '202405';
       const titleConfig = router.getTitleConfig();
-      
+
       expect(titleConfig.archiveMonth).toBe('202405');
       expect(titleConfig.archiveLabel).toBe('May 2024');
     });
@@ -67,7 +67,7 @@ describe('PhotoRouter', () => {
       const router = new PhotoRouter();
       router.selectedWorks = 'street';
       const titleConfig = router.getTitleConfig();
-      
+
       expect(titleConfig.selectedWorks).toBe('street');
       expect(titleConfig.selectedWorksLabel).toBe('Street Photography');
     });
