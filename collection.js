@@ -7578,6 +7578,315 @@ const collection =
         "rating": 2
     },
     {
+        "name": "20251001_0010.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "sunsetpark",
+            "website"
+        ],
+        "heightRatio": 0.8,
+        "rating": 2
+    },
+    {
+        "name": "20251001_0026.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "sunsetpark",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20251001_0045.jpg",
+        "tags": [
+            "5",
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "sunsetpark",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 3
+    },
+    {
+        "name": "20251001_0047.jpg",
+        "tags": [
+            "5",
+            "america",
+            "architecture",
+            "archive",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "sunsetpark",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 3
+    },
+    {
+        "name": "20251001_0054.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "sunsetpark",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 1
+    },
+    {
+        "name": "20251001_0057.jpg",
+        "tags": [
+            "5",
+            "america",
+            "architecture",
+            "archive",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "sunsetpark",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 3
+    },
+    {
+        "name": "20251019_0003.jpg",
+        "tags": [
+            "5",
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 3
+    },
+    {
+        "name": "20251019_0004.jpg",
+        "tags": [
+            "5",
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 3
+    },
+    {
+        "name": "20251019_0008.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 1
+    },
+    {
+        "name": "20251019_0012.jpg",
+        "tags": [
+            "5",
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 3
+    },
+    {
+        "name": "20251019_0031.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20251031_0004.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 1
+    },
+    {
+        "name": "20251031_0011.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20251031_0020.jpg",
+        "tags": [
+            "5",
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1.25874,
+        "rating": 3
+    },
+    {
+        "name": "20251031_0021.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 0.8,
+        "rating": 2
+    },
+    {
+        "name": "20251031_0042.jpg",
+        "tags": [
+            "5",
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 3
+    },
+    {
+        "name": "20251031_0051.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20251031_0056.jpg",
+        "tags": [
+            "5",
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1.33169,
+        "rating": 3
+    },
+    {
+        "name": "20251031_0059.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20251031_0061.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 1
+    },
+    {
+        "name": "20251031_0076.jpg",
+        "tags": [
+            "5",
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 0.8,
+        "rating": 2
+    },
+    {
         "name": "verrazzano.jpg",
         "tags": [
             "america",
