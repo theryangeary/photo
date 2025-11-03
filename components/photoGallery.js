@@ -24,7 +24,6 @@ export class PhotoGallery {
 
         // Set collection reference for fullover component
         this.fulloverComponent.setCollection(collection);
-console.log(this);
 
         this.init();
     }
