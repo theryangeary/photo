@@ -21,7 +21,7 @@ describe('Photo Component', () => {
   test('should create photo element with src attribute', () => {
     photoElement.setAttribute('src', 'test-image.jpg');
     document.body.appendChild(photoElement);
-    
+
     const img = photoElement.querySelector('img');
     expect(img).toBeTruthy();
     expect(img.getAttribute('src')).toBe('test-image.jpg');
@@ -37,7 +37,7 @@ describe('Photo Component', () => {
     photoElement.setAttribute('src', 'test-image.jpg');
     photoElement.setAttribute('title', 'Test Photo');
     document.body.appendChild(photoElement);
-    
+
     const img = photoElement.querySelector('img');
     expect(img.getAttribute('title')).toBe('Test Photo');
   });

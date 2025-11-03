@@ -9,14 +9,14 @@ describe('PhotoRouter', () => {
     // Reset URL and search params for each test
     delete window.location;
     window.location = {
-      href: 'http://localhost/photo',
+      href: 'http://localhost',
       search: ''
     };
   });
 
   describe('URL parsing', () => {
     test('should parse basic photo URL', () => {
-      window.location.href = 'http://localhost/photo';
+      window.location.href = 'http://localhost';
       window.location.search = '';
 
       const router = new PhotoRouter();
@@ -27,7 +27,7 @@ describe('PhotoRouter', () => {
     });
 
     test('should parse query parameters', () => {
-      window.location.href = 'http://localhost/photo?tag=city&archive=202405';
+      window.location.href = 'http://localhost?tag=city&archive=202405';
       window.location.search = '?tag=city&archive=202405';
 
       const router = new PhotoRouter();
@@ -38,7 +38,7 @@ describe('PhotoRouter', () => {
     });
 
     test('should parse path-based selection', () => {
-      const router = new PhotoRouter('http://localhost/photo/street/cityscape');
+      const router = new PhotoRouter('http://localhost/street/cityscape');
       const config = router.getFilterConfig();
 
       expect(config.queryTagList).toContain('street');
@@ -46,7 +46,7 @@ describe('PhotoRouter', () => {
     });
 
     test('should detect panorama mode', () => {
-      const router = new PhotoRouter('http://localhost/photo/panorama');
+      const router = new PhotoRouter('http://localhost/panorama');
       const config = router.getDisplayConfig();
 
       expect(config.shouldShowPanos).toBe(true);
@@ -95,7 +95,7 @@ describe('PhotoRouter', () => {
 
   describe('Sorting configuration', () => {
     test('should sort by rating for non-chronological collections', () => {
-      const router = new PhotoRouter('http://localhost/photo/selectedworks');
+      const router = new PhotoRouter('http://localhost/selectedworks');
       router.prefix = null;
       router.archiveMonth = null;
       router.trip = null;
@@ -104,7 +104,7 @@ describe('PhotoRouter', () => {
     });
 
     test('should not sort by rating for chronological collections', () => {
-      const router = new PhotoRouter('http://localhost/photo?archive=202405');
+      const router = new PhotoRouter('http://localhost?archive=202405');
       router.prefix = null;
       router.archiveMonth = '202405';
       router.trip = null;

@@ -2,10 +2,10 @@
  * Main PhotoGallery component that orchestrates the entire gallery functionality
  */
 
-import { collection } from "/photo/collection.js";
-import { PhotoRouter } from "/photo/utils/urlParser.js";
-import { PhotoFilterManager, sortByRating } from "/photo/utils/photoFilters.js";
-import { findImageByHash } from "/photo/utils/imageHash.js";
+import { collection } from "/collection.js";
+import { PhotoRouter } from "/utils/urlParser.js";
+import { PhotoFilterManager, sortByRating } from "/utils/photoFilters.js";
+import { findImageByHash } from "/utils/imageHash.js";
 
 export class PhotoGallery {
     constructor() {
@@ -24,6 +24,7 @@ export class PhotoGallery {
 
         // Set collection reference for fullover component
         this.fulloverComponent.setCollection(collection);
+console.log(this);
 
         this.init();
     }
@@ -132,7 +133,7 @@ export class PhotoGallery {
      */
     handlePhotoNavigation(e, direction) {
         for (let i = 0; i < this.displayCollection.length; i++) {
-            if ("/photo/img/" + this.displayCollection[i].name === e.detail.current) {
+            if ("/img/" + this.displayCollection[i].name === e.detail.current) {
                 const newIndex = i + direction;
                 if (newIndex >= 0 && newIndex < this.displayCollection.length) {
                     this.fulloverComponent.setPhoto2(this.displayCollection[newIndex]);
@@ -172,7 +173,7 @@ export class PhotoGallery {
      */
     displayImage(img) {
         const photo = document.createElement("photo-component");
-        photo.setAttribute("src", "/photo/img/" + img.name);
+        photo.setAttribute("src", "/img/" + img.name);
 
         if (img.title !== undefined) {
             photo.setAttribute("title", img.title);

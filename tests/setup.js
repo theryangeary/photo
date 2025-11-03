@@ -15,9 +15,9 @@ global.console = {
 // Setup DOM environment
 Object.defineProperty(window, 'location', {
   value: {
-    href: 'http://localhost/photo',
+    href: 'http://localhost',
     search: '',
-    pathname: '/photo'
+    pathname: ''
   },
   writable: true
 });

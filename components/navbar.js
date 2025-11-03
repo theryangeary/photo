@@ -12,14 +12,14 @@ class Navbar extends HTMLElement {
     render() {
         let base = `
 <ul class="navbar" id="navbar">
-    <li><a href="/photo">Home</a></li>
+    <li><a href="/">Home</a></li>
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Selected Works</a>
         <div class="dropdown-content">`;
 
         for (let i = 0; i < tree["selectedworks"].length; i++) {
             base += `
-            <a href="/photo/selectedworks/${tree["selectedworks"][i]["path"]}">${tree["selectedworks"][i]["name"]}</a>
+            <a href="/selectedworks/${tree["selectedworks"][i]["path"]}">${tree["selectedworks"][i]["name"]}</a>
             `;
         }
 
@@ -35,7 +35,7 @@ class Navbar extends HTMLElement {
             const yearSet = tree.trips[yearIdx];
             for (let tripIdx = 0; tripIdx < yearSet.destinations.length; tripIdx++) {
                 base += `
-                <a href="/photo/trips/${yearSet.year}/${yearSet.destinations[tripIdx].path}">${yearSet.destinations[tripIdx].name}</a>
+                <a href="/trips/${yearSet.year}/${yearSet.destinations[tripIdx].path}">${yearSet.destinations[tripIdx].name}</a>
                 `;
             }
         }
@@ -56,7 +56,7 @@ class Navbar extends HTMLElement {
 
             for (let monthIdx = 0; monthIdx < tree.archive[yearIdx].months.length; monthIdx++) {
                 base += `
-                    <a href="/photo/archive/${tree.archive[yearIdx].year}${tree.archive[yearIdx].months[monthIdx]}">${monthName(tree.archive[yearIdx].months[monthIdx])}</a>
+                    <a href="/archive/${tree.archive[yearIdx].year}${tree.archive[yearIdx].months[monthIdx]}">${monthName(tree.archive[yearIdx].months[monthIdx])}</a>
                 `;
             }
 

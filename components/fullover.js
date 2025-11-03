@@ -1,4 +1,4 @@
-import { generateImageHash } from "/photo/utils/imageHash.js";
+import { generateImageHash } from "/utils/imageHash.js";
 
 class Fullover extends HTMLElement {
     static observedAttributes = ["src", "description"];
@@ -122,7 +122,7 @@ class Fullover extends HTMLElement {
     }
 
     setPhoto2(collectionEntry) {
-        this.setAttribute("src", "/photo/img/" + collectionEntry.name);
+        this.setAttribute("src", "/img/" + collectionEntry.name);
         this.setAttribute("description", collectionEntry.title);
         this.updateImageUrlWithHash(collectionEntry.name);
         this.show();

@@ -29,11 +29,10 @@ export class PhotoRouter {
 
         // Path based selection - remove hash first
         const urlWithoutHash = this.url.split("#")[0];
-        const fullPath = urlWithoutHash.split("/");
-        const photoIdx = fullPath.indexOf("photo");
+        const fullPathWithoutHost = urlWithoutHash.split("/").slice(3);
 
         // Get path after "photo"
-        this.relevantPath = fullPath.slice(photoIdx + 1)
+        this.relevantPath = fullPathWithoutHost
             .filter(segment => segment !== "")
             .filter(segment => segment[0] !== "?");
 
