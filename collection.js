@@ -7887,6 +7887,481 @@ const collection =
         "rating": 2
     },
     {
+        "name": "20251107_0008.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 2
+    },
+    {
+        "name": "20251107_0012.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 0.730223,
+        "rating": 2
+    },
+    {
+        "name": "20251107_0015.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 0.737705,
+        "rating": 2
+    },
+    {
+        "name": "20251107_0039.jpg",
+        "tags": [
+            "6",
+            "archive",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 3
+    },
+    {
+        "name": "20251107_0047.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 1.33169,
+        "rating": 2
+    },
+    {
+        "name": "20251107_0054.jpg",
+        "tags": [
+            "6",
+            "archive",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1,
+        "rating": 3
+    },
+    {
+        "name": "20251107_0066.jpg",
+        "tags": [
+            "6",
+            "archive",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 3
+    },
+    {
+        "name": "20251107_0077.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 1.26464,
+        "rating": 2
+    },
+    {
+        "name": "20251107_0081.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20251107_0100.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20251107_0109.jpg",
+        "tags": [
+            "6",
+            "archive",
+            "panorama",
+            "selectedworks",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 0.352667,
+        "rating": 4
+    },
+    {
+        "name": "20251107_0124.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 2
+    },
+    {
+        "name": "20251107_0157.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20251112_0007.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 2
+    },
+    {
+        "name": "20251112_0010.jpg",
+        "tags": [
+            "6",
+            "archive",
+            "film",
+            "substack",
+            "website",
+            "yashicamat"
+        ],
+        "heightRatio": 1,
+        "rating": 3
+    },
+    {
+        "name": "20251112_0011.jpg",
+        "tags": [
+            "6",
+            "archive",
+            "film",
+            "substack",
+            "website",
+            "yashicamat"
+        ],
+        "heightRatio": 1,
+        "rating": 3
+    },
+    {
+        "name": "20251112_0012.jpg",
+        "tags": [
+            "archive",
+            "film",
+            "website",
+            "yashicamat"
+        ],
+        "heightRatio": 1,
+        "rating": 2
+    },
+    {
+        "name": "20251112_0013.jpg",
+        "tags": [
+            "6",
+            "archive",
+            "film",
+            "substack",
+            "website",
+            "yashicamat"
+        ],
+        "heightRatio": 1,
+        "rating": 3
+    },
+    {
+        "name": "20251112_0015.jpg",
+        "tags": [
+            "archive",
+            "film",
+            "website",
+            "yashicamat"
+        ],
+        "heightRatio": 1,
+        "rating": 2
+    },
+    {
+        "name": "20251128_0072.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 3
+    },
+    {
+        "name": "20251128_0074.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.745856,
+        "rating": 3
+    },
+    {
+        "name": "20251128_0075.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20251128_0078.jpg",
+        "tags": [
+            "2025",
+            "6",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "substack",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 3
+    },
+    {
+        "name": "20251128_0082.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.731707,
+        "rating": 3
+    },
+    {
+        "name": "20251128_0083.jpg",
+        "tags": [
+            "2025",
+            "6",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "substack",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 3
+    },
+    {
+        "name": "20251128_0085.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20251128_0139.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 3
+    },
+    {
+        "name": "20251128_0143.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 3
+    },
+    {
+        "name": "20251128_0155.jpg",
+        "tags": [
+            "2025",
+            "6",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "substack",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.8,
+        "rating": 3
+    },
+    {
+        "name": "20251128_0169.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20251128_0188.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 2
+    },
+    {
+        "name": "20251128_0204.jpg",
+        "tags": [
+            "2025",
+            "6",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "substack",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.745342,
+        "rating": 3
+    },
+    {
+        "name": "20251128_0218.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.8,
+        "rating": 2
+    },
+    {
+        "name": "20251128_0359.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.738714,
+        "rating": 2
+    },
+    {
+        "name": "20251128_0375.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20251128_0400.jpg",
+        "tags": [
+            "2025",
+            "6",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "substack",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 1,
+        "rating": 3
+    },
+    {
+        "name": "20251128_0406.jpg",
+        "tags": [
+            "2025",
+            "6",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "substack",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 3
+    },
+    {
+        "name": "20251128_0414.jpg",
+        "tags": [
+            "2025",
+            "archive",
+            "azores",
+            "locations",
+            "portugal",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 2
+    },
+    {
         "name": "verrazzano.jpg",
         "tags": [
             "america",

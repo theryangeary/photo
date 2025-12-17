@@ -7,7 +7,7 @@ const tree =
             },
             {
                 "year": "2025",
-                "months": [ "01", "02", "03", "04", "05", "06", "07", "08", "09", "10" ],
+                "months": [ "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11" ],
             }
         ],
         "trips": [
@@ -24,7 +24,8 @@ const tree =
                 "destinations": [
                     {"path": "everglades", "name": "The Everglades"},
                     {"path": "acadia", "name": "Acadia"},
-                    {"path": "pnw", "name": "Pacific Northwest '25"}
+                    {"path": "pnw", "name": "Pacific Northwest '25"},
+                    {"path": "azores", "name": "Azores"}
                 ]
             }
         ],

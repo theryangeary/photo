@@ -22,7 +22,7 @@ directory_structure:
 
 .PHONY: serve
 serve:
-	cd .. && python3 -m http.server
+	python3 -m http.server
 
 .PHONY: git_clean_img
 git_clean_img:
