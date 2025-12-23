@@ -8362,6 +8362,17 @@ const collection =
         "rating": 2
     },
     {
+        "name": "20251222_0103.jpg",
+        "tags": [
+            "panorama",
+            "selectedworks",
+            "series",
+            "website"
+        ],
+        "heightRatio": 0.369231,
+        "rating": 3
+    },
+    {
         "name": "verrazzano.jpg",
         "tags": [
             "america",
