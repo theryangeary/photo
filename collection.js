@@ -7293,11 +7293,12 @@ const collection =
         "name": "20250828_0502.jpg",
         "tags": [
             "archive",
+            "selectedworks",
             "series",
             "subwayentrance",
             "website"
         ],
-        "heightRatio": 1.26021,
+        "heightRatio": 1.25145,
         "rating": 3
     },
     {
@@ -8360,6 +8361,17 @@ const collection =
         ],
         "heightRatio": 0.75,
         "rating": 2
+    },
+    {
+        "name": "20251219_0027.jpg",
+        "tags": [
+            "selectedworks",
+            "series",
+            "subwayentrance",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 3
     },
     {
         "name": "20251222_0103.jpg",
