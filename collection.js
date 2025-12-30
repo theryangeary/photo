@@ -1385,10 +1385,15 @@ const collection =
             "archive",
             "city",
             "cityscape",
+            "fishermen",
             "genre",
-            "website"
+            "layout",
+            "series",
+            "website",
+            "year1",
+            "year1"
         ],
-        "heightRatio": 1.33663,
+        "heightRatio": 1.25145,
         "rating": 4
     },
     {
@@ -1397,10 +1402,15 @@ const collection =
             "archive",
             "city",
             "cityscape",
+            "fishermen",
             "genre",
-            "website"
+            "layout",
+            "series",
+            "website",
+            "year1",
+            "year1"
         ],
-        "heightRatio": 1.33663,
+        "heightRatio": 1.25145,
         "rating": 4
     },
     {
@@ -1966,7 +1976,7 @@ const collection =
         ],
         "heightRatio": 0.748441,
         "title": "Spotted Towhee, International Rose Test Garden, Portland",
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20240728_0508.jpg",
@@ -2264,6 +2274,25 @@ const collection =
         "rating": 3
     },
     {
+        "name": "20240728_0930.jpg",
+        "tags": [
+            "2024",
+            "america",
+            "anna",
+            "archive",
+            "craterlake",
+            "locations",
+            "oregon",
+            "people",
+            "pnw",
+            "subject",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.748441,
+        "rating": 2
+    },
+    {
         "name": "20240728_0980.jpg",
         "tags": [
             "2024",
@@ -2350,7 +2379,7 @@ const collection =
             "website",
             "year1"
         ],
-        "heightRatio": 0.352667,
+        "heightRatio": 0.369231,
         "title": "Van Dyke St, Red Hook",
         "rating": 3
     },
@@ -2788,21 +2817,6 @@ const collection =
         "rating": 3
     },
     {
-        "name": "20240829_0246.jpg",
-        "tags": [
-            "america",
-            "locations",
-            "newyork",
-            "nyc",
-            "selectedworks",
-            "series",
-            "subwayentrance",
-            "website"
-        ],
-        "heightRatio": 0.760563,
-        "rating": 3
-    },
-    {
         "name": "20240912_0046.jpg",
         "tags": [
             "2024",
@@ -2900,7 +2914,6 @@ const collection =
             "genre",
             "locations",
             "nature",
-            "selectedworks",
             "trips",
             "website",
             "wildlife"
@@ -2958,7 +2971,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 0.748441,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20240912_0337.jpg",
@@ -2983,12 +2996,14 @@ const collection =
             "archive",
             "ecuador",
             "genre",
+            "layout",
             "locations",
             "nature",
             "selectedworks",
             "trips",
             "website",
             "wildlife",
+            "year1",
             "year1"
         ],
         "heightRatio": 0.748441,
@@ -3009,7 +3024,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 0.748441,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20240912_0387.jpg",
@@ -3025,7 +3040,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 0.748441,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20240912_0455.jpg",
@@ -3156,7 +3171,7 @@ const collection =
         ],
         "heightRatio": 0.748441,
         "title": "Buff-tailed Coronet",
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "20240912_0644.jpg",
@@ -3172,7 +3187,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 0.748441,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20240912_0670.jpg",
@@ -3183,14 +3198,13 @@ const collection =
             "genre",
             "locations",
             "nature",
-            "selectedworks",
             "trips",
             "website",
             "wildlife"
         ],
         "heightRatio": 0.748441,
         "title": "Chesnut-breasted Coronet",
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "20240912_0931.jpg",
@@ -3409,7 +3423,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 0.748441,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20240912_2955.jpg",
@@ -3425,7 +3439,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 0.748441,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20240912_3202.jpg",
@@ -3655,6 +3669,7 @@ const collection =
             "america",
             "archive",
             "genre",
+            "layout",
             "locations",
             "nature",
             "selectedworks",
@@ -3662,6 +3677,7 @@ const collection =
             "utah",
             "website",
             "wildlife",
+            "year1",
             "year1",
             "zion"
         ],
@@ -3784,6 +3800,21 @@ const collection =
         ],
         "heightRatio": 0.748441,
         "rating": 3
+    },
+    {
+        "name": "20241022_0666.jpg",
+        "tags": [
+            "2024",
+            "america",
+            "archive",
+            "locations",
+            "trips",
+            "utah",
+            "website",
+            "zion"
+        ],
+        "heightRatio": 1.33663,
+        "rating": 2
     },
     {
         "name": "20241022_0668.jpg",
@@ -3941,7 +3972,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 1.33663,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20241022_1388.jpg",
@@ -3953,7 +3984,6 @@ const collection =
             "locations",
             "nature",
             "quailcreek",
-            "selectedworks",
             "trips",
             "utah",
             "website",
@@ -3961,7 +3991,7 @@ const collection =
         ],
         "heightRatio": 0.748441,
         "title": "Mallards, Quail Creek",
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20241022_1514.jpg",
@@ -3997,7 +4027,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 0.748441,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20241022_1881.jpg",
@@ -4073,7 +4103,7 @@ const collection =
             "zion"
         ],
         "heightRatio": 0.748441,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20241022_2717.jpg",
@@ -4166,7 +4196,7 @@ const collection =
             "zion"
         ],
         "heightRatio": 0.748441,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20241022_3039.jpg",
@@ -4259,6 +4289,24 @@ const collection =
         "rating": 3
     },
     {
+        "name": "20241031_0001.jpg",
+        "tags": [
+            "2024",
+            "america",
+            "locations",
+            "panorama",
+            "selectedworks",
+            "series",
+            "trips",
+            "utah",
+            "website",
+            "zion"
+        ],
+        "heightRatio": 0.369231,
+        "title": "Watchman's Overlook",
+        "rating": 4
+    },
+    {
         "name": "20241103_0344.jpg",
         "tags": [
             "america",
@@ -4300,6 +4348,7 @@ const collection =
             "america",
             "archive",
             "genre",
+            "layout",
             "locations",
             "nature",
             "newyork",
@@ -4307,6 +4356,7 @@ const collection =
             "selectedworks",
             "website",
             "wildlife",
+            "year1",
             "year1"
         ],
         "heightRatio": 0.751566,
@@ -4327,7 +4377,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 0.751566,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20241103_0418.jpg",
@@ -4344,45 +4394,6 @@ const collection =
         ],
         "heightRatio": 0.751566,
         "title": "Blue Jay, Greenwood Cemetery",
-        "rating": 2
-    },
-    {
-        "name": "20241105_0001.jpg",
-        "tags": [
-            "2024",
-            "america",
-            "genre",
-            "landscape",
-            "locations",
-            "nature",
-            "panorama",
-            "selectedworks",
-            "series",
-            "trips",
-            "utah",
-            "website",
-            "zion"
-        ],
-        "heightRatio": 0.352667,
-        "title": "Watchman's Overlook",
-        "rating": 3
-    },
-    {
-        "name": "20241105_0002.jpg",
-        "tags": [
-            "2024",
-            "america",
-            "locations",
-            "panorama",
-            "selectedworks",
-            "series",
-            "trips",
-            "utah",
-            "website",
-            "zion"
-        ],
-        "heightRatio": 0.352667,
-        "title": "Behind Watchman's Overlook",
         "rating": 2
     },
     {
@@ -4530,7 +4541,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 0.751566,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20241110_0245.jpg",
@@ -4581,7 +4592,7 @@ const collection =
         ],
         "heightRatio": 0.75,
         "title": "Black Capped Chickadee, Prospect Park",
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20241110_1338.jpg",
@@ -4787,6 +4798,21 @@ const collection =
         "rating": 2
     },
     {
+        "name": "20241119_0233.jpg",
+        "tags": [
+            "america",
+            "locations",
+            "newyork",
+            "nyc",
+            "selectedworks",
+            "series",
+            "subwayentrance",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 2
+    },
+    {
         "name": "20241123_0039.jpg",
         "tags": [
             "america",
@@ -4812,11 +4838,12 @@ const collection =
             "nature",
             "newyork",
             "nyc",
+            "selectedworks",
             "website",
             "wildlife"
         ],
-        "heightRatio": 0.751043,
-        "rating": 2
+        "heightRatio": 0.751566,
+        "rating": 3
     },
     {
         "name": "20241130_0131.jpg",
@@ -5384,6 +5411,21 @@ const collection =
         "rating": 2
     },
     {
+        "name": "20250118_0037.jpg",
+        "tags": [
+            "america",
+            "architecture",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "series",
+            "subwayentrance"
+        ],
+        "heightRatio": 0.751043,
+        "rating": 2
+    },
+    {
         "name": "20250118_0084.jpg",
         "tags": [
             "architecture",
@@ -5759,7 +5801,6 @@ const collection =
             "nature",
             "newyork",
             "nyc",
-            "selectedworks",
             "website",
             "wildlife"
         ],
@@ -5856,7 +5897,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 0.751566,
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "20250311_0126.jpg",
@@ -5905,13 +5946,12 @@ const collection =
             "genre",
             "locations",
             "nature",
-            "selectedworks",
             "trips",
             "website",
             "wildlife"
         ],
         "heightRatio": 0.751566,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20250311_0842.jpg",
@@ -6005,7 +6045,7 @@ const collection =
             "wildlife"
         ],
         "heightRatio": 0.751566,
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "20250312_0568.jpg",
@@ -6017,6 +6057,7 @@ const collection =
             "evergladescity",
             "florida",
             "genre",
+            "layout",
             "locations",
             "nature",
             "portfolio",
@@ -6024,6 +6065,7 @@ const collection =
             "trips",
             "website",
             "wildlife",
+            "year1",
             "year1"
         ],
         "heightRatio": 1.33169,
@@ -6041,12 +6083,13 @@ const collection =
             "genre",
             "locations",
             "nature",
+            "selectedworks",
             "trips",
             "website",
             "wildlife"
         ],
         "heightRatio": 1.33169,
-        "rating": 2
+        "rating": 3
     },
     {
         "name": "20250312_0797.jpg",
@@ -6214,12 +6257,13 @@ const collection =
             "genre",
             "locations",
             "nature",
+            "selectedworks",
             "trips",
             "website",
             "wildlife"
         ],
         "heightRatio": 0.751566,
-        "rating": 2
+        "rating": 3
     },
     {
         "name": "20250313_0141.jpg",
@@ -6298,8 +6342,8 @@ const collection =
             "wildlife",
             "year1"
         ],
-        "heightRatio": 0.352667,
-        "rating": 3
+        "heightRatio": 0.369231,
+        "rating": 4
     },
     {
         "name": "20250402_0283.jpg",
@@ -6367,25 +6411,6 @@ const collection =
         ],
         "heightRatio": 0.5,
         "rating": 3
-    },
-    {
-        "name": "20250403_0069.jpg",
-        "tags": [
-            "america",
-            "archive",
-            "city",
-            "cityscape",
-            "genre",
-            "locations",
-            "newyork",
-            "nyc",
-            "panorama",
-            "selectedworks",
-            "series",
-            "website"
-        ],
-        "heightRatio": 0.352667,
-        "rating": 2
     },
     {
         "name": "20250403_0117.jpg",
@@ -6600,6 +6625,39 @@ const collection =
         ],
         "heightRatio": 1,
         "rating": 2
+    },
+    {
+        "name": "20250418_1974.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "genre",
+            "locations",
+            "nature",
+            "newyork",
+            "nyc",
+            "website",
+            "wildlife"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 1
+    },
+    {
+        "name": "20250418_2418.jpg",
+        "tags": [
+            "america",
+            "architecture",
+            "archive",
+            "buildingcorners",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "series",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 1
     },
     {
         "name": "20250418_2423.jpg",
@@ -6874,7 +6932,13 @@ const collection =
     {
         "name": "20250515_0083-hdr.jpg",
         "tags": [
+            "2",
+            "america",
             "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
             "website"
         ],
         "heightRatio": 0.8,
@@ -6943,23 +7007,37 @@ const collection =
     {
         "name": "20250531_1257.jpg",
         "tags": [
+            "2",
             "2025",
             "acadia",
+            "america",
             "archive",
+            "genre",
+            "locations",
+            "maine",
+            "nature",
+            "substack",
             "trips",
-            "website"
+            "website",
+            "wildlife"
         ],
         "heightRatio": 0.666667,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20250531_1757.jpg",
         "tags": [
             "2025",
             "acadia",
+            "america",
             "archive",
+            "genre",
+            "locations",
+            "maine",
+            "nature",
             "trips",
-            "website"
+            "website",
+            "wildlife"
         ],
         "heightRatio": 0.666667,
         "rating": 2
@@ -7099,13 +7177,16 @@ const collection =
             "acadia",
             "archive",
             "canada",
+            "genre",
             "locations",
+            "nature",
             "newbrunswick",
             "trips",
-            "website"
+            "website",
+            "wildlife"
         ],
         "heightRatio": 0.678392,
-        "rating": 3
+        "rating": 2
     },
     {
         "name": "20250531_3132.jpg",
@@ -7114,10 +7195,13 @@ const collection =
             "acadia",
             "archive",
             "canada",
+            "genre",
             "locations",
+            "nature",
             "newbrunswick",
             "trips",
-            "website"
+            "website",
+            "wildlife"
         ],
         "heightRatio": 1.25145,
         "rating": 2
@@ -7125,14 +7209,20 @@ const collection =
     {
         "name": "20250531_3687.jpg",
         "tags": [
+            "2",
             "2025",
             "acadia",
             "archive",
             "canada",
+            "genre",
             "locations",
+            "nature",
             "newbrunswick",
+            "selectedworks",
+            "substack",
             "trips",
-            "website"
+            "website",
+            "wildlife"
         ],
         "heightRatio": 0.666667,
         "rating": 3
@@ -7304,15 +7394,19 @@ const collection =
     {
         "name": "20250828_0715.jpg",
         "tags": [
+            "america",
             "archive",
             "genre",
+            "locations",
             "nature",
+            "newyork",
+            "nyc",
             "selectedworks",
             "website",
             "wildlife"
         ],
         "heightRatio": 1.25145,
-        "rating": 1
+        "rating": 3
     },
     {
         "name": "20250907_0051.jpg",
@@ -7464,6 +7558,7 @@ const collection =
             "nature",
             "oregon",
             "pnw",
+            "selectedworks",
             "substack",
             "trips",
             "website",
@@ -7987,9 +8082,17 @@ const collection =
         "name": "20251107_0109.jpg",
         "tags": [
             "6",
+            "america",
             "archive",
+            "city",
+            "cityscape",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
             "panorama",
             "selectedworks",
+            "series",
             "substack",
             "website"
         ],
@@ -8363,6 +8466,24 @@ const collection =
         "rating": 2
     },
     {
+        "name": "20251217_0068.jpg",
+        "tags": [
+            "america",
+            "city",
+            "cityscape",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "panorama",
+            "selectedworks",
+            "series",
+            "website"
+        ],
+        "heightRatio": 0.369231,
+        "rating": 3
+    },
+    {
         "name": "20251219_0027.jpg",
         "tags": [
             "selectedworks",
@@ -8374,15 +8495,39 @@ const collection =
         "rating": 3
     },
     {
+        "name": "20251221_0421.jpg",
+        "tags": [
+            "america",
+            "genre",
+            "locations",
+            "nature",
+            "newyork",
+            "nyc",
+            "selectedworks",
+            "website",
+            "wildlife"
+        ],
+        "heightRatio": 1,
+        "rating": 3
+    },
+    {
         "name": "20251222_0103.jpg",
         "tags": [
+            "america",
+            "city",
+            "cityscape",
+            "coneyisland",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
             "panorama",
             "selectedworks",
             "series",
             "website"
         ],
         "heightRatio": 0.369231,
-        "rating": 3
+        "rating": 4
     },
     {
         "name": "verrazzano.jpg",
