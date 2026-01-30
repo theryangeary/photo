@@ -1495,6 +1495,7 @@ const collection =
     {
         "name": "20240630_0384_pano.jpg",
         "tags": [
+            "7",
             "america",
             "city",
             "cityscape",
@@ -1505,6 +1506,7 @@ const collection =
             "panorama",
             "selectedworks",
             "series",
+            "substack",
             "website",
             "year1"
         ],
@@ -2366,6 +2368,7 @@ const collection =
     {
         "name": "20240809_0045_pano.jpg",
         "tags": [
+            "7",
             "america",
             "city",
             "cityscape",
@@ -2376,6 +2379,7 @@ const collection =
             "panorama",
             "selectedworks",
             "series",
+            "substack",
             "website",
             "year1"
         ],
@@ -2537,6 +2541,7 @@ const collection =
     {
         "name": "20240813_0064_pano.jpg",
         "tags": [
+            "7",
             "america",
             "city",
             "cityscape",
@@ -2548,6 +2553,7 @@ const collection =
             "selectedworks",
             "series",
             "subject",
+            "substack",
             "sunset",
             "website",
             "year1"
@@ -3576,6 +3582,7 @@ const collection =
         "name": "20241022_0001.jpg",
         "tags": [
             "2024",
+            "7",
             "america",
             "bryce",
             "genre",
@@ -3585,6 +3592,7 @@ const collection =
             "panorama",
             "selectedworks",
             "series",
+            "substack",
             "trips",
             "utah",
             "website",
@@ -4292,11 +4300,13 @@ const collection =
         "name": "20241031_0001.jpg",
         "tags": [
             "2024",
+            "7",
             "america",
             "locations",
             "panorama",
             "selectedworks",
             "series",
+            "substack",
             "trips",
             "utah",
             "website",
@@ -6327,6 +6337,7 @@ const collection =
         "name": "20250325_0001.jpg",
         "tags": [
             "2025",
+            "7",
             "america",
             "archive",
             "everglades",
@@ -6337,6 +6348,7 @@ const collection =
             "panorama",
             "selectedworks",
             "series",
+            "substack",
             "trips",
             "website",
             "wildlife",
@@ -6432,6 +6444,7 @@ const collection =
     {
         "name": "20250405_0001.jpg",
         "tags": [
+            "7",
             "america",
             "archive",
             "city",
@@ -6443,6 +6456,7 @@ const collection =
             "selectedworks",
             "series",
             "street",
+            "substack",
             "website",
             "year1"
         ],
@@ -8082,6 +8096,7 @@ const collection =
         "name": "20251107_0109.jpg",
         "tags": [
             "6",
+            "7",
             "america",
             "archive",
             "city",
@@ -8468,6 +8483,7 @@ const collection =
     {
         "name": "20251217_0068.jpg",
         "tags": [
+            "7",
             "america",
             "city",
             "cityscape",
@@ -8478,7 +8494,26 @@ const collection =
             "panorama",
             "selectedworks",
             "series",
+            "substack",
             "website"
+        ],
+        "heightRatio": 0.369231,
+        "rating": 3
+    },
+    {
+        "name": "20251217_0163.jpg",
+        "tags": [
+            "7",
+            "america",
+            "city",
+            "cityscape",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "panorama",
+            "series",
+            "substack"
         ],
         "heightRatio": 0.369231,
         "rating": 3
@@ -8513,6 +8548,7 @@ const collection =
     {
         "name": "20251222_0103.jpg",
         "tags": [
+            "7",
             "america",
             "city",
             "cityscape",
@@ -8524,6 +8560,7 @@ const collection =
             "panorama",
             "selectedworks",
             "series",
+            "substack",
             "website"
         ],
         "heightRatio": 0.369231,
