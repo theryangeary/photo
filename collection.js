@@ -8481,6 +8481,98 @@ const collection =
         "rating": 2
     },
     {
+        "name": "20251217_0017.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "contenders",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 2
+    },
+    {
+        "name": "20251217_0019.jpg",
+        "tags": [
+            "8",
+            "america",
+            "architecture",
+            "archive",
+            "contenders",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.8,
+        "rating": 3
+    },
+    {
+        "name": "20251217_0027.jpg",
+        "tags": [
+            "america",
+            "architecture",
+            "archive",
+            "contenders",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.5,
+        "rating": 2
+    },
+    {
+        "name": "20251217_0035.jpg",
+        "tags": [
+            "8",
+            "america",
+            "archive",
+            "contenders",
+            "genre",
+            "landscape",
+            "locations",
+            "nature",
+            "newyork",
+            "nyc",
+            "substack",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.8,
+        "rating": 2
+    },
+    {
+        "name": "20251217_0044.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "contenders",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.75,
+        "rating": 2
+    },
+    {
         "name": "20251217_0068.jpg",
         "tags": [
             "7",
@@ -8498,6 +8590,44 @@ const collection =
             "website"
         ],
         "heightRatio": 0.369231,
+        "rating": 3
+    },
+    {
+        "name": "20251217_0076.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "contenders",
+            "genre",
+            "locations",
+            "nature",
+            "newjersey",
+            "plants",
+            "website",
+            "westlongbranch",
+            "year2"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 2
+    },
+    {
+        "name": "20251217_0103.jpg",
+        "tags": [
+            "8",
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "contenders",
+            "genre",
+            "locations",
+            "middletown",
+            "newjersey",
+            "substack",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.666667,
         "rating": 3
     },
     {
@@ -8519,8 +8649,49 @@ const collection =
         "rating": 3
     },
     {
+        "name": "20251219_0014.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 1,
+        "rating": 2
+    },
+    {
+        "name": "20251219_0023.jpg",
+        "tags": [
+            "america",
+            "architecture",
+            "archive",
+            "contenders",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 1.33333,
+        "rating": 2
+    },
+    {
         "name": "20251219_0027.jpg",
         "tags": [
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
             "selectedworks",
             "series",
             "subwayentrance",
@@ -8530,20 +8701,137 @@ const collection =
         "rating": 3
     },
     {
-        "name": "20251221_0421.jpg",
+        "name": "20251219_0031.jpg",
+        "tags": [
+            "8",
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "contenders",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 1,
+        "rating": 2
+    },
+    {
+        "name": "20251219_0034.jpg",
         "tags": [
             "america",
+            "archive",
+            "city",
+            "cityscape",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 1,
+        "rating": 3
+    },
+    {
+        "name": "20251219_0056.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 1
+    },
+    {
+        "name": "20251221_0421.jpg",
+        "tags": [
+            "8",
+            "america",
+            "archive",
+            "contenders",
             "genre",
             "locations",
             "nature",
             "newyork",
             "nyc",
             "selectedworks",
+            "substack",
             "website",
-            "wildlife"
+            "wildlife",
+            "year2"
         ],
         "heightRatio": 1,
         "rating": 3
+    },
+    {
+        "name": "20251222_0036.jpg",
+        "tags": [
+            "8",
+            "abstract",
+            "america",
+            "archive",
+            "coneyisland",
+            "contenders",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 1,
+        "rating": 4
+    },
+    {
+        "name": "20251222_0037.jpg",
+        "tags": [
+            "albumcovers",
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "coneyisland",
+            "contenders",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 1,
+        "rating": 2
+    },
+    {
+        "name": "20251222_0079.jpg",
+        "tags": [
+            "8",
+            "albumcovers",
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "coneyisland",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website"
+        ],
+        "heightRatio": 1,
+        "rating": 2
     },
     {
         "name": "20251222_0103.jpg",
@@ -8553,6 +8841,7 @@ const collection =
             "city",
             "cityscape",
             "coneyisland",
+            "contenders",
             "genre",
             "locations",
             "newyork",
@@ -8561,10 +8850,1010 @@ const collection =
             "selectedworks",
             "series",
             "substack",
-            "website"
+            "website",
+            "year2"
         ],
         "heightRatio": 0.369231,
         "rating": 4
+    },
+    {
+        "name": "20251222_0137.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "coneyisland",
+            "contenders",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20251222_0162.jpg",
+        "tags": [
+            "8",
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "coneyisland",
+            "contenders",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20260115_0028.jpg",
+        "tags": [
+            "america",
+            "architecture",
+            "archive",
+            "buildingcorners",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "series",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 3
+    },
+    {
+        "name": "20260115_0038.jpg",
+        "tags": [
+            "america",
+            "architecture",
+            "archive",
+            "buildingcorners",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "series",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 3
+    },
+    {
+        "name": "20260115_0045.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "city",
+            "cityscape",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "panorama",
+            "series",
+            "website"
+        ],
+        "heightRatio": 0.369105,
+        "rating": 2
+    },
+    {
+        "name": "20260115_0057.jpg",
+        "tags": [
+            "8",
+            "america",
+            "architecture",
+            "archive",
+            "contenders",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "substack",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 3
+    },
+    {
+        "name": "20260201_0065.jpg",
+        "tags": [
+            "america",
+            "architecture",
+            "archive",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 1
+    },
+    {
+        "name": "20260220_0786.jpg",
+        "tags": [
+            "8",
+            "america",
+            "archive",
+            "contenders",
+            "genre",
+            "locations",
+            "nature",
+            "newyork",
+            "nyc",
+            "substack",
+            "website",
+            "wildlife",
+            "year2"
+        ],
+        "heightRatio": 1,
+        "rating": 2
+    },
+    {
+        "name": "20260220_1244.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "genre",
+            "locations",
+            "nature",
+            "newyork",
+            "nyc",
+            "website",
+            "wildlife"
+        ],
+        "heightRatio": 1,
+        "rating": 2
+    },
+    {
+        "name": "20260220_1254.jpg",
+        "tags": [
+            "8",
+            "america",
+            "archive",
+            "genre",
+            "locations",
+            "nature",
+            "newyork",
+            "nyc",
+            "substack",
+            "website",
+            "wildlife"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20260220_1398.jpg",
+        "tags": [
+            "8",
+            "america",
+            "archive",
+            "genre",
+            "locations",
+            "nature",
+            "newyork",
+            "nyc",
+            "substack",
+            "website",
+            "wildlife"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 2
+    },
+    {
+        "name": "20260223_0015.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "contenders",
+            "locations",
+            "newyork",
+            "nyc",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.75,
+        "rating": 1
+    },
+    {
+        "name": "20260223_0026.jpg",
+        "tags": [
+            "america",
+            "architecture",
+            "archive",
+            "genre",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 1
+    },
+    {
+        "name": "20260318_0373.jpg",
+        "tags": [
+            "archive",
+            "website"
+        ],
+        "heightRatio": 0.5,
+        "rating": 2
+    },
+    {
+        "name": "20260318_0454.jpg",
+        "tags": [
+            "8",
+            "america",
+            "architecture",
+            "archive",
+            "contenders",
+            "florida",
+            "genre",
+            "locations",
+            "sarasota",
+            "substack",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.8,
+        "rating": 3
+    },
+    {
+        "name": "20260318_0634.jpg",
+        "tags": [
+            "america",
+            "anna",
+            "archive",
+            "contenders",
+            "florida",
+            "locations",
+            "people",
+            "sarasota",
+            "subject",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 5
+    },
+    {
+        "name": "20260331_0031.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "contenders",
+            "genre",
+            "locations",
+            "nature",
+            "newyork",
+            "nyc",
+            "plants",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 1
+    },
+    {
+        "name": "20260331_0037.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "contenders",
+            "genre",
+            "locations",
+            "nature",
+            "newyork",
+            "nyc",
+            "plants",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 1
+    },
+    {
+        "name": "20260331_0041.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "locations",
+            "newyork",
+            "nyc",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 1
+    },
+    {
+        "name": "20260430_0023.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "contenders",
+            "locations",
+            "newyork",
+            "nyc",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 1
+    },
+    {
+        "name": "20260430_0045.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "california",
+            "contenders",
+            "locations",
+            "sanfrancisco",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 1,
+        "rating": 1
+    },
+    {
+        "name": "20260430_0049.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "california",
+            "locations",
+            "sanfrancisco",
+            "website"
+        ],
+        "heightRatio": 1.33498,
+        "rating": 1
+    },
+    {
+        "name": "20260430_0050.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "california",
+            "locations",
+            "sanfrancisco",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 1
+    },
+    {
+        "name": "20260430_0065.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "california",
+            "contenders",
+            "locations",
+            "sanfrancisco",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 0.744314,
+        "rating": 1
+    },
+    {
+        "name": "20260430_0066.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "california",
+            "contenders",
+            "locations",
+            "sanfrancisco",
+            "website",
+            "year2"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 1
+    },
+    {
+        "name": "20260630_0028.jpg",
+        "tags": [
+            "america",
+            "architecture",
+            "archive",
+            "chicago",
+            "genre",
+            "illinois",
+            "locations",
+            "website"
+        ],
+        "heightRatio": 0.755245,
+        "rating": 2
+    },
+    {
+        "name": "20260630_0043.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "chicago",
+            "city",
+            "cityscape",
+            "genre",
+            "illinois",
+            "locations",
+            "website"
+        ],
+        "heightRatio": 1,
+        "rating": 2
+    },
+    {
+        "name": "20260630_0067.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "chicago",
+            "illinois",
+            "locations",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 1
+    },
+    {
+        "name": "20260630_0069.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "chicago",
+            "city",
+            "cityscape",
+            "genre",
+            "illinois",
+            "locations",
+            "website"
+        ],
+        "heightRatio": 0.777538,
+        "rating": 3
+    },
+    {
+        "name": "20260630_0092.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "baltimore",
+            "locations",
+            "maryland",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 2
+    },
+    {
+        "name": "20260630_0102.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "baltimore",
+            "locations",
+            "maryland",
+            "website"
+        ],
+        "heightRatio": 0.74329,
+        "rating": 2
+    },
+    {
+        "name": "20260731_0028.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "mtrainier",
+            "pnw",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20260731_0032.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "mtrainier",
+            "pnw",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 3
+    },
+    {
+        "name": "20260731_0269.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "mtrainier",
+            "pnw",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 3
+    },
+    {
+        "name": "20260731_0306.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "mtrainier",
+            "pnw",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20260731_0312.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "mtrainier",
+            "pnw",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 2
+    },
+    {
+        "name": "20260731_0654.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "olympicpeninsula",
+            "pnw",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20260731_1095.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "anna",
+            "archive",
+            "locations",
+            "olympicpeninsula",
+            "people",
+            "pnw",
+            "subject",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 2
+    },
+    {
+        "name": "20260731_1102.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "anna",
+            "archive",
+            "locations",
+            "olympicpeninsula",
+            "people",
+            "pnw",
+            "subject",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20260731_1129.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "olympicpeninsula",
+            "pnw",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20260731_1157.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "pnw",
+            "tacoma",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 1.33169,
+        "rating": 2
+    },
+    {
+        "name": "20260731_1173.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "pnw",
+            "tacoma",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 1.33169,
+        "rating": 2
+    },
+    {
+        "name": "20260803_0042.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "pnw",
+            "tacoma",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20260803_0056.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "pnw",
+            "tacoma",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20260803_0061.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "pnw",
+            "tacoma",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20260803_0080.jpg",
+        "tags": [
+            "2026",
+            "america",
+            "archive",
+            "locations",
+            "panorama",
+            "pnw",
+            "selectedworks",
+            "series",
+            "tacoma",
+            "trips",
+            "washington",
+            "website"
+        ],
+        "heightRatio": 0.369231,
+        "rating": 3
+    },
+    {
+        "name": "20260831_0055.jpg",
+        "tags": [
+            "america",
+            "archive",
+            "goshen",
+            "locations",
+            "newyork",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 2
+    },
+    {
+        "name": "20260913_0003.jpg",
+        "tags": [
+            "2026",
+            "architecture",
+            "archive",
+            "genre",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 2
+    },
+    {
+        "name": "20260913_0005.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20260913_0029.jpg",
+        "tags": [
+            "2026",
+            "architecture",
+            "archive",
+            "genre",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 2
+    },
+    {
+        "name": "20260913_0047.jpg",
+        "tags": [
+            "2026",
+            "architecture",
+            "archive",
+            "genre",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 3
+    },
+    {
+        "name": "20260913_0099.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 1.25145,
+        "rating": 3
+    },
+    {
+        "name": "20260913_0154.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20260913_0241.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 3
+    },
+    {
+        "name": "20260913_0313.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 2
+    },
+    {
+        "name": "20260913_0321.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "astro",
+            "genre",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 3
+    },
+    {
+        "name": "20260913_0337.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 2
+    },
+    {
+        "name": "20260913_0392.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 3
+    },
+    {
+        "name": "20260913_0522.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 1.33169,
+        "rating": 3
+    },
+    {
+        "name": "20260913_0639.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.666667,
+        "rating": 3
+    },
+    {
+        "name": "20260913_0709.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 1.25,
+        "rating": 3
+    },
+    {
+        "name": "20260913_0778.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.75,
+        "rating": 3
+    },
+    {
+        "name": "20260913_0819.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 2
+    },
+    {
+        "name": "20260913_0893.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.751566,
+        "rating": 3
+    },
+    {
+        "name": "20260914_0045.jpg",
+        "tags": [
+            "2026",
+            "archive",
+            "iceland",
+            "locations",
+            "trips",
+            "website"
+        ],
+        "heightRatio": 0.74948,
+        "rating": 3
     },
     {
         "name": "verrazzano.jpg",
@@ -8583,7 +9872,7 @@ const collection =
         ],
         "heightRatio": 0.352667,
         "title": "South Brooklyn",
-        "rating": 3
+        "rating": 2
     }
 ]
 ;

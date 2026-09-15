@@ -18,7 +18,7 @@ npm install
 
 ### Local Server
 
-run `cd .. && python3 -m httpserver` and then navigate to localhost:8000/photos
+run `make serve` and then navigate to localhost:8000
 
 ### Building
 

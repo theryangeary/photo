@@ -1,4 +1,4 @@
-default: collection directory_structure
+default: directory_structure collection
 
 .PHONY: collection
 collection:
